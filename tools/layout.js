@@ -146,7 +146,7 @@ o+='<g transform="translate(0,'+y.toFixed(1)+')">'+r.s+'</g>';
 if(foot)o+=T(M,H-52,C.ig,28,th.mu,MD)+T(W_-M,H-52,C.phone,28,th.mu,MD,"end");
 o+='<rect y="'+(H-14)+'" width="'+W_+'" height="14" fill="'+(s.theme==="orange"?N:O)+'"/>';
 return wrapSvg(W_,H,o,th.bg)}
-function photo(s,f,th){var W_=f.w,H=f.h,ph=Math.round(H*0.56),o="";
+function photo(s,f,th){var W_=f.w,H=f.h,ph=Math.round(H*(s.ph||0.56)),o="";
 o+='<clipPath id="cp"><rect width="'+W_+'" height="'+ph+'"/></clipPath>'+(s.img?'<image href="'+s.img+'" width="'+W_+'" height="'+ph+'" preserveAspectRatio="xMidYMid slice" clip-path="url(#cp)"/>':'<rect width="'+W_+'" height="'+ph+'" fill="#DDE3EE"/>'+T(540,ph/2,"SUA FOTO AQUI",40,"#4A5A75",MD,"middle",4));
 o+='<rect y="'+ph+'" width="'+W_+'" height="'+(H-ph)+'" fill="'+N+'"/>'+logo("hz",[W,O,W],M,ph+50,190).s;
 var y=ph+140,t=blk(M,y,s.title,SB,66,W,900,1.12);o+=t.s;y+=t.h+14;if(s.sub)o+=blk(M,y,s.sub,RG,34,"#C5CEDD",900,1.35).s;
