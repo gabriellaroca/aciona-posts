@@ -286,8 +286,8 @@
      "theme": "light",
      "title": "Portão com barulho novo. O que fazer primeiro?",
      "options": [
-      "Ignorar até piorar",
       "Anotar quando acontece e chamar um técnico",
+      "Ignorar até piorar",
       "Desmontar o motor"
      ],
      "format": "4x5"
@@ -295,7 +295,7 @@
     {
      "layout": "reveal",
      "theme": "dark",
-     "letter": "B",
+     "letter": "A",
      "title": "Anote e chame um técnico.",
      "body": "Saber quando o barulho aparece ajuda a achar a causa. Não mexa na parte interna do motor.",
      "format": "4x5"
@@ -306,15 +306,15 @@
      "title": "O controle perdeu alcance. O que conferir antes?",
      "options": [
       "Trocar o motor",
-      "A pilha do controle",
-      "A altura do portão"
+      "A altura do portão",
+      "A pilha do controle"
      ],
      "format": "4x5"
     },
     {
      "layout": "reveal",
      "theme": "dark",
-     "letter": "B",
+     "letter": "C",
      "title": "Comece pela pilha.",
      "body": "Muitas vezes é só isso. Se não resolver, chame um técnico.",
      "format": "4x5"
@@ -1694,14 +1694,14 @@
   },
   {
    "id": "p18_quiz_barulho",
-   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: B. Anote quando o barulho aparece e chame um técnico. Não mexa na parte interna do motor.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #manutencaodeportao #dicasdecasa #motordeportao",
+   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: A. Anote quando o barulho aparece e chame um técnico. Não mexa na parte interna do motor.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #manutencaodeportao #dicasdecasa #motordeportao",
    "spec": {
     "layout": "quiz",
     "theme": "light",
     "title": "Portão com barulho novo. O que fazer primeiro?",
     "options": [
-     "Ignorar até piorar",
      "Anotar quando acontece e chamar um técnico",
+     "Ignorar até piorar",
      "Desmontar o motor"
     ],
     "format": "4x5",
@@ -2025,15 +2025,15 @@
   },
   {
    "id": "p23_quiz_pilha",
-   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: B. Muitas vezes é só a pilha do controle.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #controleremoto #dicasdecasa #manutencaodeportao",
+   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: C. Muitas vezes é só a pilha do controle.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #controleremoto #dicasdecasa #manutencaodeportao",
    "spec": {
     "layout": "quiz",
     "theme": "white",
     "title": "O controle perdeu alcance. O que conferir antes?",
     "options": [
      "Trocar o motor",
-     "A pilha do controle",
-     "A altura do portão"
+     "A altura do portão",
+     "A pilha do controle"
     ],
     "format": "4x5",
     "footer": true
@@ -2532,21 +2532,21 @@
       "title": "O controle perdeu alcance. O que conferir antes?",
       "options": [
        "Trocar o motor",
-       "A pilha do controle",
-       "A altura do portão"
+       "A altura do portão",
+       "A pilha do controle"
       ]
      },
-     "fala": "Quiz rápido. O controle perdeu alcance. O que conferir antes? A, trocar o motor. B, a pilha do controle. Ou C, a altura do portão?"
+     "fala": "Quiz rápido. O controle perdeu alcance. O que conferir antes? A, trocar o motor. B, a altura do portão. Ou C, a pilha do controle?"
     },
     {
      "spec": {
       "layout": "reveal",
       "theme": "dark",
-      "letter": "B",
+      "letter": "C",
       "title": "Comece pela pilha.",
       "body": "Se não resolver, chame um técnico."
      },
-     "fala": "A resposta é B. Comece pela pilha. Se não resolver, chame um técnico."
+     "fala": "A resposta é C. Comece pela pilha. Se não resolver, chame um técnico."
     }
    ]
   },

@@ -169,7 +169,8 @@ export async function makeVideo({ id, cenas, out, fim = true, label = id }) {
     "-pix_fmt", "yuv420p", "-r", String(FPS), "-movflags", "+faststart", "-c:a", "aac", "-b:a", "128k", "-t", T.toFixed(2), out];
   const r = spawnSync("ffmpeg", args, { stdio: ["ignore", "inherit", "inherit"] });
   if (r.status !== 0) throw new Error("ffmpeg falhou");
-  fs.copyFileSync(path.join(tmp, String(frames).padStart(5, "0") + ".jpg"), path.join(path.dirname(out), "poster.jpg"));
+  const pf = Math.max(1, Math.min(frames, Math.round((scenes[0].start + scenes[0].total - 0.55) * FPS)));
+  fs.copyFileSync(path.join(tmp, String(pf).padStart(5, "0") + ".jpg"), path.join(path.dirname(out), "poster.jpg"));
   fs.rmSync(tmp, { recursive: true, force: true });
   return { duracao: +T.toFixed(1), quadros: frames };
 }

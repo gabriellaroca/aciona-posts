@@ -15,15 +15,15 @@ PREPARAÇÃO (toda execução)
 CONFERÊNCIA ANTES DE PUBLICAR
 - Abra com Read pelo menos o primeiro arquivo (e um do meio, se for carrossel). Confira: texto legível, nada cortado, logo aciona e barra laranja presentes. Se algo estiver errado, não publique e registre falha.
 - Em vídeo, confira também o poster com Read e rode `ffprobe` no mp4 (duração entre 3 e 90 s). Stories em vídeo precisam ter no máximo 60 s.
-- Confirme que cada URL responde (curl -I, status 200) depois do push. O raw do GitHub pode levar alguns segundos: tente de novo até 5 vezes com pausa de 10 s.
+- Confirme que cada URL de imagem responde (curl -I, status 200) depois do push. A `video_url` (jsDelivr) pode não ser alcançável pela sessão; não bloqueie por isso, use `video_url_alt` para conferir o 200. O raw do GitHub pode levar alguns segundos: tente de novo até 5 vezes com pausa de 10 s.
 
 PUBLICAÇÃO
 1. `git add <pasta do item>`, commit e push para main (`git fetch origin main` e rebase antes se o push for rejeitado). Sem push as URLs não existem.
 2. Publique com execute_action (connector instagram, account 17841474648735800):
    - carrosseis: create_carousel_post com as urls em ordem e a legenda do JSON.
    - posts: create_image_post com a url e a legenda.
-   - stories_manha e stories_tarde: create_story com a url (sem legenda). Se `formato` for "video", use `video_url` em vez de `image_url`. Se o vídeo falhar uma vez, publique `poster_url` como story de imagem.
-   - posts com `tipo` "reels": create_video_post com `video_url`, a legenda do JSON e share_to_feed true. Se falhar, registre falha (não há alternativa em imagem).
+   - stories_manha e stories_tarde: create_story com a url (sem legenda). Se `formato` for "video", use `video_url` em vez de `image_url`. Se falhar, tente uma vez `video_url_alt`. Se falhar de novo, publique `poster_url` como story de imagem.
+   - posts com `tipo` "reels": create_video_post com `video_url`, `cover_url` igual a `poster_url`, a legenda do JSON e share_to_feed true. Se falhar, tente uma vez com `video_url_alt`; se falhar de novo, registre falha (não há alternativa em imagem).
 3. Só considere publicado se a resposta trouxer um media id. Se der erro, não repita mais de uma vez; se persistir, registre falha.
 4. Acrescente em `content/publicados.json` o objeto `{"id","tipo","data":"AAAA-MM-DD","media_id"}`, faça commit e push. Nunca publique um id que já esteja nesse arquivo.
 5. Falhas: acrescente em `content/falhas.json` (crie como lista se não existir) `{"id","data","motivo"}` e faça commit e push. Um item com falha não é repetido automaticamente.

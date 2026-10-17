@@ -28,5 +28,10 @@ if (video) {
 const files = fs.readdirSync(out).filter((f) => /\.(jpg|mp4)$/.test(f)).sort();
 const base = "https://raw.githubusercontent.com/gabriellaroca/aciona-posts/main/" + dir + "/" + item.id + "/";
 const r = { id: item.id, tipo: dir, formato: video ? "video" : "imagem", legenda: item.legenda || null, ref: item.ref || null, arquivos: files.map((f) => path.join(out, f)), urls: files.map((f) => base + f) };
-if (video) { r.video_url = base + "video.mp4"; r.poster_url = base + "poster.jpg"; }
+if (video) {
+  const cdn = "https://cdn.jsdelivr.net/gh/gabriellaroca/aciona-posts@main/" + dir + "/" + item.id + "/";
+  r.video_url = cdn + "video.mp4";
+  r.video_url_alt = base + "video.mp4";
+  r.poster_url = base + "poster.jpg";
+}
 console.log(JSON.stringify(r, null, 1));
