@@ -10,7 +10,18 @@ const q = JSON.parse(fs.readFileSync(path.join(root, "content/fila.json"), "utf8
 const done = new Set(JSON.parse(fs.readFileSync(path.join(root, "content/publicados.json"), "utf8")).map((p) => p.id));
 const falhas = fs.existsSync(path.join(root, "content/falhas.json")) ? JSON.parse(fs.readFileSync(path.join(root, "content/falhas.json"), "utf8")).map((p) => p.id) : [];
 if (!q[fila]) { console.error("fila inválida: " + Object.keys(q).join(", ")); process.exit(2); }
-const item = id ? q[fila].find((i) => i.id === id) : q[fila].find((i) => !done.has(i.id) && !falhas.includes(i.id));
+const hoje = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" }).format(new Date());
+const pubs = JSON.parse(fs.readFileSync(path.join(root, "content/publicados.json"), "utf8"));
+const temaDe = (pid) => { for (const f of Object.values(q)) { const i = f.find((x) => x.id === pid); if (i) return i.tema; } return null; };
+const ultimo = {};
+for (const p of pubs) { const t = p.tema || temaDe(p.id); if (t && (!ultimo[t] || ultimo[t] < p.data)) ultimo[t] = p.data; }
+const dias = (d) => (Date.parse(hoje) - Date.parse(d)) / 864e5;
+const pubHoje = new Set(pubs.filter((p) => p.data === hoje).map((p) => p.id));
+const livres = q[fila].filter((i) => !done.has(i.id) && !falhas.includes(i.id));
+const refs = livres.filter((i) => i.ref && pubHoje.has(i.ref));
+const score = (i) => (ultimo[i.tema] ? dias(ultimo[i.tema]) : 999);
+const resto = livres.filter((i) => !i.ref).map((i, k) => ({ i, k, s: score(i) })).sort((a, b) => b.s - a.s || a.k - b.k);
+const item = id ? q[fila].find((i) => i.id === id) : refs[0] || (resto[0] && resto[0].i);
 if (!item) { console.log(JSON.stringify({ vazia: true })); process.exit(0); }
 const video = !!item.cenas;
 const dir = video && fila === "posts" ? "reels" : fila.startsWith("stories") ? "stories" : fila === "carrosseis" ? "carrosseis" : "posts";
@@ -27,7 +38,7 @@ if (video) {
 }
 const files = fs.readdirSync(out).filter((f) => /\.(jpg|mp4)$/.test(f)).sort();
 const base = "https://raw.githubusercontent.com/gabriellaroca/aciona-posts/main/" + dir + "/" + item.id + "/";
-const r = { id: item.id, tipo: dir, formato: video ? "video" : "imagem", legenda: item.legenda || null, ref: item.ref || null, arquivos: files.map((f) => path.join(out, f)), urls: files.map((f) => base + f) };
+const r = { id: item.id, tema: item.tema || null, tipo: dir, formato: video ? "video" : "imagem", legenda: item.legenda || null, ref: item.ref || null, arquivos: files.map((f) => path.join(out, f)), urls: files.map((f) => base + f) };
 if (video) {
   const cdn = "https://cdn.jsdelivr.net/gh/gabriellaroca/aciona-posts@main/" + dir + "/" + item.id + "/";
   r.video_url = cdn + "video.mp4";

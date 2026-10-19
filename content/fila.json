@@ -61,7 +61,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "tipos_de_motor"
   },
   {
    "id": "c02_antes_de_chamar_o_tecnico",
@@ -132,7 +133,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "portao_parado"
   },
   {
    "id": "c03_interfone_ou_videoporteiro",
@@ -197,7 +199,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "interfone_videoporteiro"
   },
   {
    "id": "c04_checklist_do_sindico",
@@ -262,7 +265,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "condominio"
   },
   {
    "id": "c15_quiz_do_portao",
@@ -350,7 +354,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "quiz"
   },
   {
    "id": "c05_mitos_e_verdades",
@@ -410,6 +415,210 @@
      ],
      "accent": [
       "Pergunte pra gente."
+     ],
+     "format": "4x5"
+    }
+   ],
+   "tema": "mitos"
+  },
+  {
+   "id": "c21_saidinha_de_garagem",
+   "tema": "seguranca_rua",
+   "legenda": "O momento mais vulnerável da sua casa dura poucos segundos: é quando o portão abre. Seis hábitos simples para entrar e sair com mais segurança. Salve e mande para quem você ama.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #portaoautomatico #garagem #segurancaresidencial #dicasdecasa",
+   "slides": [
+    {
+     "layout": "cover",
+     "theme": "dark",
+     "tag": "SEGURANÇA",
+     "lines": [
+      "O momento mais"
+     ],
+     "accent": [
+      "arriscado da sua casa",
+      "dura segundos."
+     ],
+     "sub": "É quando o portão abre. Veja como se proteger.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "01",
+     "title": "Olhe a rua antes",
+     "body": "Ao se aproximar, observe carros e pessoas paradas perto do portão.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "dark",
+     "num": "02",
+     "title": "Estranhou? Não pare",
+     "body": "Dê a volta no quarteirão. Se a suspeita continuar, ligue para a polícia.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "03",
+     "title": "Controle na mão",
+     "body": "Deixe o controle pronto para acionar sem perder tempo na frente do portão.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "dark",
+     "num": "04",
+     "title": "Não desça na hora",
+     "body": "Ao entrar, fique atento e espere um pouco dentro do carro.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "05",
+     "title": "Olhe o retrovisor",
+     "body": "Veja o portão fechar e confirme que ninguém entrou junto.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "dark",
+     "num": "06",
+     "title": "Tranque tudo",
+     "body": "Portas, vidros e alarme antes de sair do carro.",
+     "format": "4x5"
+    },
+    {
+     "layout": "save",
+     "theme": "orange",
+     "lines": [
+      "Salve este post"
+     ],
+     "accent": [
+      "e mande para",
+      "quem você ama."
+     ],
+     "sub": "Segurança é hábito.",
+     "format": "4x5"
+    }
+   ]
+  },
+  {
+   "id": "c22_historia_do_portao_automatico",
+   "tema": "historia",
+   "legenda": "Portão automático parece coisa moderna. Mas a ideia tem quase 2 mil anos. Arraste e conheça essa história.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #historia #portaoautomatico #automacao #voceSabia",
+   "slides": [
+    {
+     "layout": "cover",
+     "theme": "dark",
+     "tag": "CURIOSIDADE",
+     "lines": [
+      "O portão automático"
+     ],
+     "accent": [
+      "tem quase",
+      "2 mil anos."
+     ],
+     "sub": "Arraste e conheça essa história.",
+     "format": "4x5"
+    },
+    {
+     "layout": "timeline",
+     "theme": "white",
+     "title": "De lá pra cá",
+     "items": [
+      "Séc. I|Portas de templo abertas com fogo e água",
+      "1926|C.G. Johnson cria o abridor elétrico de portão de garagem, nos EUA",
+      "Anos 30|Surgem os primeiros controles sem fio",
+      "1954|Primeira porta deslizante automática, acionada por um tapete"
+     ],
+     "format": "4x5"
+    },
+    {
+     "layout": "fact",
+     "theme": "dark",
+     "tag": "E HOJE?",
+     "big": "1 clique",
+     "title": "pode gerar um código novo.",
+     "body": "Controles com código variável mudam o sinal a cada uso, o que dificulta cópias.",
+     "fonte": "Wikipedia, Garage door opener",
+     "format": "4x5"
+    },
+    {
+     "layout": "save",
+     "theme": "orange",
+     "lines": [
+      "Curtiu a história?"
+     ],
+     "accent": [
+      "Mande para um",
+      "amigo curioso."
+     ],
+     "sub": "Toda semana tem curiosidade nova aqui.",
+     "format": "4x5"
+    }
+   ]
+  },
+  {
+   "id": "c23_seu_controle_pode_ser_copiado",
+   "tema": "controle",
+   "legenda": "Seu controle de portão pode ser copiado? Depende do tipo de código. Arraste e descubra a diferença.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #controleremoto #portaoautomatico #rollingcode #dicasdecasa",
+   "slides": [
+    {
+     "layout": "cover",
+     "theme": "dark",
+     "tag": "SEGURANÇA",
+     "lines": [
+      "Seu controle pode"
+     ],
+     "accent": [
+      "ser copiado?"
+     ],
+     "sub": "Depende do código. Arraste.",
+     "format": "4x5"
+    },
+    {
+     "layout": "compare",
+     "theme": "light",
+     "title": "Dois tipos de código",
+     "aT": "Código fixo",
+     "aB": "Manda sempre o mesmo sinal. Um sinal capturado pode ser repetido.",
+     "bT": "Código variável",
+     "bB": "O sinal muda a cada clique. Um sinal capturado não serve depois.",
+     "format": "4x5"
+    },
+    {
+     "layout": "fact",
+     "theme": "white",
+     "tag": "NA PRÁTICA",
+     "big": "?",
+     "title": "Não sabe qual é o seu?",
+     "body": "Veja no manual ou na embalagem do controle, ou pergunte ao técnico na próxima revisão.",
+     "format": "4x5"
+    },
+    {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "DICA",
+     "lines": [
+      "Perdeu um controle?"
+     ],
+     "accent": [
+      "Peça para",
+      "descadastrar."
+     ],
+     "sub": "Quando o modelo permite, o controle perdido deixa de abrir o portão.",
+     "format": "4x5"
+    },
+    {
+     "layout": "cta",
+     "theme": "dark",
+     "lines": [
+      "Quer revisar a",
+      "segurança do portão?"
+     ],
+     "accent": [
+      "Fale com a aciona."
      ],
      "format": "4x5"
     }
@@ -497,7 +706,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "anatomia"
   },
   {
    "id": "c06_rotina_mensal",
@@ -561,66 +771,8 @@
      ],
      "format": "4x5"
     }
-   ]
-  },
-  {
-   "id": "c17_do_controle_ao_portao",
-   "legenda": "Você aperta o botão e o portão abre. Mas o que acontece no meio do caminho? Veja em quatro passos.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #motordeportao #controleremoto #dicasdecasa #automacao",
-   "slides": [
-    {
-     "layout": "cover",
-     "theme": "dark",
-     "tag": "COMO FUNCIONA",
-     "lines": [
-      "O portão sabe"
-     ],
-     "accent": [
-      "a hora de abrir."
-     ],
-     "sub": "Do controle até o motor, em 4 passos.",
-     "format": "4x5"
-    },
-    {
-     "layout": "flow",
-     "theme": "light",
-     "title": "Do controle ao portão",
-     "nodes": [
-      "Controle|Envia o sinal",
-      "Receptor|Recebe o sinal",
-      "Central|Decide o que fazer",
-      "Motor|Move o portão"
-     ],
-     "format": "4x5"
-    },
-    {
-     "layout": "glossary",
-     "theme": "dark",
-     "term": "Receptor",
-     "def": "Parte que recebe o sinal do controle remoto.",
-     "tip": "Controle sem alcance? Troque a pilha antes de tudo.",
-     "format": "4x5"
-    },
-    {
-     "layout": "glossary",
-     "theme": "light",
-     "term": "Central",
-     "def": "Placa eletrônica que recebe o sinal do receptor e comanda o motor.",
-     "tip": "É parte interna: o ajuste é com o técnico.",
-     "format": "4x5"
-    },
-    {
-     "layout": "cta",
-     "theme": "dark",
-     "lines": [
-      "Quer entender",
-      "melhor o seu portão?"
-     ],
-     "accent": [
-      "Pergunte pra gente."
-     ],
-     "format": "4x5"
-    }
-   ]
+   ],
+   "tema": "manutencao"
   },
   {
    "id": "c07_cameras_5_erros",
@@ -692,7 +844,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "cameras"
   },
   {
    "id": "c18_perguntas_comuns",
@@ -792,7 +945,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "duvidas"
   },
   {
    "id": "c08_erros_em_condominio",
@@ -864,7 +1018,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "condominio"
   },
   {
    "id": "c19_glossario_do_portao",
@@ -943,78 +1098,8 @@
      ],
      "format": "4x5"
     }
-   ]
-  },
-  {
-   "id": "c09_queda_de_energia",
-   "legenda": "Faltou energia e o portão ficou preso? Saiba o que fazer antes de acontecer. Salve este post.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #motordeportao #dicasdecasa #manutencaodeportao #seguranca",
-   "slides": [
-    {
-     "layout": "cover",
-     "theme": "dark",
-     "tag": "DICA",
-     "lines": [
-      "Faltou energia."
-     ],
-     "accent": [
-      "E o seu portão?"
-     ],
-     "sub": "O que saber antes de acontecer.",
-     "format": "4x5"
-    },
-    {
-     "layout": "step",
-     "theme": "light",
-     "num": "01",
-     "title": "Procure o destrave",
-     "body": "Os motores costumam ter um destrave manual. Veja no manual onde fica e como usar.",
-     "format": "4x5"
-    },
-    {
-     "layout": "step",
-     "theme": "dark",
-     "num": "02",
-     "title": "Não force o portão",
-     "body": "Empurrar com o motor engatado pode danificar o mecanismo. Destrave antes.",
-     "format": "4x5"
-    },
-    {
-     "layout": "step",
-     "theme": "light",
-     "num": "03",
-     "title": "Cuidado com o movimento",
-     "body": "Abra e feche devagar, com atenção a pessoas, crianças e animais por perto.",
-     "format": "4x5"
-    },
-    {
-     "layout": "step",
-     "theme": "dark",
-     "num": "04",
-     "title": "Quando a energia voltar",
-     "body": "Trave o portão de novo, conforme o manual, antes de usar o controle.",
-     "format": "4x5"
-    },
-    {
-     "layout": "step",
-     "theme": "light",
-     "num": "05",
-     "title": "Na dúvida, chame um técnico",
-     "body": "Se o portão não responde depois que a energia volta, não insista. Peça uma avaliação.",
-     "format": "4x5"
-    },
-    {
-     "layout": "cta",
-     "theme": "dark",
-     "lines": [
-      "Dúvida sobre",
-      "o seu motor?"
-     ],
-     "accent": [
-      "Chame a aciona."
-     ],
-     "format": "4x5"
-    }
-   ]
+   ],
+   "tema": "glossario"
   },
   {
    "id": "c10_criancas_e_pets",
@@ -1079,7 +1164,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "criancas_pets"
   },
   {
    "id": "c11_onde_instalar_cameras",
@@ -1151,7 +1237,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "cameras"
   },
   {
    "id": "c12_perguntas_antes_de_contratar",
@@ -1223,7 +1310,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "contratacao"
   },
   {
    "id": "c13_videoporteiro_o_que_olhar",
@@ -1295,7 +1383,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "interfone_videoporteiro"
   },
   {
    "id": "c14_duvidas_sobre_cameras",
@@ -1360,7 +1449,8 @@
      ],
      "format": "4x5"
     }
-   ]
+   ],
+   "tema": "cameras"
   }
  ],
  "posts": [
@@ -1381,6 +1471,27 @@
     "size": 104,
     "format": "4x5",
     "footer": true
+   },
+   "tema": "trilho"
+  },
+  {
+   "id": "p25_faca_evite",
+   "tema": "uso_seguro",
+   "legenda": "Pequenos hábitos fazem o portão durar mais e evitam acidentes. Qual destes você já faz?\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #seguranca #dicasdecasa #manutencaodeportao #motordeportao",
+   "spec": {
+    "layout": "dodont",
+    "theme": "white",
+    "title": "Portão automático",
+    "faca": [
+     "Espere o portão parar antes de passar",
+     "Mantenha o trilho limpo"
+    ],
+    "evite": [
+     "Passar correndo enquanto fecha",
+     "Forçar o portão com o motor engatado"
+    ],
+    "format": "4x5",
+    "footer": true
    }
   },
   {
@@ -1394,7 +1505,8 @@
     "body": "Lentidão pode indicar desgaste ou falta de lubrificação. Vale chamar um técnico.",
     "format": "4x5",
     "footer": true
-   }
+   },
+   "tema": "mitos"
   },
   {
    "id": "p03_servicos",
@@ -1418,7 +1530,8 @@
     ],
     "format": "4x5",
     "footer": true
-   }
+   },
+   "tema": "servicos"
   },
   {
    "id": "p04_troque_a_pilha",
@@ -1437,7 +1550,8 @@
     "size": 104,
     "format": "4x5",
     "footer": true
-   }
+   },
+   "tema": "controle"
   },
   {
    "id": "r01_3_checagens",
@@ -1502,7 +1616,8 @@
      },
      "fala": "Se nada resolveu, não mexa na parte interna do motor. Chame um técnico."
     }
-   ]
+   ],
+   "tema": "portao_parado"
   },
   {
    "id": "p05_pergunta_tipo_de_portao",
@@ -1522,282 +1637,8 @@
     "size": 104,
     "format": "4x5",
     "footer": true
-   }
-  },
-  {
-   "id": "p15_anatomia",
-   "legenda": "As cinco partes do portão de correr, em um desenho. Salve para a próxima conversa com o técnico.\n\nWhatsApp: (16) 99634-1354\n\n#portaodecorrer #portaoautomatico #motordeportao #dicasdecasa #manutencaodeportao",
-   "spec": {
-    "layout": "anatomy",
-    "theme": "white",
-    "title": "Anatomia do portão de correr",
-    "parts": [
-     "Motor",
-     "Cremalheira",
-     "Fotocélula",
-     "Lâmpada de sinalização",
-     "Trilho"
-    ],
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p06_mito_ajustar_sozinho",
-   "legenda": "Mito! Por segurança, o ajuste do motor é com o técnico. Em caso de problema, desligue e chame ajuda.\n\nWhatsApp: (16) 99634-1354\n\n#mitoouverdade #portaoautomatico #motordeportao #seguranca #manutencaodeportao",
-   "spec": {
-    "layout": "myth",
-    "theme": "light",
-    "label": "MITO",
-    "title": "“Dá para ajustar o motor sozinho.”",
-    "body": "Mexer na parte interna oferece risco. Deixe com quem entende.",
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p16_1_minuto",
-   "legenda": "Um minuto por mês. É tudo o que pede uma revisão rápida do seu portão.\n\nWhatsApp: (16) 99634-1354\n\n#manutencaopreventiva #portaoautomatico #dicasdecasa #motordeportao #condominio",
-   "spec": {
-    "layout": "bignum",
-    "theme": "dark",
-    "tag": "DICA",
-    "big": "1 min",
-    "title": "por mês já ajuda a evitar parada.",
-    "sub": "Olhe trilho, controle e ruídos no primeiro dia do mês.",
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p07_barulho_novo",
-   "legenda": "Rangido, batida ou ruído que não existia antes merece atenção. Anote quando acontece e conte ao técnico.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #manutencaodeportao #motordeportao #dicasdecasa #condominio",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "DICA",
-    "lines": [
-     "Barulho novo"
-    ],
-    "accent": [
-     "é um aviso."
-    ],
-    "sub": "Quanto antes avaliar, melhor para o seu portão.",
-    "size": 104,
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "r02_anatomia",
-   "legenda": "As partes do portão de correr, em menos de um minuto. Salve para consultar depois.\n\nWhatsApp: (16) 99634-1354\n\n#portaodecorrer #portaoautomatico #motordeportao #dicasdecasa #manutencaodeportao",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "anatomy",
-      "theme": "dark",
-      "title": "Anatomia do portão de correr",
-      "parts": [
-       "Motor",
-       "Cremalheira",
-       "Fotocélula",
-       "Lâmpada de sinalização",
-       "Trilho"
-      ]
-     },
-     "fala": "Esse é o portão de correr, visto de frente. Um, o motor. Dois, a cremalheira. Três, a fotocélula. Quatro, a lâmpada de sinalização. Cinco, o trilho."
-    },
-    {
-     "spec": {
-      "layout": "glossary",
-      "theme": "white",
-      "term": "Fotocélula",
-      "def": "Sensor que enxerga se há algo na passagem do portão. Se houver, o portão pode parar ou voltar.",
-      "tip": "Mantenha a lente limpa e sem nada na frente."
-     },
-     "fala": "A fotocélula é um sensor que enxerga se há algo na passagem. Se houver, o portão pode parar ou voltar."
-    },
-    {
-     "spec": {
-      "layout": "glossary",
-      "theme": "dark",
-      "term": "Cremalheira",
-      "def": "Barra dentada presa ao portão. O motor engrena nela para puxar e empurrar.",
-      "tip": "Se o portão pula ou range, peça uma avaliação."
-     },
-     "fala": "A cremalheira é uma barra dentada presa ao portão. O motor engrena nela para puxar e empurrar."
-    },
-    {
-     "spec": {
-      "layout": "statement",
-      "theme": "light",
-      "tag": "DICA",
-      "lines": [
-       "Conhecer as partes"
-      ],
-      "accent": [
-       "ajuda a cuidar."
-      ],
-      "sub": "Qualquer dúvida, é só chamar."
-     },
-     "fala": "Conhecer as partes ajuda a cuidar do portão. Qualquer dúvida, é só chamar."
-    }
-   ]
-  },
-  {
-   "id": "p08_checklist_revise_hoje",
-   "legenda": "Quatro perguntas rápidas para ver como anda o seu portão. Se alguma resposta for “não”, vale uma avaliação.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #manutencaopreventiva #dicasdecasa #checklist #condominio",
-   "spec": {
-    "layout": "checklist",
-    "theme": "light",
-    "title": "Revise hoje",
-    "items": [
-     "O portão abre e fecha sem tranco?",
-     "O controle responde de longe?",
-     "O trilho está limpo?",
-     "Tem algum barulho novo?"
-    ],
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p17_glossario_fotocelula",
-   "legenda": "Glossário do portão: fotocélula.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #glossario #seguranca #dicasdecasa #motordeportao",
-   "spec": {
-    "layout": "glossary",
-    "theme": "white",
-    "term": "Fotocélula",
-    "def": "Sensor que enxerga se há algo na passagem do portão. Se houver, o portão pode parar ou voltar.",
-    "tip": "Mantenha a lente limpa e sem nada na frente.",
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p09_seguranca_comeca_na_entrada",
-   "legenda": "Portão, interfone, videoporteiro e câmeras: a entrada de casa merece cuidado.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #portaoautomatico #videoporteiro #cameradeseguranca #condominio",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": null,
-    "lines": [
-     "Segurança começa"
-    ],
-    "accent": [
-     "na entrada."
-    ],
-    "size": 110,
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p18_quiz_barulho",
-   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: A. Anote quando o barulho aparece e chame um técnico. Não mexa na parte interna do motor.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #manutencaodeportao #dicasdecasa #motordeportao",
-   "spec": {
-    "layout": "quiz",
-    "theme": "light",
-    "title": "Portão com barulho novo. O que fazer primeiro?",
-    "options": [
-     "Anotar quando acontece e chamar um técnico",
-     "Ignorar até piorar",
-     "Desmontar o motor"
-    ],
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p10_mito_controle_fraco",
-   "legenda": "Mito! Antes de achar que o portão tem defeito, troque a pilha do controle.\n\nWhatsApp: (16) 99634-1354\n\n#mitoouverdade #portaoautomatico #controleremoto #dicasdecasa #manutencaodeportao",
-   "spec": {
-    "layout": "myth",
-    "theme": "white",
-    "label": "MITO",
-    "title": "“Controle fraco é sempre defeito.”",
-    "body": "Muitas vezes é só pilha ou antena. Confira antes de chamar.",
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "r03_mito_portao_lento",
-   "legenda": "Mito ou verdade: portão lento é normal? Spoiler: pode ser um aviso.\n\nWhatsApp: (16) 99634-1354\n\n#mitoouverdade #portaoautomatico #manutencaodeportao #motordeportao #dicasdecasa",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "statement",
-      "theme": "dark",
-      "tag": "MITO OU VERDADE",
-      "lines": [
-       "Portão lento"
-      ],
-      "accent": [
-       "é normal?"
-      ]
-     },
-     "fala": "Mito ou verdade? Portão lento é normal?"
-    },
-    {
-     "spec": {
-      "layout": "myth",
-      "theme": "white",
-      "label": "MITO",
-      "title": "“Portão lento é normal.”",
-      "body": "Lentidão pode indicar desgaste ou falta de lubrificação. Vale chamar um técnico."
-     },
-     "fala": "Mito. Lentidão pode indicar desgaste ou falta de lubrificação. Vale chamar um técnico para avaliar."
-    },
-    {
-     "spec": {
-      "layout": "statement",
-      "theme": "dark",
-      "tag": "DICA",
-      "lines": [
-       "Percebeu mudança?"
-      ],
-      "accent": [
-       "Avise cedo."
-      ],
-      "sub": "Quanto antes avaliar, melhor."
-     },
-     "fala": "Percebeu alguma mudança no movimento? Avise cedo. Quanto antes avaliar, melhor para o seu portão."
-    }
-   ]
-  },
-  {
-   "id": "p11_crianca_longe_do_portao",
-   "legenda": "Portão em movimento é perigoso para crianças e animais. Combine regras simples com a família toda.\n\nWhatsApp: (16) 99634-1354\n\n#segurancainfantil #portaoautomatico #dicasdecasa #familia #seguranca",
-   "spec": {
-    "layout": "statement",
-    "theme": "white",
-    "tag": "DICA",
-    "lines": [
-     "Criança longe"
-    ],
-    "accent": [
-     "do portão."
-    ],
-    "sub": "Portão não é brinquedo. Ensine a manter distância.",
-    "size": 110,
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p19_3_checagens",
-   "legenda": "Portão parou? Antes de ligar, confira estas três coisas. Se nada resolver, não mexa na parte interna do motor.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #manutencaodeportao #dicasdecasa #motordeportao #condominio",
-   "spec": {
-    "layout": "bignum",
-    "theme": "white",
-    "tag": "DICA",
-    "big": "3",
-    "title": "coisas para checar antes de chamar o técnico.",
-    "sub": "Pilha do controle, trilho livre e energia ligada.",
-    "format": "4x5",
-    "footer": true
-   }
+   },
+   "tema": "tipos_de_motor"
   },
   {
    "id": "p12_perdeu_o_controle",
@@ -1816,35 +1657,8 @@
     "size": 104,
     "format": "4x5",
     "footer": true
-   }
-  },
-  {
-   "id": "p20_chat_empurrar",
-   "legenda": "Forçar o portão com o motor engatado pode danificar o mecanismo. Veja onde fica o destrave no manual do seu motor.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #motordeportao #dicasdecasa #manutencaodeportao #seguranca",
-   "spec": {
-    "layout": "chat",
-    "theme": "white",
-    "msgs": [
-     {
-      "w": "them",
-      "t": "Posso empurrar o portão com a mão?"
-     },
-     {
-      "w": "us",
-      "t": "Só depois de destravar o motor, conforme o manual."
-     },
-     {
-      "w": "them",
-      "t": "E se eu forçar?"
-     },
-     {
-      "w": "us",
-      "t": "Pode danificar o mecanismo. Destrave primeiro."
-     }
-    ],
-    "format": "4x5",
-    "footer": true
-   }
+   },
+   "tema": "controle"
   },
   {
    "id": "p13_pergunta_sindico",
@@ -1863,7 +1677,8 @@
     "size": 104,
     "format": "4x5",
     "footer": true
-   }
+   },
+   "tema": "condominio"
   },
   {
    "id": "r04_do_controle_ao_portao",
@@ -1912,7 +1727,8 @@
      },
      "fala": "Se o controle perdeu alcance, comece trocando a pilha. Muitas vezes resolve."
     }
-   ]
+   ],
+   "tema": "como_funciona"
   },
   {
    "id": "p14_fale_com_a_gente",
@@ -1930,20 +1746,8 @@
     ],
     "format": "4x5",
     "footer": false
-   }
-  },
-  {
-   "id": "p21_glossario_fim_de_curso",
-   "legenda": "Glossário do portão: fim de curso.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #glossario #motordeportao #dicasdecasa #manutencaodeportao",
-   "spec": {
-    "layout": "glossary",
-    "theme": "dark",
-    "term": "Fim de curso",
-    "def": "Peça que avisa o motor onde o portão deve parar, ao abrir e ao fechar.",
-    "tip": "Se o portão para fora do ponto, chame um técnico.",
-    "format": "4x5",
-    "footer": true
-   }
+   },
+   "tema": "servicos"
   },
   {
    "id": "p22_zero",
@@ -1957,7 +1761,8 @@
     "sub": "A parte interna é com o técnico.",
     "format": "4x5",
     "footer": true
-   }
+   },
+   "tema": "motor_interno"
   },
   {
    "id": "r05_faltou_energia",
@@ -2021,43 +1826,145 @@
      },
      "fala": "Se o portão não responder, não insista. Chame um técnico."
     }
-   ]
+   ],
+   "tema": "energia"
   },
   {
-   "id": "p23_quiz_pilha",
-   "legenda": "Quiz: qual é a resposta? Deixe o seu palpite nos comentários. A resposta está no fim da legenda.\n\nResposta: C. Muitas vezes é só a pilha do controle.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #controleremoto #dicasdecasa #manutencaodeportao",
+   "id": "p27_portao_no_celular",
+   "tema": "tecnologia",
+   "legenda": "Abrir o portão pelo celular já é realidade. Existem módulos que conectam o motor a um aplicativo. Quer saber se o seu é compatível? Pergunte pra gente.\n\nWhatsApp: (16) 99634-1354\n\n#automacao #casainteligente #portaoautomatico #tecnologia #motordeportao",
    "spec": {
-    "layout": "quiz",
-    "theme": "white",
-    "title": "O controle perdeu alcance. O que conferir antes?",
-    "options": [
-     "Trocar o motor",
-     "A altura do portão",
-     "A pilha do controle"
-    ],
-    "format": "4x5",
-    "footer": true
-   }
-  },
-  {
-   "id": "p24_do_controle_ao_portao",
-   "legenda": "Do controle até o motor, o sinal passa por quatro etapas. Qual delas você já conhecia?\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #motordeportao #controleremoto #dicasdecasa #automacao",
-   "spec": {
-    "layout": "flow",
+    "layout": "fact",
     "theme": "light",
-    "title": "Do controle ao portão",
-    "nodes": [
-     "Controle|Envia o sinal",
-     "Receptor|Recebe o sinal",
-     "Central|Decide o que fazer",
-     "Motor|Move o portão"
-    ],
+    "tag": "TECNOLOGIA",
+    "big": "Wi-Fi",
+    "title": "Dá para abrir o portão pelo celular.",
+    "body": "Existem módulos que conectam o motor a um aplicativo. A compatibilidade depende do modelo.",
     "format": "4x5",
     "footer": true
    }
+  },
+  {
+   "id": "r06_heron",
+   "tema": "historia_heron",
+   "legenda": "Lembra da porta automática de 2 mil anos? Veja como ela funcionava. A primeira porta automática da história usava fogo, água e cordas. E tem quase 2 mil anos.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #historia #voceSabia #portaoautomatico #automacao",
+   "cenas": [
+    {
+     "spec": {
+      "layout": "statement",
+      "theme": "dark",
+      "tag": "CURIOSIDADE",
+      "lines": [
+       "A primeira porta"
+      ],
+      "accent": [
+       "automática tem",
+       "quase 2 mil anos."
+      ]
+     },
+     "fala": "Você sabia que a primeira porta automática conhecida tem quase dois mil anos?"
+    },
+    {
+     "spec": {
+      "layout": "fact",
+      "theme": "light",
+      "big": "Séc. I",
+      "title": "Heron de Alexandria, no Egito romano.",
+      "body": "Ele criou portas de templo que se abriam sozinhas."
+     },
+     "fala": "No século primeiro, Heron de Alexandria criou portas de templo que se abriam sozinhas."
+    },
+    {
+     "spec": {
+      "layout": "flow",
+      "theme": "white",
+      "title": "Como funcionava",
+      "nodes": [
+       "Fogo|O sacerdote acende o altar",
+       "Pressão|O ar aquecido empurra água",
+       "Peso|A água enche um contrapeso",
+       "Cordas|O peso puxa e a porta abre"
+      ]
+     },
+     "fala": "O fogo do altar aquecia um recipiente. A pressão empurrava água para um contrapeso. E o peso puxava cordas que abriam as portas."
+    },
+    {
+     "spec": {
+      "layout": "statement",
+      "theme": "dark",
+      "tag": "HOJE",
+      "lines": [
+       "Hoje basta"
+      ],
+      "accent": [
+       "um clique."
+      ]
+     },
+     "fala": "Hoje, basta um clique."
+    }
+   ]
   }
  ],
  "stories_manha": [
+  {
+   "id": "sc01_feixe_invisivel",
+   "tema": "fotocelula",
+   "spec": {
+    "layout": "fact",
+    "theme": "dark",
+    "big": "Invisível",
+    "bigSize": 200,
+    "title": "O feixe da fotocélula não aparece a olho nu.",
+    "body": "Por isso, nada de testar com a mão ou com o corpo. Deixe o teste com o técnico.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "sc02_nobreak",
+   "tema": "energia",
+   "spec": {
+    "layout": "fact",
+    "theme": "light",
+    "tag": "VOCÊ SABIA?",
+    "big": "Nobreak",
+    "bigSize": 200,
+    "title": "Existe nobreak para motor de portão.",
+    "body": "Ele mantém o portão funcionando por um tempo quando falta energia.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "sc03_videoporteiro_celular",
+   "tema": "interfone_videoporteiro",
+   "spec": {
+    "layout": "fact",
+    "theme": "white",
+    "tag": "VOCÊ SABIA?",
+    "big": "No celular",
+    "bigSize": 170,
+    "title": "Alguns videoporteiros atendem pelo celular.",
+    "body": "Você vê quem chegou mesmo longe de casa.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "sc04_retrovisor",
+   "tema": "seguranca_rua",
+   "spec": {
+    "layout": "statement",
+    "theme": "dark",
+    "tag": "HÁBITO DO DIA",
+    "lines": [
+     "Entrou na garagem?"
+    ],
+    "accent": [
+     "Olhe o retrovisor",
+     "até o portão fechar."
+    ],
+    "sub": "Confirme que ninguém entrou junto.",
+    "format": "story"
+   }
+  },
   {
    "id": "sm01_pilha",
    "spec": {
@@ -2073,7 +1980,8 @@
     ],
     "sub": "Muitas vezes o problema é só isso.",
     "format": "story"
-   }
+   },
+   "tema": "controle"
   },
   {
    "id": "sm02_trilho",
@@ -2090,7 +1998,8 @@
     ],
     "sub": "Limpe com o motor desligado.",
     "format": "story"
-   }
+   },
+   "tema": "trilho"
   },
   {
    "id": "sm03_revisao",
@@ -2106,7 +2015,8 @@
      "na hora errada."
     ],
     "format": "story"
-   }
+   },
+   "tema": "manutencao"
   },
   {
    "id": "sm04_destrave",
@@ -2123,7 +2033,8 @@
     ],
     "sub": "Está no manual do seu motor. Quando faltar energia, você já sabe.",
     "format": "story"
-   }
+   },
+   "tema": "energia"
   },
   {
    "id": "sa01_barulho_novo",
@@ -2143,7 +2054,8 @@
      },
      "fala": "Seu portão está fazendo um barulho novo? Anote quando acontece. Isso ajuda o técnico a achar a causa."
     }
-   ]
+   ],
+   "tema": "ruido"
   },
   {
    "id": "sm05_mito_lento",
@@ -2154,7 +2066,8 @@
     "title": "“Portão lento é normal.”",
     "body": "Pode ser desgaste ou falta de lubrificação. Vale uma avaliação.",
     "format": "story"
-   }
+   },
+   "tema": "mitos"
   },
   {
    "id": "sg01_glossario_receptor",
@@ -2165,66 +2078,8 @@
     "def": "Parte que recebe o sinal do controle remoto.",
     "tip": "Controle sem alcance? Troque a pilha antes de tudo.",
     "format": "story"
-   }
-  },
-  {
-   "id": "sm06_mao_fora",
-   "spec": {
-    "layout": "statement",
-    "theme": "orange",
-    "tag": "DICA DO DIA",
-    "lines": [
-     "Mão fora"
-    ],
-    "accent": [
-     "do trilho."
-    ],
-    "sub": "Nunca encoste no portão em movimento.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa02_glossario_destrave",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "glossary",
-      "theme": "white",
-      "term": "Destrave",
-      "def": "Mecanismo que solta o motor do portão para movê-lo com a mão.",
-      "tip": "Veja no manual onde fica e como religar depois."
-     },
-     "fala": "Glossário do dia: destrave. É o mecanismo que solta o motor do portão para movê-lo com a mão. Veja no manual onde fica e como religar depois."
-    }
-   ]
-  },
-  {
-   "id": "sm07_lembrete",
-   "spec": {
-    "layout": "statement",
-    "theme": "white",
-    "tag": "LEMBRETE",
-    "lines": [
-     "Quando foi a",
-     "última revisão"
-    ],
-    "accent": [
-     "do seu portão?"
-    ],
-    "format": "story"
-   }
-  },
-  {
-   "id": "sg02_3_checagens",
-   "spec": {
-    "layout": "bignum",
-    "theme": "light",
-    "tag": "DICA",
-    "big": "3",
-    "title": "coisas antes de chamar o técnico.",
-    "sub": "Pilha, trilho livre e energia.",
-    "format": "story"
-   }
+   },
+   "tema": "glossario"
   },
   {
    "id": "sm08_controle_criancas",
@@ -2240,100 +2095,8 @@
      "crianças."
     ],
     "format": "story"
-   }
-  },
-  {
-   "id": "sa03_pilha",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "statement",
-      "theme": "light",
-      "tag": "DICA DO DIA",
-      "lines": [
-       "Controle falhando?"
-      ],
-      "accent": [
-       "Troque a pilha."
-      ],
-      "sub": "Muitas vezes é só isso."
-     },
-     "fala": "Controle falhando ou com pouco alcance? Troque a pilha antes de qualquer coisa. Muitas vezes é só isso."
-    }
-   ]
-  },
-  {
-   "id": "sm09_contraluz",
-   "spec": {
-    "layout": "statement",
-    "theme": "light",
-    "tag": "VOCÊ SABIA?",
-    "lines": [
-     "Câmera virada"
-    ],
-    "accent": [
-     "para o sol",
-     "perde detalhes."
-    ],
-    "sub": "Mude o ângulo ou a posição.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sg03_glossario_cremalheira",
-   "spec": {
-    "layout": "glossary",
-    "theme": "white",
-    "term": "Cremalheira",
-    "def": "Barra dentada presa ao portão. O motor engrena nela para puxar e empurrar.",
-    "tip": "Se o portão pula ou range, peça uma avaliação.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sm10_senha_camera",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "DICA DO DIA",
-    "lines": [
-     "Troque a senha"
-    ],
-    "accent": [
-     "padrão da",
-     "câmera."
-    ],
-    "sub": "Senha de fábrica é fácil de adivinhar.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa04_quiz_trilho",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "quiz",
-      "theme": "light",
-      "title": "Com que frequência vale olhar o trilho?",
-      "options": [
-       "Só quando travar",
-       "Uma vez por mês, limpo e livre",
-       "Nunca precisa"
-      ]
-     },
-     "fala": "Quiz rápido. Com que frequência vale olhar o trilho do portão? A, só quando travar. B, uma vez por mês. Ou C, nunca precisa?"
-    },
-    {
-     "spec": {
-      "layout": "reveal",
-      "theme": "dark",
-      "letter": "B",
-      "title": "Uma vez por mês.",
-      "body": "Pedra, folha e sujeira travam o caminho. Limpe com o motor desligado."
-     },
-     "fala": "A resposta é B. Uma vez por mês, com o trilho limpo e livre. Limpe sempre com o motor desligado."
-    }
-   ]
+   },
+   "tema": "criancas_pets"
   },
   {
    "id": "sm11_mito_tecnico",
@@ -2344,80 +2107,8 @@
     "title": "“Só chamo o técnico quando quebrar.”",
     "body": "Revisão preventiva ajuda a evitar paradas e reparos maiores.",
     "format": "story"
-   }
-  },
-  {
-   "id": "sg04_zero",
-   "spec": {
-    "layout": "bignum",
-    "theme": "orange",
-    "tag": "ATENÇÃO",
-    "big": "0",
-    "title": "vezes que você deve abrir o motor sozinho.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sm12_ruido",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "DICA DO DIA",
-    "lines": [
-     "Barulho novo"
-    ],
-    "accent": [
-     "é um aviso."
-    ],
-    "sub": "Anote quando acontece e conte ao técnico.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa05_fim_de_curso",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "glossary",
-      "theme": "dark",
-      "term": "Fim de curso",
-      "def": "Peça que avisa o motor onde o portão deve parar, ao abrir e ao fechar.",
-      "tip": "Se o portão para fora do ponto, chame um técnico."
-     },
-     "fala": "Glossário do dia: fim de curso. É a peça que avisa o motor onde o portão deve parar, ao abrir e ao fechar."
-    }
-   ]
-  },
-  {
-   "id": "sm13_checklist",
-   "spec": {
-    "layout": "checklist",
-    "theme": "white",
-    "title": "Checklist do mês",
-    "items": [
-     "Limpar o trilho",
-     "Conferir a pilha do controle",
-     "Observar ruídos novos",
-     "Ver se o sensor está livre"
-    ],
-    "format": "story"
-   }
-  },
-  {
-   "id": "sm14_nao_e_brinquedo",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "DICA DO DIA",
-    "lines": [
-     "Portão não"
-    ],
-    "accent": [
-     "é brinquedo."
-    ],
-    "sub": "Ensine as crianças a manter distância.",
-    "format": "story"
-   }
+   },
+   "tema": "mitos"
   }
  ],
  "stories_tarde": [
@@ -2453,7 +2144,8 @@
     ],
     "sub": "Responda por mensagem aqui.",
     "format": "story"
-   }
+   },
+   "tema": "tipos_de_motor"
   },
   {
    "id": "st03_no_feed_interfone",
@@ -2485,7 +2177,8 @@
      "Chame a aciona."
     ],
     "format": "story"
-   }
+   },
+   "tema": "servicos"
   },
   {
    "id": "stn01_quiz_no_feed",
@@ -2519,56 +2212,6 @@
      "já ouviu?"
     ],
     "sub": "Veja no perfil.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa06_quiz_pilha",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "quiz",
-      "theme": "white",
-      "title": "O controle perdeu alcance. O que conferir antes?",
-      "options": [
-       "Trocar o motor",
-       "A altura do portão",
-       "A pilha do controle"
-      ]
-     },
-     "fala": "Quiz rápido. O controle perdeu alcance. O que conferir antes? A, trocar o motor. B, a altura do portão. Ou C, a pilha do controle?"
-    },
-    {
-     "spec": {
-      "layout": "reveal",
-      "theme": "dark",
-      "letter": "C",
-      "title": "Comece pela pilha.",
-      "body": "Se não resolver, chame um técnico."
-     },
-     "fala": "A resposta é C. Comece pela pilha. Se não resolver, chame um técnico."
-    }
-   ]
-  },
-  {
-   "id": "st06_servicos",
-   "spec": {
-    "layout": "services",
-    "theme": "dark",
-    "tag": "SERVIÇOS",
-    "lines": [
-     "O que a aciona"
-    ],
-    "accent": [
-     "faz por você"
-    ],
-    "items": [
-     "Motores para portão",
-     "Automação de portões",
-     "Interfones",
-     "Videoporteiros",
-     "Câmeras de segurança"
-    ],
     "format": "story"
    }
   },
@@ -2624,7 +2267,8 @@
      },
      "fala": "Atenção. Mantenha a mão longe do trilho. Nunca encoste no portão em movimento."
     }
-   ]
+   ],
+   "tema": "uso_seguro"
   },
   {
    "id": "st08_no_feed_sindico",
@@ -2640,78 +2284,6 @@
      "esse é pra você."
     ],
     "sub": "Erros comuns no portão do condomínio.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "stn03_flow_no_feed",
-   "ref": "c17_do_controle_ao_portao",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "NO FEED HOJE",
-    "lines": [
-     "Do controle"
-    ],
-    "accent": [
-     "ao portão."
-    ],
-    "sub": "Veja no perfil.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "st09_no_feed_energia",
-   "ref": "c09_queda_de_energia",
-   "spec": {
-    "layout": "statement",
-    "theme": "white",
-    "tag": "NO FEED HOJE",
-    "lines": [
-     "Faltou energia."
-    ],
-    "accent": [
-     "E o seu portão?"
-    ],
-    "sub": "Saiba o que fazer. Veja no perfil.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa08_cta",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "statement",
-      "theme": "dark",
-      "tag": "FALE COM A GENTE",
-      "lines": [
-       "Motores, interfones,"
-      ],
-      "accent": [
-       "videoporteiros e câmeras."
-      ],
-      "sub": "Instalação e manutenção."
-     },
-     "fala": "Motores para portão, interfones, videoporteiros e câmeras de segurança. Instalação e manutenção."
-    }
-   ],
-   "fim": true
-  },
-  {
-   "id": "st10_pergunta_condominio",
-   "spec": {
-    "layout": "statement",
-    "theme": "dark",
-    "tag": "PERGUNTA",
-    "lines": [
-     "Seu condomínio"
-    ],
-    "accent": [
-     "revisa o portão",
-     "com frequência?"
-    ],
-    "sub": "Responda por mensagem.",
     "format": "story"
    }
   },
@@ -2746,34 +2318,6 @@
      "as câmeras?"
     ],
     "sub": "Veja os cuidados no perfil.",
-    "format": "story"
-   }
-  },
-  {
-   "id": "sa09_glossario_lampada",
-   "cenas": [
-    {
-     "spec": {
-      "layout": "glossary",
-      "theme": "light",
-      "term": "Lâmpada de sinalização",
-      "def": "Luz que pisca enquanto o portão se move. É um aviso para quem está por perto.",
-      "tip": "Se parou de piscar, vale avisar o técnico."
-     },
-     "fala": "Glossário do dia: lâmpada de sinalização. É a luz que pisca enquanto o portão se move. Serve de aviso para quem está por perto."
-    }
-   ]
-  },
-  {
-   "id": "st12_cta_site",
-   "spec": {
-    "layout": "cta",
-    "theme": "dark",
-    "lines": [
-     "Conheça nossos",
-     "serviços no site."
-    ],
-    "accent": [],
     "format": "story"
    }
   },
@@ -2824,6 +2368,145 @@
     "accent": [
      "Pergunte pra gente."
     ],
+    "format": "story"
+   },
+   "tema": "servicos"
+  },
+  {
+   "id": "stn06_saidinha_no_feed",
+   "ref": "c21_saidinha_de_garagem",
+   "spec": {
+    "layout": "statement",
+    "theme": "dark",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "O momento mais"
+    ],
+    "accent": [
+     "arriscado da",
+     "sua casa."
+    ],
+    "sub": "6 hábitos de segurança. Veja no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn07_historia_no_feed",
+   "ref": "c22_historia_do_portao_automatico",
+   "spec": {
+    "layout": "statement",
+    "theme": "light",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "Portão automático"
+    ],
+    "accent": [
+     "tem 2 mil anos?"
+    ],
+    "sub": "Veja a história no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn08_controle_no_feed",
+   "ref": "c23_seu_controle_pode_ser_copiado",
+   "spec": {
+    "layout": "statement",
+    "theme": "white",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "Seu controle pode"
+    ],
+    "accent": [
+     "ser copiado?"
+    ],
+    "sub": "Descubra no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn09_criancas_no_feed",
+   "ref": "c10_criancas_e_pets",
+   "spec": {
+    "layout": "statement",
+    "theme": "dark",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "Crianças e"
+    ],
+    "accent": [
+     "portão automático."
+    ],
+    "sub": "Cuidados essenciais no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn10_contratar_no_feed",
+   "ref": "c12_perguntas_antes_de_contratar",
+   "spec": {
+    "layout": "statement",
+    "theme": "light",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "Vai contratar"
+    ],
+    "accent": [
+     "manutenção?"
+    ],
+    "sub": "5 perguntas no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn11_rotina_no_feed",
+   "ref": "c06_rotina_mensal",
+   "spec": {
+    "layout": "statement",
+    "theme": "white",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "1 minuto por mês"
+    ],
+    "accent": [
+     "com o portão."
+    ],
+    "sub": "Veja como no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "stn12_duvidas_cameras_no_feed",
+   "ref": "c14_duvidas_sobre_cameras",
+   "spec": {
+    "layout": "statement",
+    "theme": "dark",
+    "tag": "NO FEED HOJE",
+    "lines": [
+     "Dúvidas sobre"
+    ],
+    "accent": [
+     "câmeras?"
+    ],
+    "sub": "Respostas rápidas no perfil.",
+    "format": "story"
+   }
+  },
+  {
+   "id": "sc05_pergunta_medo",
+   "tema": "engajamento",
+   "spec": {
+    "layout": "statement",
+    "theme": "orange",
+    "tag": "PERGUNTA",
+    "lines": [
+     "O que mais te"
+    ],
+    "accent": [
+     "incomoda no",
+     "seu portão?"
+    ],
+    "sub": "Responda por mensagem. A gente lê todas.",
     "format": "story"
    }
   }
