@@ -1903,6 +1903,24 @@
      "fala": "Hoje, basta um clique."
     }
    ]
+  },
+  {
+   "id": "p28_controle_no_carro",
+   "tema": "seguranca_rua",
+   "legenda": "O controle do portão também é uma chave. Quais destes cuidados você já tem?\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #seguranca #controleremoto #dicasdecasa #portaodecorrer",
+   "spec": {
+    "layout": "checklist",
+    "theme": "light",
+    "tag": "CUIDADO COM A CHAVE",
+    "title": "O controle é a chave da sua casa",
+    "items": [
+     "Não deixe o controle dentro do carro na rua",
+     "Perdeu o controle? Peça a troca do código",
+     "Guarde o reserva longe da porta"
+    ],
+    "format": "4x5",
+    "footer": true
+   }
   }
  ],
  "stories_manha": [
