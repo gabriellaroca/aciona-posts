@@ -2127,6 +2127,19 @@
     "format": "story"
    },
    "tema": "mitos"
+  },
+  {
+   "id": "sm12_modelo_do_motor",
+   "tema": "identificacao",
+   "spec": {
+    "layout": "bignum",
+    "theme": "light",
+    "tag": "DICA DO DIA",
+    "big": "Anote",
+    "title": "Anote a marca e o modelo do seu motor.",
+    "body": "Fica numa etiqueta no equipamento. Ajuda o técnico a atender mais rápido.",
+    "format": "story"
+   }
   }
  ],
  "stories_tarde": [
