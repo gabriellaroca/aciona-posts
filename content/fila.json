@@ -1451,6 +1451,73 @@
     }
    ],
    "tema": "cameras"
+  },
+  {
+   "id": "c24_barulho_do_portao",
+   "tema": "ruido",
+   "legenda": "Seu portão fez um barulho novo? Ele está avisando algo. Arraste e veja o que observar antes de chamar um técnico. Comente: que barulho o seu portão faz?\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #barulhonoportao #manutencaodeportao #dicasdecasa #motordeportao",
+   "slides": [
+    {
+     "layout": "cover",
+     "theme": "dark",
+     "tag": "ATENÇÃO",
+     "lines": [
+      "O barulho novo"
+     ],
+     "accent": [
+      "do portão"
+     ],
+     "sub": "Ele avisa. Arraste.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "01",
+     "title": "Perceba quando acontece",
+     "body": "Ao abrir, ao fechar ou nos dois? Em qual ponto do trajeto? Essa pista ajuda muito.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "dark",
+     "num": "02",
+     "title": "Olhe o que está à vista",
+     "body": "Trilho com pedra ou sujeira, objeto no caminho, portão desalinhado. Só olhe, sem mexer.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "03",
+     "title": "Grave um vídeo curto",
+     "body": "Um vídeo do barulho ajuda o técnico a entender antes mesmo da visita.",
+     "format": "4x5"
+    },
+    {
+     "layout": "statement",
+     "theme": "orange",
+     "lines": [
+      "Não abra o motor."
+     ],
+     "accent": [
+      "Não mexa na parte interna."
+     ],
+     "format": "4x5"
+    },
+    {
+     "layout": "cta",
+     "theme": "dark",
+     "lines": [
+      "Que barulho"
+     ],
+     "accent": [
+      "o seu portão faz?",
+      "Conta nos comentários."
+     ],
+     "format": "4x5"
+    }
+   ]
   }
  ],
  "posts": [
