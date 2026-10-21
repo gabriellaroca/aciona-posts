@@ -2685,6 +2685,24 @@
         "sub": "Responda por mensagem. A gente lê todas.",
         "format": "story"
       }
+    },
+    {
+      "id": "stn13_olhar_fechar",
+      "tema": "uso_seguro",
+      "spec": {
+        "layout": "statement",
+        "theme": "white",
+        "tag": "HÁBITO",
+        "lines": [
+          "Saiu de carro?"
+        ],
+        "accent": [
+          "Espere o portão",
+          "fechar por completo."
+        ],
+        "sub": "Um hábito simples que protege sua casa.",
+        "format": "story"
+      }
     }
   ]
 }
