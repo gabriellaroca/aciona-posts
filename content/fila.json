@@ -2207,6 +2207,18 @@
     "body": "Fica numa etiqueta no equipamento. Ajuda o técnico a atender mais rápido.",
     "format": "story"
    }
+  },
+  {
+   "id": "sm13_espere_fechar",
+   "tema": "uso_diario",
+   "spec": {
+    "layout": "statement",
+    "theme": "navy",
+    "tag": "HÁBITO SEGURO",
+    "title": "Saiu de carro? Espere o portão fechar por completo.",
+    "body": "Fechado de verdade, sem deixar a entrada aberta para ninguém.",
+    "format": "story"
+   }
   }
  ],
  "stories_tarde": [
