@@ -229,5 +229,12 @@
     "tema": "historia",
     "data": "2026-10-21",
     "media_id": "18115965776040291"
+  },
+  {
+    "id": "stn07_historia_no_feed",
+    "tipo": "stories",
+    "tema": "historia",
+    "data": "2026-10-21",
+    "media_id": "18102152519437476"
   }
 ]
