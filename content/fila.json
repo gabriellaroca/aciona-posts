@@ -2140,6 +2140,24 @@
         "format": "4x5",
         "footer": true
       }
+    },
+    {
+      "id": "p29_ao_chamar_o_tecnico",
+      "tema": "chamado_tecnico",
+      "legenda": "Quer um atendimento mais rápido? Chegue com a informação certa. Qual destas você já tem anotada?\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #dicasdecasa #manutencaodeportao #portaodecorrer #atendimento",
+      "spec": {
+        "layout": "checklist",
+        "theme": "dark",
+        "tag": "ANTES DE CHAMAR",
+        "title": "3 informações que ajudam o técnico",
+        "items": [
+          "O que o portão fez (parou, tremeu, fez barulho)",
+          "Quando começou o problema",
+          "Foto da etiqueta do motor, se estiver visível"
+        ],
+        "format": "4x5",
+        "footer": true
+      }
     }
   ],
   "stories_manha": [
