@@ -1584,6 +1584,92 @@
           "format": "4x5"
         }
       ]
+    },
+    {
+      "id": "c26_faca_e_evite",
+      "tema": "habitos",
+      "legenda": "Pequenos hábitos fazem o portão durar mais. Arraste e veja o que fazer e o que evitar no dia a dia. Salve este post para lembrar.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #dicasdeseguranca #manutencao #casasegura #automacaoresidencial",
+      "slides": [
+        {
+          "layout": "cover",
+          "theme": "dark",
+          "tag": "DIA A DIA",
+          "lines": [
+            "Faça e evite:"
+          ],
+          "accent": [
+            "hábitos do portão."
+          ],
+          "sub": "Arraste.",
+          "format": "4x5"
+        },
+        {
+          "layout": "dodont",
+          "theme": "white",
+          "title": "Ao passar",
+          "faca": [
+            "Espere o portão abrir por completo",
+            "Olhe se há alguém no caminho"
+          ],
+          "evite": [
+            "Passar por baixo enquanto move",
+            "Deixar criança brincar perto"
+          ],
+          "format": "4x5"
+        },
+        {
+          "layout": "dodont",
+          "theme": "light",
+          "title": "No controle",
+          "faca": [
+            "Guarde o controle longe do sol e da umidade",
+            "Troque a pilha quando o alcance cair"
+          ],
+          "evite": [
+            "Deixar o controle largado no carro",
+            "Apertar vários botões sem parar"
+          ],
+          "format": "4x5"
+        },
+        {
+          "layout": "dodont",
+          "theme": "white",
+          "title": "Na limpeza",
+          "faca": [
+            "Varra folhas e areia do trilho",
+            "Passe pano seco nas partes externas"
+          ],
+          "evite": [
+            "Jogar água forte no motor",
+            "Abrir a caixa do motor"
+          ],
+          "format": "4x5"
+        },
+        {
+          "layout": "statement",
+          "theme": "orange",
+          "lines": [
+            "Algo estranho?"
+          ],
+          "accent": [
+            "Chame um técnico."
+          ],
+          "format": "4x5"
+        },
+        {
+          "layout": "save",
+          "theme": "dark",
+          "lines": [
+            "Salve este post"
+          ],
+          "accent": [
+            "para consultar",
+            "quando precisar."
+          ],
+          "sub": "Hábito simples, portão por mais tempo.",
+          "format": "4x5"
+        }
+      ]
     }
   ],
   "posts": [
