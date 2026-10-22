@@ -2285,6 +2285,22 @@
         "body": "Fechado de verdade, sem deixar a entrada aberta para ninguém.",
         "format": "story"
       }
+    },
+    {
+      "id": "sm14_camera_lente",
+      "tema": "cameras",
+      "spec": {
+        "layout": "checklist",
+        "theme": "light",
+        "tag": "CÂMERAS",
+        "title": "Sua câmera enxerga bem?",
+        "items": [
+          "Limpe a lente com pano macio e seco",
+          "Veja se nada tapa o campo de visão",
+          "Confira a imagem no celular de vez em quando"
+        ],
+        "format": "story"
+      }
     }
   ],
   "stories_tarde": [
