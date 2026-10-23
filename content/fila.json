@@ -2230,6 +2230,27 @@
         "format": "4x5",
         "footer": true
       }
+    },
+    {
+      "id": "p30_viagem_portao",
+      "tema": "viagem",
+      "legenda": "Vai viajar? Antes de sair, passe 1 minuto no portão. Quem mais deixa a casa em ordem antes de viajar? Marque essa pessoa.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #dicasdecasa #viagem #seguranca #portaodecorrer",
+      "spec": {
+        "layout": "statement",
+        "theme": "dark",
+        "tag": "ANTES DE VIAJAR",
+        "lines": [
+          "Viajando?",
+          "Dê 1 minuto"
+        ],
+        "accent": [
+          "ao portão."
+        ],
+        "sub": "Confira se fecha por inteiro, se o controle reserva está guardado e se os vizinhos têm seu contato.",
+        "size": 96,
+        "format": "4x5",
+        "footer": true
+      }
     }
   ],
   "stories_manha": [
