@@ -1670,6 +1670,78 @@
           "format": "4x5"
         }
       ]
+    },
+    {
+      "id": "c27_entregador_na_porta",
+      "tema": "entregas",
+      "legenda": "Entregador esperando e o portão não abre? Combine antes e evite o susto. Arraste para ver hábitos simples para receber encomendas. Mande para quem mora com você.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #dicasdecasa #seguranca #casasegura #interfone",
+      "slides": [
+        {
+          "layout": "cover",
+          "theme": "light",
+          "tag": "ENCOMENDAS",
+          "lines": [
+            "Entregador",
+            "na porta?"
+          ],
+          "accent": [
+            "Hábitos simples."
+          ],
+          "sub": "Arraste.",
+          "format": "4x5"
+        },
+        {
+          "layout": "step",
+          "theme": "dark",
+          "num": "01",
+          "title": "Veja quem é",
+          "body": "Antes de abrir, confira pelo interfone, videoporteiro ou câmera.",
+          "format": "4x5"
+        },
+        {
+          "layout": "step",
+          "theme": "white",
+          "num": "02",
+          "title": "Abra só o necessário",
+          "body": "Receba a encomenda no portão sempre que der. Não deixe aberto à espera.",
+          "format": "4x5"
+        },
+        {
+          "layout": "step",
+          "theme": "light",
+          "num": "03",
+          "title": "Fique de olho",
+          "body": "Feche o portão assim que a entrega terminar e confirme que ele travou.",
+          "format": "4x5"
+        },
+        {
+          "layout": "dodont",
+          "theme": "dark",
+          "title": "Na hora H",
+          "faca": [
+            "Combine horário com quem mora com você",
+            "Avise o porteiro ou vizinho"
+          ],
+          "evite": [
+            "Abrir sem saber quem está lá",
+            "Sair e deixar o portão aberto"
+          ],
+          "format": "4x5"
+        },
+        {
+          "layout": "cta",
+          "theme": "orange",
+          "lines": [
+            "Mande para quem",
+            "recebe as",
+            "encomendas."
+          ],
+          "accent": [
+            "Vale o lembrete."
+          ],
+          "format": "4x5"
+        }
+      ]
     }
   ],
   "posts": [
