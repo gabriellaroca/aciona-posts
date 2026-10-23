@@ -2917,6 +2917,24 @@
         "sub": "Um hábito simples que protege sua casa.",
         "format": "story"
       }
+    },
+    {
+      "id": "stn14_barulho_diferente",
+      "tema": "manutencao_sinais",
+      "spec": {
+        "layout": "statement",
+        "theme": "navy",
+        "tag": "ATENÇÃO",
+        "lines": [
+          "Seu portão fez um"
+        ],
+        "accent": [
+          "barulho que",
+          "não é o de sempre?"
+        ],
+        "sub": "Pare de usar e chame um técnico. Não mexa no motor.",
+        "format": "story"
+      }
     }
   ]
 }
