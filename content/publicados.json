@@ -278,5 +278,12 @@
     "tema": "uso_diario",
     "data": "2026-10-23",
     "media_id": "18112958093270490"
+  },
+  {
+    "id": "c07_cameras_5_erros",
+    "tipo": "carrosseis",
+    "tema": "cameras",
+    "data": "2026-10-23",
+    "media_id": "18097676813119232"
   }
 ]
