@@ -20,8 +20,8 @@ CONFERÊNCIA ANTES DE PUBLICAR
 
 PUBLICAÇÃO
 1. `git add <pasta do item>`, commit e push para main (`git fetch origin main` e rebase antes se o push for rejeitado). Sem push as URLs não existem.
-2. Publique com execute_action (connector instagram, account 17841474648735800):
-   - carrosseis: create_carousel_post com as urls em ordem e a legenda do JSON.
+2. Publique com execute_action (connector instagram, account 17841474648735800), usando a ação indicada em `acao`:
+   - create_carousel_post: as urls em ordem e a legenda do JSON (vale para carrosseis e para posts com várias imagens).
    - posts: create_image_post com a url e a legenda.
    - stories_manha e stories_tarde: create_story com a url (sem legenda). Se `formato` for "video", use `video_url` em vez de `image_url`. Se falhar, tente uma vez `video_url_alt`. Se falhar de novo, publique `poster_url` como story de imagem.
    - posts com `tipo` "reels": create_video_post com `video_url`, `cover_url` igual a `poster_url`, a legenda do JSON e share_to_feed true. Se falhar, tente uma vez com `video_url_alt`; se falhar de novo, registre falha (não há alternativa em imagem).
@@ -29,6 +29,14 @@ PUBLICAÇÃO
 4. Acrescente em `content/publicados.json` o objeto `{"id","tipo","tema","data":"AAAA-MM-DD","media_id"}` (data no horário de Brasília), faça commit e push. Nunca publique um id que já esteja nesse arquivo.
 5. Falhas: acrescente em `content/falhas.json` (crie como lista se não existir) `{"id","data","motivo"}` e faça commit e push. Um item com falha não é repetido automaticamente.
 6. Responda no fim com uma linha: o que foi publicado (id e media id) ou por que não foi.
+
+PAUTA DO DIA (estratégia: o feed precisa ter nexo)
+- O conteúdo é organizado em `content/pautas.json`: uma pauta por dia, com 4 itens que contam a mesma história. Manhã (08:20, story): provoca e anuncia o que vem ao meio-dia. Meio-dia (12:10, carrossel): o conteúdo principal. Tarde (17:50, story): puxa para o post do dia, pede resposta ou mostra bastidor. Noite (19:10, post): fecha o dia com aprofundamento, Reel ou conversão.
+- Quadros fixos por dia da semana (campo `dia`, 0 = domingo): 0 Domingo leve (dúvidas, histórias, curiosidades); 1 Segunda sem susto (prevenção e manutenção); 2 Tecnologia no portão (novidades, controle, automação); 3 Por dentro do portão (como funciona, peças, bastidores); 4 Segurança em casa (família, rua, câmeras); 5 Sextou com quiz (quiz que recapitula a semana, mitos); 6 Escolha certa (comprar, contratar, comparar, chamar a aciona).
+- `proximo.mjs` usa a pauta de hoje: se nenhuma tem a data de hoje, pega a próxima sem data com o `dia` de hoje e grava a data. Faça commit de `content/pautas.json` junto com a publicação. A fila antiga (`fila.json`) só é usada quando a pauta do dia não tem item para aquele horário.
+- A saída traz `acao` (a ação do Windsor a usar) e `pauta` (quadro do dia).
+- Quando restarem menos de 3 pautas sem data, a execução da manhã monta a semana seguinte (7 pautas, uma por quadro) antes de publicar, sempre com os 4 itens ligados entre si. Use itens bons da `fila.json` quando couberem no quadro (tire-os da fila) e crie o resto inédito. Um item pode ter `spec`, `slides`, `cenas` (vídeo narrado) ou `imagens` (JPGs prontos no repo).
+- Pense como criador de conteúdo experiente: séries com nome fixo que o público reconhece, gancho forte de manhã, entrega completa ao meio-dia, convite à interação à tarde e fechamento com chamada à noite. A semana também tem arco: atrair (curiosidade) → educar → gerar confiança (bastidores, segurança) → engajar (quiz de sexta recapitulando a semana) → converter (escolha certa).
 
 NOVIDADE (regra número 1 do dono: sempre inovar, sempre conteúdo novo)
 - Nunca repita uma ideia já publicada nem uma que já esteja na fila. Antes de criar, leia os títulos de `content/publicados.json` e `content/fila.json`. Mesma dica com outras palavras, em outro formato ou em outro layout também é repetição. Um aprofundamento só vale se trouxer informação nova e disser que é continuação.
