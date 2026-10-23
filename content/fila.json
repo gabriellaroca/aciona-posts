@@ -2383,11 +2383,17 @@
       "tema": "uso_diario",
       "spec": {
         "layout": "statement",
-        "theme": "navy",
+        "theme": "dark",
         "tag": "HÁBITO SEGURO",
-        "title": "Saiu de carro? Espere o portão fechar por completo.",
-        "body": "Fechado de verdade, sem deixar a entrada aberta para ninguém.",
-        "format": "story"
+        "format": "story",
+        "lines": [
+          "Saiu de carro? Espere"
+        ],
+        "accent": [
+          "o portão fechar",
+          "por completo."
+        ],
+        "sub": "Fechado de verdade, sem deixar a entrada aberta para ninguém."
       }
     },
     {
@@ -2402,6 +2408,22 @@
           "Limpe a lente com pano macio e seco",
           "Veja se nada tapa o campo de visão",
           "Confira a imagem no celular de vez em quando"
+        ],
+        "format": "story"
+      }
+    },
+    {
+      "id": "sm15_rotina_da_noite",
+      "tema": "rotina_noite",
+      "spec": {
+        "layout": "checklist",
+        "theme": "white",
+        "tag": "ANTES DE DORMIR",
+        "title": "Rotina de 10 segundos à noite",
+        "items": [
+          "Portão fechado por completo",
+          "Controle guardado em casa, não no carro",
+          "Algo estranho? Chame um técnico"
         ],
         "format": "story"
       }
