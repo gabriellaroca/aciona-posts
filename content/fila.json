@@ -2426,6 +2426,24 @@
     "sub": "Pare de usar e chame um técnico. Não mexa no motor.",
     "format": "story"
    }
+  },
+  {
+   "id": "stn15_dodont_chuva",
+   "tema": "chuva",
+   "spec": {
+    "layout": "dodont",
+    "theme": "white",
+    "title": "Portão estranho depois da chuva?",
+    "format": "story",
+    "faca": [
+     "Pare de usar e observe de longe",
+     "Chame um técnico"
+    ],
+    "evite": [
+     "Forçar o portão com a mão",
+     "Abrir o motor para olhar"
+    ]
+   }
   }
  ]
 }
