@@ -1292,6 +1292,70 @@
      "format": "4x5"
     }
    ]
+  },
+  {
+   "id": "c28_sensor_de_seguranca",
+   "tema": "sensores",
+   "legenda": "Seu portão tem um olho que enxerga obstáculos? Arraste para entender o sensor de segurança e o que observar no dia a dia. Salve este post.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #sensordeseguranca #dicasdecasa #seguranca #manutencaodeportao",
+   "slides": [
+    {
+     "layout": "cover",
+     "theme": "dark",
+     "tag": "SENSORES",
+     "lines": [
+      "O olho do",
+      "seu portão"
+     ],
+     "accent": [
+      "Você já viu?"
+     ],
+     "sub": "Arraste.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "light",
+     "num": "01",
+     "title": "O que ele faz",
+     "body": "O sensor percebe algo no caminho e ajuda o portão a parar ou voltar.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "white",
+     "num": "02",
+     "title": "Onde fica",
+     "body": "Em geral, pequenos aparelhos nas laterais do portão, perto do chão.",
+     "format": "4x5"
+    },
+    {
+     "layout": "step",
+     "theme": "dark",
+     "num": "03",
+     "title": "O que observar",
+     "body": "Mantenha o caminho livre e repare se o portão deixou de reagir como antes.",
+     "format": "4x5"
+    },
+    {
+     "layout": "dodont",
+     "theme": "light",
+     "title": "No dia a dia",
+     "faca": [
+      "Deixe a passagem livre",
+      "Avise a aciona se algo mudou"
+     ],
+     "evite": [
+      "Mexer em fios ou peças",
+      "Ignorar um portão que não reage"
+     ],
+     "format": "4x5"
+    },
+    {
+     "layout": "save",
+     "theme": "orange",
+     "format": "4x5"
+    }
+   ]
   }
  ],
  "posts": [
