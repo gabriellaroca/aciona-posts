@@ -1996,6 +1996,21 @@
     ],
     "format": "story"
    }
+  },
+  {
+   "id": "sm16_portao_parou_no_meio",
+   "tema": "situacoes_dia",
+   "spec": {
+    "layout": "statement",
+    "theme": "navy",
+    "lines": [
+     "Portão parou no meio do caminho?"
+    ],
+    "accent": [
+     "Não force. Chame um técnico."
+    ],
+    "format": "story"
+   }
   }
  ],
  "stories_tarde": [
