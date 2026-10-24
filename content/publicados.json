@@ -306,5 +306,12 @@
     "tema": "contratacao",
     "data": "2026-10-24",
     "media_id": "18189199411407632"
+  },
+  {
+    "id": "c12_perguntas_antes_de_contratar",
+    "tipo": "carrosseis",
+    "tema": "contratacao",
+    "data": "2026-10-24",
+    "media_id": "17888870895686158"
   }
 ]
