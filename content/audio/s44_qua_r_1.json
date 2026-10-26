@@ -1,0 +1,21 @@
+{
+ "hash": "95e004b0e72522bdfd7b7d1a6cb0434d",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.947,
+   "texto": "Com o portão solto, você abre."
+  },
+  {
+   "t0": 2.211,
+   "t1": 3.941,
+   "texto": "O esforço tem que ser mínimo."
+  },
+  {
+   "t0": 4.25,
+   "t1": 6.135,
+   "texto": "Depois fecha, e tem que ser igual."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "hash": "50ecda3573414b6ff43d07fa22386be5",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 2.42,
+   "texto": "O fogo do altar aquecia um recipiente."
+  },
+  {
+   "t0": 2.726,
+   "t1": 5.17,
+   "texto": "A pressão empurrava água para um contrapeso."
+  },
+  {
+   "t0": 5.488,
+   "t1": 8.15,
+   "texto": "E o peso puxava cordas que abriam as portas."
+  }
+ ]
+}

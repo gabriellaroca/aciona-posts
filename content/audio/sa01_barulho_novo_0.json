@@ -1,0 +1,21 @@
+{
+ "hash": "ffa869e9dcba41a2ca992c9e43291494",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 2.341,
+   "texto": "Seu portão está fazendo um barulho novo?"
+  },
+  {
+   "t0": 2.736,
+   "t1": 4.382,
+   "texto": "Anote quando acontece."
+  },
+  {
+   "t0": 4.668,
+   "t1": 6.914,
+   "texto": "Isso ajuda o técnico a achar a causa."
+  }
+ ]
+}

@@ -1,81 +1,69 @@
-Instruções para a sessão agendada da aciona (@aciona.portoes). Siga à risca.
+Instruções das sessões agendadas da aciona (@aciona.portoes). Siga à risca. Há dois tipos de sessão: PUBLICAÇÃO (4 por dia) e PLANEJAMENTO SEMANAL (sábado à noite).
 
-CONTA
-- Instagram via conector Windsor (conector `instagram`, conta `17841474648735800`).
-- Carregue a ferramenta com ToolSearch: `select:mcp__Windsor_ai__execute_action`.
-- Ações: create_carousel_post (2 a 10 URLs JPEG públicas), create_image_post, create_story. Story não aceita legenda nem sticker.
+O SISTEMA (arquivos no repositório gabriellaroca/aciona-posts)
+- content/pautas.json: o plano. Uma pauta por dia com 4 itens (stories_manha 08:20, carrosseis 12:10, stories_tarde 17:50, posts 19:10) que contam a mesma história. Cada pauta tem `id`, `dia` (0 = domingo), `quadro`, `tema`, `ideia`. Cada item tem `id`, `tema`, `gancho`, `cta` {tipo, texto} (feed), `fatos` (ids do banco) e `spec`, `slides`, `cenas` (vídeo) ou `imagens`.
+- content/banco.json: fatos verificados com fonte e link. Só fatos com `verificado` preenchido podem ir para a arte, a legenda ou a fala.
+- content/publicados.json: tudo que já foi ao ar (com tema, ideia, gancho, chamada, estrutura e fatos). Escreva nele só com tools/registrar.mjs.
+- content/historico/AAAA-MM.md: histórico do mês, gerado automaticamente.
+- content/desempenho.json e content/aprendizados.md: métricas reais de cada post e as conclusões. Gerados por tools/desempenho.mjs.
+- content/estudos/AAAA-MM-DD.md: a pesquisa de cada semana.
+- content/referencias.json: perfis e fontes de referência do mercado.
+- fotos/entrada: fotos reais que o dono sobe. tools/fotos.mjs prepara (recorte inteligente, cor e nitidez) em fotos/prontas e controla quais já foram usadas.
+- tools/checar.mjs: o portão de qualidade. Bloqueia repetição de tema, ideia, gancho, roteiro, fato, estrutura de slides e chamada numa janela de 30 dias (publicado e planejado, entre todas as automações), e barra frases gastas, travessão, número sem fonte, legenda fora do padrão e roteiro de vídeo que não soa falado.
 
-PREPARAÇÃO (toda execução)
-0. A saída de proximo.mjs tem `formato`: "imagem" ou "video". Vídeo precisa de ffmpeg (`which ffmpeg`; se faltar, `apt-get install -y ffmpeg`). Se não for possível, pule para outro item da fila com `node tools/proximo.mjs <fila> <id>` escolhendo um que não tenha `cenas`.
-1. Se a pasta do repo não existir, `add_repo` (owner gabriellaroca, repo aciona-posts, access push) e clone. Se já existir, `git pull --rebase origin main`.
-2. `cd tools && npm ci` (só uma vez por sessão).
-3. INOVAR ANTES DE PUBLICAR: crie 1 item inédito para a fila desta execução e acrescente ao fim dela em `content/fila.json` (veja NOVIDADE). Ele fica para os próximos dias; só é publicado agora se a fila estiver vazia.
-4. `node tools/proximo.mjs <fila>` onde fila é `carrosseis`, `posts`, `stories_manha` ou `stories_tarde`. O script escolhe o item com o tema há mais tempo sem aparecer em qualquer fila; os stories "NO FEED HOJE" (`ref`) só saem no dia em que o post citado foi publicado. A saída é JSON com id, tema, legenda, arquivos e urls. Se vier `{"vazia":true}`, vá para FILA VAZIA.
-5. Se o render escrever "texto fora da margem" no erro, não publique esse item: registre falha, pule-o e tente o próximo (`node tools/proximo.mjs <fila> <id>` aceita id explícito).
+ROTEIRO DA SESSÃO DE PUBLICAÇÃO
+1. Repo: se a pasta não existir, `add_repo` (owner gabriellaroca, repo aciona-posts, access push) e clone; se existir, `git pull --rebase origin main`. `cd tools && npm ci` uma vez. Vídeo precisa de ffmpeg (`which ffmpeg`; se faltar, `apt-get install -y ffmpeg`).
+2. Só na sessão das 08:20: atualize as métricas. Carregue `select:mcp__Windsor_ai__get_data` e peça ao conector `instagram` (conta 17841474648735800), últimos 30 dias, os campos media_id, date, media_type, media_product_type, media_reach, media_views, media_like_count, media_comments_count, media_saved, media_shares, media_follows, media_profile_visits, media_reel_avg_watch_time, media_reel_skip_rate. Salve as linhas num arquivo JSON fora do repo e rode `node tools/desempenho.mjs <arquivo>`. Commit de content/desempenho.json e content/aprendizados.md.
+3. `node tools/proximo.mjs <fila>` (fila = stories_manha, carrosseis, stories_tarde ou posts). Ele pega o item da pauta de hoje, roda a checagem e renderiza.
+   - Saída `{"bloqueado":true,...}`: o item falhou na checagem. Leia os `erros`, reescreva o item em content/pautas.json resolvendo cada um (outro ângulo, outro gancho, outro fato, outra chamada), sem fugir do quadro e da ideia do dia, e rode de novo. Até 3 tentativas; depois registre falha e pare.
+   - Saída `{"vazia":true}`: não há pauta. Crie a pauta de hoje seguindo PLANEJAMENTO (passos 4 a 7, versão curta: só o dia de hoje) e rode de novo.
+4. Revisão visual obrigatória: abra com Read todas as imagens (carrossel: todos os slides; vídeo: poster e 4 quadros extraídos com ffmpeg em 0 s, 25%, 50% e 90%). Dê nota de 1 a 5 em cada critério: originalidade, clareza (entende em 2 segundos?), qualidade visual (nada cortado, sobreposto ou apertado), coerência com a marca, potencial de interação, naturalidade do texto. Qualquer nota abaixo de 4: refaça o item (texto ou layout) e renderize de novo. Escreva as notas na resposta final.
+5. Publique: `git add` da pasta gerada, commit e push. Carregue `select:mcp__Windsor_ai__execute_action` e use a ação em `acao` (conector instagram, conta 17841474648735800):
+   - create_carousel_post: `urls` em ordem e `legenda`.
+   - create_image_post: a url e a `legenda`.
+   - create_story: `image_url` (imagem) ou `video_url` (vídeo). Se o vídeo falhar, tente `video_url_alt`; se falhar de novo, publique `poster_url` como imagem.
+   - create_video_post: `video_url`, `cover_url` = `poster_url`, `legenda` e share_to_feed true. Se falhar, tente `video_url_alt`; se falhar de novo, registre falha.
+   Antes, confirme que as URLs de imagem respondem 200 (curl -I, até 5 tentativas com 10 s). A url do jsDelivr pode não responder daqui; não bloqueie por isso.
+6. Só com media id na resposta: `node tools/registrar.mjs <id> <media_id>` e commit/push de content/publicados.json, content/pautas.json e content/historico. Falha: acrescente `{"id","data","motivo"}` em content/falhas.json e faça commit.
+7. Resposta final: uma linha com o que foi publicado (id, media id, notas da revisão) ou por que não foi.
 
-CONFERÊNCIA ANTES DE PUBLICAR
-- Abra com Read pelo menos o primeiro arquivo (e um do meio, se for carrossel). Confira: texto legível, nada cortado, logo aciona e barra laranja presentes. Se algo estiver errado, não publique e registre falha.
-- Em vídeo, confira também o poster com Read e rode `ffprobe` no mp4 (duração entre 3 e 90 s). Stories em vídeo precisam ter no máximo 60 s.
-- Confirme que cada URL de imagem responde (curl -I, status 200) depois do push. A `video_url` (jsDelivr) pode não ser alcançável pela sessão; não bloqueie por isso, use `video_url_alt` para conferir o 200. O raw do GitHub pode levar alguns segundos: tente de novo até 5 vezes com pausa de 10 s.
+PLANEJAMENTO SEMANAL (sábado 21:40; planeja os 7 dias seguintes ao último dia planejado)
+1. Métricas: faça o passo 2 da publicação. Leia content/aprendizados.md e tire 3 a 5 decisões concretas para a semana (ex.: mais fotos reais, ganchos mais curtos nos Reels, quadro X rende pouco e muda de formato).
+2. Pesquisa de mercado e tendências (WebSearch e WebFetch, pelo menos 8 buscas):
+   - Tendências atuais de Instagram e Reels (mudanças de algoritmo, formatos em alta, duração, legendas, ganchos) em fontes confiáveis, priorizando anúncios oficiais do Instagram e da Meta.
+   - Perfis de referência do segmento (content/referencias.json): confirme os @ oficiais, veja o que publicam e o que mais engaja. Se o conector `instagram_public` do Windsor estiver conectado, puxe os posts recentes desses perfis com curtidas e comentários. Anote formatos, ganchos, estrutura de roteiro, identidade visual e estratégias de engajamento que dá para ADAPTAR. Nunca copie texto, roteiro ou arte.
+   - Notícias e sazonalidade da semana que tenham relação com o negócio: chuva e raios, férias, segurança, Anatel, mercado.
+   - Escreva content/estudos/AAAA-MM-DD.md: o que aprendeu (com links), o que vai testar nesta semana e por quê.
+3. Fatos novos: acrescente ao content/banco.json só o que você abriu e conferiu na fonte (id, area, tema, fato, fonte, url, conf, verificado = data de hoje). Nada de número sem fonte.
+4. Fotos: rode `node tools/fotos.mjs`. Fotos livres são prioridade (foto real teve 8x mais alcance). Use em quadros de bastidores e instalação (layout photo, `img` = caminho em fotos/prontas, `ph` 0.64 no feed e 0.62 em story).
+5. Monte as 7 pautas em content/pautas.json (id `sNN-dia`, um quadro por dia da semana). Cada pauta: tema inédito no mês, ideia em uma frase, 4 itens ligados entre si e com formatos diferentes. Na semana, pelo menos 2 Reels narrados, 1 story em vídeo, 1 conteúdo com foto real se houver foto livre, e 1 conteúdo pensado para síndicos.
+6. Narração dos vídeos: `pip install --break-system-packages kokoro-onnx soundfile numpy`, baixe kokoro-v1.0.onnx e voices-v1.0.bin de https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/ numa pasta fora do repo e rode `KOKORO_DIR=<pasta> python3 tools/narrar.py`. Se existir gravação do dono em content/vozes/<id>_<n>.(m4a, mp3, ogg ou wav), ela é usada no lugar da voz sintética.
+7. Rode `node tools/checar.mjs` até tudo dar OK. Renderize cada item com `SEM_CHECAGEM=1 node tools/proximo.mjs <fila> <id>` para revisar (faça a revisão visual do passo 4 da publicação). Apague as pastas renderizadas antes do commit (elas são geradas de novo na hora de publicar). Commit e push de pautas, banco, estudos, áudios novos.
+8. Resposta final: resumo da semana planejada (tema e gancho de cada dia), decisões tiradas das métricas e o que veio da pesquisa.
 
-PUBLICAÇÃO
-1. `git add <pasta do item>`, commit e push para main (`git fetch origin main` e rebase antes se o push for rejeitado). Sem push as URLs não existem.
-2. Publique com execute_action (connector instagram, account 17841474648735800), usando a ação indicada em `acao`:
-   - create_carousel_post: as urls em ordem e a legenda do JSON (vale para carrosseis e para posts com várias imagens).
-   - posts: create_image_post com a url e a legenda.
-   - stories_manha e stories_tarde: create_story com a url (sem legenda). Se `formato` for "video", use `video_url` em vez de `image_url`. Se falhar, tente uma vez `video_url_alt`. Se falhar de novo, publique `poster_url` como story de imagem.
-   - posts com `tipo` "reels": create_video_post com `video_url`, `cover_url` igual a `poster_url`, a legenda do JSON e share_to_feed true. Se falhar, tente uma vez com `video_url_alt`; se falhar de novo, registre falha (não há alternativa em imagem).
-3. Só considere publicado se a resposta trouxer um media id. Se der erro, não repita mais de uma vez; se persistir, registre falha.
-4. Acrescente em `content/publicados.json` o objeto `{"id","tipo","tema","data":"AAAA-MM-DD","media_id"}` (data no horário de Brasília), faça commit e push. Nunca publique um id que já esteja nesse arquivo.
-5. Falhas: acrescente em `content/falhas.json` (crie como lista se não existir) `{"id","data","motivo"}` e faça commit e push. Um item com falha não é repetido automaticamente.
-6. Responda no fim com uma linha: o que foi publicado (id e media id) ou por que não foi.
+QUADROS FIXOS (o público reconhece as séries)
+0 Domingo leve (curiosidades, histórias, engenharia do mundo) · 1 Segunda sem susto (prevenção, manutenção baseada em manual) · 2 Tecnologia no portão (controle, segurança digital, automação) · 3 Por dentro do portão (como funciona, peças, bastidores reais) · 4 Segurança em casa (família, rua, normas, câmeras) · 5 Sextou com quiz (quiz que recapitula a semana, mitos) · 6 Escolha certa (comprar, contratar, proteger, chamar a aciona).
+Arco da semana: atrair → educar → confiança → engajar → converter.
 
-PAUTA DO DIA (estratégia: o feed precisa ter nexo)
-- O conteúdo é organizado em `content/pautas.json`: uma pauta por dia, com 4 itens que contam a mesma história. Manhã (08:20, story): provoca e anuncia o que vem ao meio-dia. Meio-dia (12:10, carrossel): o conteúdo principal. Tarde (17:50, story): puxa para o post do dia, pede resposta ou mostra bastidor. Noite (19:10, post): fecha o dia com aprofundamento, Reel ou conversão.
-- Quadros fixos por dia da semana (campo `dia`, 0 = domingo): 0 Domingo leve (dúvidas, histórias, curiosidades); 1 Segunda sem susto (prevenção e manutenção); 2 Tecnologia no portão (novidades, controle, automação); 3 Por dentro do portão (como funciona, peças, bastidores); 4 Segurança em casa (família, rua, câmeras); 5 Sextou com quiz (quiz que recapitula a semana, mitos); 6 Escolha certa (comprar, contratar, comparar, chamar a aciona).
-- `proximo.mjs` usa a pauta de hoje: se nenhuma tem a data de hoje, pega a próxima sem data com o `dia` de hoje e grava a data. Faça commit de `content/pautas.json` junto com a publicação. A fila antiga (`fila.json`) só é usada quando a pauta do dia não tem item para aquele horário.
-- A saída traz `acao` (a ação do Windsor a usar) e `pauta` (quadro do dia).
-- Quando restarem menos de 3 pautas sem data, a execução da manhã monta a semana seguinte (7 pautas, uma por quadro) antes de publicar, sempre com os 4 itens ligados entre si. Use itens bons da `fila.json` quando couberem no quadro (tire-os da fila) e crie o resto inédito. Um item pode ter `spec`, `slides`, `cenas` (vídeo narrado) ou `imagens` (JPGs prontos no repo).
-- Pense como criador de conteúdo experiente: séries com nome fixo que o público reconhece, gancho forte de manhã, entrega completa ao meio-dia, convite à interação à tarde e fechamento com chamada à noite. A semana também tem arco: atrair (curiosidade) → educar → gerar confiança (bastidores, segurança) → engajar (quiz de sexta recapitulando a semana) → converter (escolha certa).
+PADRÃO DE QUALIDADE
+- Não diga o óbvio. Cada post precisa ensinar algo específico que a pessoa não sabia: número de manual, norma, caso real, comparação, cálculo. "Troque a pilha" e "chame um técnico" não são conteúdo.
+- Gancho de até 8 palavras no primeiro slide, no primeiro quadro do vídeo e na primeira linha da legenda. Ele abre uma curiosidade que o post responde por inteiro.
+- Uma ideia por tela, até cerca de 20 palavras por slide. Título carrega a mensagem; corpo explica. Laranja só no trecho a ler primeiro. Alterne fundos.
+- Número, data, medida ou nome de estudo sempre com `fonte` na arte e o fato em `fatos`. Dado dos EUA ou da Europa diz de onde é.
+- Legenda: primeira linha forte (até 125 caracteres), 2 a 4 parágrafos curtos, linguagem de conversa, no máximo 1 emoji, 3 a 5 hashtags específicas, WhatsApp (16) 99634-1354 no fim. Sem travessão.
+- Chamada variada e útil (mandar foto da etiqueta, mandar para o síndico, comentar, salvar, WhatsApp, perfil). Nunca a mesma chamada em sequência.
+- Stories têm função: de manhã provocam e anunciam; à tarde puxam conversa, mostram bastidor ou aprofundam. Não use molde repetido do tipo "NO FEED HOJE".
+- Gatilhos permitidos: curiosidade, pergunta direta, desafio, identificação, risco real e proporcional, história, número com fonte, reciprocidade, autoridade técnica. Proibido: urgência falsa, medo exagerado, dado inventado, prova social inexistente, clickbait que não entrega.
 
-NOVIDADE (regra número 1 do dono: sempre inovar, sempre conteúdo novo)
-- Nunca repita uma ideia já publicada nem uma que já esteja na fila. Antes de criar, leia os títulos de `content/publicados.json` e `content/fila.json`. Mesma dica com outras palavras, em outro formato ou em outro layout também é repetição. Um aprofundamento só vale se trouxer informação nova e disser que é continuação.
-- Todo item novo precisa de um `tema` curto (ex.: controle, trilho, energia, cameras, historia, seguranca_rua). Prefira temas que estão há mais tempo sem aparecer. Não é regra rígida de dias: o que manda é variar e trazer algo que o público ainda não viu aqui.
-- Fontes de novidade: curiosidades e história verificáveis, "você sabia?", tecnologia nova do setor, hábitos de segurança, erros comuns, comparações, bastidores com fotos reais que o dono enviar, perguntas ao público, quizzes, mitos, glossário, situações do dia a dia.
-- Fato, número, data ou nome só entra se tiver fonte confiável conferida com WebSearch ou WebFetch na hora. Use o campo `fonte` do layout `fact` quando citar. Sem fonte, não publique o fato.
+VÍDEOS NATURAIS
+- Roteiro escrito para ser falado: frases curtas (até 20 palavras, a primeira até 12), ordem direta, "a gente", "pra", "tá", perguntas reais. Nada de "neste vídeo", "você sabia que", introdução ou despedida. Números por extenso na fala.
+- O primeiro quadro já mostra o gancho (o motor de vídeo faz isso). A primeira frase falada é o gancho. Reels de 20 a 35 s; stories em vídeo de 8 a 20 s; 3 a 5 cenas.
+- Legenda na tela é automática e sincronizada com a fala; deixe a parte de baixo da arte livre (o motor reserva o espaço).
+- Revise o vídeo ouvindo a lógica do roteiro: se uma frase soaria estranha dita em voz alta, reescreva.
+- Melhor ainda é a voz do dono: se ele mandar gravações em content/vozes, use.
 
-IMPACTO E GATILHOS (éticos)
-- Gancho em até 8 palavras no primeiro slide ou cartão, e na primeira linha da legenda. Gere uma lacuna de curiosidade que o post responde por inteiro.
-- Gatilhos permitidos: curiosidade, pergunta direta ("e o seu portão?"), desafio ou quiz, identificação com situações reais, aversão à perda com risco real e proporcional, novidade, número concreto com fonte, história, reciprocidade (dica valiosa de graça), autoridade técnica.
-- Proibido: urgência ou escassez falsa, medo exagerado, dado ou depoimento inventado, prova social que não existe, clickbait que não entrega o que promete.
-- Chamada final variada: alterne entre "salve" (layout `save`), "mande para alguém", "comente", "responda por mensagem" e WhatsApp. Não use sempre a mesma.
-
-UX E UI
-- Uma ideia por tela. Até cerca de 20 palavras por slide ou cartão; o título carrega a mensagem e o corpo explica.
-- Hierarquia clara: tag curta, título forte, corpo curto. Laranja só no trecho que deve ser lido primeiro.
-- Carrossel: capa com gancho e "ARRASTE"; miolo com um passo por slide; fechamento com chamada. De 5 a 8 slides.
-- Alterne fundos (navy, névoa, branco, laranja) entre slides e entre dias para o feed não ficar monótono.
-- Vídeo: a primeira frase falada já é o gancho; nada de introdução.
-
-CRIATIVIDADE (regra permanente do dono)
-- Seja criativo e explore formas novas de comunicar, sempre com a marca (cores, Outfit, barra laranja, sem efeitos de sombra).
-- Layouts disponíveis em tools/layout.js: cover, step, bullets, checklist, compare, cta, statement, quote, myth, services, hours, notice, bignum (número gigante), quiz e reveal (pergunta A/B/C e resposta), glossary (palavra do dia), flow (passo a passo ligado), chat (conversa em balões), anatomy (desenho do portão de correr com legenda), fact (curiosidade com número ou ano gigante e fonte), timeline (linha do tempo), dodont (faça e evite), save (slide final "salve este post"), photo (foto com faixa navy; aceita `ph` para a altura da foto).
-- Formatos: carrossel, imagem única, story em imagem, story em vídeo narrado, Reel narrado. Alterne formatos: não publique dois itens seguidos com o mesmo layout na mesma fila.
-- Quando criar itens novos, prefira o formato e o layout menos usados recentemente e, de vez em quando, invente um layout novo em tools/layout.js (mesmo estilo das funções existentes) e use-o.
-- Vídeo: item com `cenas` (lista de {spec, fala}). Cada cena vira uma tela animada com a fala narrada; o fim "Fale com a aciona" é acrescentado sozinho. Fala em português do Brasil, frases curtas, números por extenso, sem inventar nada. Stories em vídeo ficam entre 8 e 25 s; Reels entre 20 e 45 s.
-- Narração: depois de acrescentar itens com `fala`, gere os áudios que faltam: `pip install --break-system-packages kokoro-onnx soundfile numpy`, baixe `kokoro-v1.0.onnx` e `voices-v1.0.bin` de https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/ numa pasta de trabalho fora do repo e rode `KOKORO_DIR=<pasta> python3 tools/narrar.py`. Faça commit dos mp3 novos em content/audio.
-
-FILA VAZIA
-- Crie novos itens seguindo o banco de temas abaixo e as regras de conteúdo, acrescentando-os ao fim da lista certa em `content/fila.json` (mesmo formato dos existentes: carrosseis com `slides`, os demais com `spec`; todo `spec` precisa de `format`, `4x5` ou `story`). Posts únicos levam `footer:true`. Renderize, confira e publique normalmente.
-- Crie de 3 a 5 itens inéditos para a fila (seguindo NOVIDADE, IMPACTO E UX), publique o primeiro e deixe os outros na fila.
-
-REGRAS DE CONTEÚDO
-- Marca: nome sempre em minúsculas, "aciona". Fonte Outfit. Cores: navy #0B1F3A, laranja #EE3E1E, branco, névoa #F1F3F7, aço #7C879B, preto #111111. Laranja só como destaque. Sem sombra nem efeito. Use só os layouts de `tools/layout.js`.
-- Dados reais: instagram @aciona.portoes, WhatsApp (16) 99634-1354, site acionaportoes.com.br. Não invente telefone, endereço, preço, prazo, garantia, cidade, depoimento, número de clientes, selo ou certificação.
-- Dica útil e segura: nada que peça abrir o motor, mexer em fiação, energia, mola ou parte interna. Para qualquer reparo, a orientação é chamar um técnico.
-- Sem promessa de resultado, sem comparação com concorrentes, sem urgência falsa, sem política, sem humor com acidente.
-- Não prometa processo de orçamento, visita grátis ou desconto: não foram confirmados.
-- Stories: cartões informativos ou vídeos narrados, sem enquete (não há como criar sticker). Os de "NO FEED HOJE" levam `ref` com o id do post e só chamam para ele.
-- Legenda em português do Brasil, direta, sem emoji em excesso (no máximo 1), 5 hashtags, WhatsApp no fim.
-- Não segue, não curte, não comenta, não responde mensagens: o conector não faz isso.
-- Não apague nem edite publicações já feitas.
+MARCA E LIMITES
+- Nome sempre em minúsculas, "aciona". Fonte Outfit. Cores: navy #0B1F3A, laranja #EE3E1E, branco, névoa #F1F3F7, aço #7C879B. Laranja só como destaque. Sem sombra nem efeito. Layouts de tools/layout.js: cover, step, bullets, checklist, compare, cta, statement, quote, myth, services, notice, bignum, quiz, reveal, glossary, flow, chat, anatomy, fact, timeline, dodont, save, bars (gráfico de barras com fonte), photo (foto real), promo, poll. Pode criar layout novo no mesmo estilo quando fizer sentido.
+- Dados reais: @aciona.portoes, WhatsApp (16) 99634-1354, acionaportoes.com.br. Não invente preço, prazo, garantia, endereço, cidade de atendimento, depoimento, número de clientes, selo ou certificação. Não prometa orçamento grátis, visita grátis ou desconto.
+- Dica sempre segura: nada que peça abrir o motor, mexer em fiação ou em mola. Em ataque digital, explique o risco e a proteção, nunca o passo a passo do ataque.
+- Não segue, não curte, não responde mensagens e não apaga publicações.

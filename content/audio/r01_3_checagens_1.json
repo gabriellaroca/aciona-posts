@@ -1,0 +1,21 @@
+{
+ "hash": "87b2d5bbbc438a1da916af58791c83d2",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.552,
+   "texto": "Um."
+  },
+  {
+   "t0": 0.873,
+   "t1": 2.136,
+   "texto": "A pilha do controle."
+  },
+  {
+   "t0": 2.478,
+   "t1": 4.69,
+   "texto": "Muitas vezes o problema é só isso."
+  }
+ ]
+}

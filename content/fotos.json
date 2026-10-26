@@ -1,0 +1,16 @@
+{
+ "motor_duplo_lado_a": {
+  "original": "fotos/entrada/motor_duplo_lado_a.jpg",
+  "preparada": "2026-10-26",
+  "4x5": "fotos/prontas/motor_duplo_lado_a_4x5.jpg",
+  "story": "fotos/prontas/motor_duplo_lado_a_story.jpg",
+  "usada": true
+ },
+ "motor_duplo_lado_b": {
+  "original": "fotos/entrada/motor_duplo_lado_b.jpg",
+  "preparada": "2026-10-26",
+  "4x5": "fotos/prontas/motor_duplo_lado_b_4x5.jpg",
+  "story": "fotos/prontas/motor_duplo_lado_b_story.jpg",
+  "usada": true
+ }
+}

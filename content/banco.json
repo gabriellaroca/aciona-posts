@@ -1,0 +1,258 @@
+[
+ {
+  "id": "ppa_ciclos_res",
+  "area": "motor",
+  "tema": "ciclos_por_hora",
+  "fato": "Motores deslizantes residenciais da PPA são especificados para 30 ciclos por hora (DZ Home e DZ Rio 400).",
+  "dados": {
+   "DZ Home": "30 ciclos/h",
+   "DZ Rio 400": "30 ciclos/h",
+   "DZ Rio 500": "40 ciclos/h",
+   "DZ Rio 700": "60 ciclos/h"
+  },
+  "fonte": "Manuais técnicos PPA DZ Home e DZ Rio",
+  "url": "https://media.ppa.com.br/files/Manual-Tecnico-DZ-HOME_1685101087104.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_bldc",
+  "area": "motor",
+  "tema": "motor_bldc",
+  "fato": "A versão BLDC (sem escovas) do DZ Home aguenta 100 ciclos por hora, gira a 4.500 rpm e move o portão a 36 m/min; a versão convencional faz 30 ciclos/h, 1.740 rpm e 16,4 m/min.",
+  "fonte": "Manual técnico PPA DZ Home",
+  "url": "https://media.ppa.com.br/files/Manual-Tecnico-DZ-HOME_1685101087104.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_reducao",
+  "area": "motor",
+  "tema": "redutor_pinhao",
+  "fato": "O DZ Rio 400 tem motor de 1.740 rpm e redução 1:23: no eixo sobram cerca de 76 rpm, com a força multiplicada na mesma proporção (menos perdas).",
+  "fonte": "Manual técnico PPA DZ Rio (cálculo 1740 ÷ 23)",
+  "url": "https://lojadoponto.com.br/media/wysiwyg/Manual_Tecnico_DZ_Rio_400_500_700.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_pinhao",
+  "area": "motor",
+  "tema": "redutor_pinhao",
+  "fato": "No mesmo DZ Rio 400, trocar o pinhão muda a velocidade: Z14 move o portão a 13,3 m/min e Z18 a 17,1 m/min.",
+  "fonte": "Manual técnico PPA DZ Rio",
+  "url": "https://lojadoponto.com.br/media/wysiwyg/Manual_Tecnico_DZ_Rio_400_500_700.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_ipx4",
+  "area": "motor",
+  "tema": "protecao_ambiente",
+  "fato": "Os motores DZ Home e DZ Rio têm grau de proteção IPX4 (respingos, não imersão) e operam de -5 °C a +50 °C.",
+  "fonte": "Manuais técnicos PPA DZ Home e DZ Rio",
+  "url": "https://media.ppa.com.br/files/Manual-Tecnico-DZ-HOME_1685101087104.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_dr_terra",
+  "area": "instalacao",
+  "tema": "instalacao_eletrica",
+  "fato": "O manual exige alimentação por DR de 30 mA, dispositivo de desligamento total e terminal de aterramento ligado ao cabo terra da rede.",
+  "fonte": "Manuais técnicos PPA DZ Home e DZ Rio",
+  "url": "https://lojadoponto.com.br/media/wysiwyg/Manual_Tecnico_DZ_Rio_400_500_700.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "ppa_teste_manual",
+  "area": "instalacao",
+  "tema": "portao_pesado",
+  "fato": "Antes de automatizar, o manual manda abrir e fechar o portão com a mão: o esforço deve ser mínimo e igual em todo o percurso.",
+  "fonte": "Manual técnico PPA DZ Home",
+  "url": "https://media.ppa.com.br/files/Manual-Tecnico-DZ-HOME_1685101087104.pdf",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "en12453_forca",
+  "area": "seguranca",
+  "tema": "antiesmagamento",
+  "fato": "Pela norma europeia EN 12453, em zona de esmagamento o portão pode fazer no máximo 400 N (cerca de 40 kgf), caindo para 150 N em até 0,75 s e para 25 N em até 5 s; em zona só de impacto o máximo é 1.400 N.",
+  "fonte": "DHF, sobre a EN 12453:2017+A1:2021",
+  "url": "https://www.dhfonline.org.uk/news/dhfs-nick-perkins-explains-more-about-the-recently-harmonise-european-standard-en-12453/1079.htm",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "cpsc_1993",
+  "area": "seguranca",
+  "tema": "historia_sensor",
+  "fato": "Nos EUA, a CPSC registrou 54 crianças de 2 a 14 anos mortas por portas de garagem automáticas desde 1982; a regra federal passou a exigir proteção contra aprisionamento em aparelhos fabricados a partir de 1º de janeiro de 1993.",
+  "fonte": "CPSC (EUA), comunicado de 1993",
+  "url": "https://www.cpsc.gov/Newsroom/News-Releases/1993/Safety-Commission-Publishes-Final-Rules-For-Automatic-Garage-Door-Openers",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "kamkar_2015",
+  "area": "controle",
+  "tema": "codigo_fixo",
+  "fato": "Em 2015, o pesquisador Samy Kamkar mostrou que um brinquedo infantil de mensagens (IM-Me) adaptado abria portões de código fixo em no máximo 8,2 s; códigos de 12 bits têm só 4.096 combinações e a força bruta comum levaria 29 min. Controles de código variável não eram vulneráveis a esse ataque.",
+  "fonte": "Network World, 2015",
+  "url": "https://www.networkworld.com/article/939710/hacker-turns-toy-into-tool-that-can-open-garage-doors-in-seconds.html",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "keeloq_2008",
+  "area": "controle",
+  "tema": "codigo_variavel",
+  "fato": "Em 2008, pesquisadores da Universidade de Bochum extraíram, por análise do consumo de energia, a chave-mestra de receptores KeeLoq (código variável usado em portões, carros e prédios). Com ela, bastam duas transmissões captadas para clonar um controle.",
+  "fonte": "Wikipedia (KeeLoq), sobre Eisenbarth, Kasper, Moradi, Paar et al., CRYPTO 2008",
+  "url": "https://en.wikipedia.org/wiki/KeeLoq",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "anatel_433",
+  "area": "controle",
+  "tema": "radiofrequencia",
+  "fato": "Controles de portão operam em faixas de radiação restrita (como 433 MHz) com potência baixa e, pelas regras da Anatel, não têm proteção contra interferência de outros equipamentos.",
+  "fonte": "Anatel, Ato 14.448/2017 e Resolução 680/2017",
+  "url": "https://informacoes.anatel.gov.br/legislacao/index.php/component/content/article?id=1139",
+  "conf": "A",
+  "verificado": null
+ },
+ {
+  "id": "anatel_flipper",
+  "area": "controle",
+  "tema": "clonagem",
+  "fato": "A Anatel nega homologação ao Flipper Zero e apoiou a Receita em mais de 340 apreensões, por ele permitir copiar controles de portões, alarmes e chaves de carro.",
+  "fonte": "Canaltech, com informações da Anatel",
+  "url": "https://canaltech.com.br/seguranca/flipper-zero-anatel-barra-dispositivo-que-clona-radiofrequencias-244192/",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "jammer_lei",
+  "area": "controle",
+  "tema": "bloqueador",
+  "fato": "Bloqueadores de sinal são proibidos pela Anatel (Resolução 760/2023) para uso privado; atividade clandestina de telecomunicações pode render detenção de 2 a 4 anos e multa de R$ 10 mil.",
+  "fonte": "CNN Brasil",
+  "url": "https://www.cnnbrasil.com.br/tecnologia/dispositivo-usado-para-silenciar-caixa-de-som-e-ilegal-no-brasil-entenda/",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "raios_brasil",
+  "area": "energia",
+  "tema": "raios",
+  "fato": "O Elat/Inpe estima que caem de 50 a 70 milhões de raios por ano no Brasil, o que faz do país o campeão mundial em número total de raios.",
+  "fonte": "Agência Fapesp, com dados do Elat/Inpe",
+  "url": "https://agencia.fapesp.br/pesquisa-do-inpe-e-nasa-mostra-regioes-do-mundo-com-maior-incidencia-de-raios/295",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "raio_15km",
+  "area": "energia",
+  "tema": "raios",
+  "fato": "Raios podem atingir o solo a até 15 km de onde está chovendo; o estado de SP registrou 462.430 descargas em 2011.",
+  "fonte": "Prefeitura de Santos (Defesa Civil), com dados do Inpe",
+  "url": "https://www.santos.sp.gov.br/?q=noticia/brasil-e-campeao-mundial-em-incidencia-de-raios",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "pararaios_dps",
+  "area": "energia",
+  "tema": "surtos",
+  "fato": "Para-raios não protege aparelhos contra surtos de tensão; parte da corrente pode voltar pela instalação. Quem protege é o DPS no quadro de distribuição.",
+  "fonte": "Schneider Electric",
+  "url": "https://blog.se.com/br/gestao-de-energia/2016/09/23/7-fatos-e-ficcoes-sobre-raios/",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "cftv_meta",
+  "area": "cameras",
+  "tema": "cameras_ciencia",
+  "fato": "Uma revisão de 40 anos de estudos concluiu que câmeras estão associadas a uma redução significativa, porém modesta, do crime; o efeito é maior em estacionamentos, também aparece em áreas residenciais e é maior quando há monitoramento ativo.",
+  "fonte": "Piza, Welsh, Farrington e Thomas (2019), Criminology & Public Policy",
+  "url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/cctv-surveillance-crime-prevention-40-year-systematic-review-meta",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "hd_calculo",
+  "area": "cameras",
+  "tema": "armazenamento",
+  "fato": "GB por dia de uma câmera = bitrate em Mbps × 10,8. Uma câmera a 4 Mbps grava cerca de 43 GB por dia, perto de 1,3 TB em 30 dias.",
+  "fonte": "Cálculo: Mbps × 86.400 s ÷ 8 ÷ 1.000",
+  "url": "https://www.keydigital.org/tools/cctv-storage-calculator",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "lgpd_art4",
+  "area": "cameras",
+  "tema": "cameras_lei",
+  "fato": "A LGPD tem exceção para dados tratados por pessoa física para fins exclusivamente particulares e não econômicos, mas segurança não autoriza qualquer alcance de gravação: câmera que invade a privacidade do vizinho pode virar disputa judicial.",
+  "fonte": "Correio Braziliense, sobre LGPD art. 4º, Constituição art. 5º e Código Civil",
+  "url": "https://www.correiobraziliense.com.br/cbradar/camera-de-seguranca-limite-vizinho/",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "heron",
+  "area": "historia",
+  "tema": "historia_heron",
+  "fato": "Heron de Alexandria (séc. I) descreveu portas de templo que se abriam com o calor do fogo do altar, usando ar aquecido, água e contrapeso.",
+  "fonte": "Artigo 'Water, air and fire at work in Hero's machines' (arXiv)",
+  "url": "https://arxiv.org/pdf/1101.3470",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "johnson_1926",
+  "area": "historia",
+  "tema": "historia_garagem",
+  "fato": "C.G. Johnson construiu o abridor elétrico de portão de garagem em 1926, em Hartford City (EUA), quatro anos depois de inventar a porta seccionada.",
+  "fonte": "IEEE Spectrum",
+  "url": "https://spectrum.ieee.org/the-consumer-electronics-hall-of-fame-liftmaster-garage-door-opener",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "controle_1931",
+  "area": "historia",
+  "tema": "historia_controle",
+  "fato": "Os primeiros abridores de garagem com controle remoto foram construídos em 1931, por duas equipes independentes; o primeiro produzido em massa saiu em 1954. O IEEE chama o abridor com controle de 'o primeiro grande dispositivo de automação residencial'.",
+  "fonte": "IEEE Spectrum",
+  "url": "https://spectrum.ieee.org/the-consumer-electronics-hall-of-fame-liftmaster-garage-door-opener",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "maeslant",
+  "area": "historia",
+  "tema": "maior_portao",
+  "fato": "A barreira Maeslantkering, em Roterdã, tem duas comportas de 210 m de largura e 22 m de altura, rótulas de 10 m e 680 toneladas, e fecha sozinha quando a previsão de maré passa de 3 m; as comportas afundam em até duas horas.",
+  "fonte": "Rijkswaterstaat (governo da Holanda)",
+  "url": "https://www.rijkswaterstaat.nl/en/projects/iconic-structures/maeslant-barrier",
+  "conf": "A",
+  "verificado": "2026-10-26"
+ },
+ {
+  "id": "abese_2024",
+  "area": "mercado",
+  "tema": "mercado",
+  "fato": "O setor de segurança eletrônica faturou cerca de R$ 14 bilhões em 2024 (+16,1%); quem mais cresceu foram as empresas de instalação e manutenção de portaria remota terceirizada (+24%).",
+  "fonte": "ABESE, Panorama 2024/2025 (via IT Forum)",
+  "url": "https://itforum.com.br/?p=9604417",
+  "conf": "B",
+  "verificado": "2026-10-26"
+ }
+]

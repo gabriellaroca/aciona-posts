@@ -62,5 +62,14 @@ export function outline(svg, label) {
   });
 }
 
-export const render = (s) => Aciona.render(s);
+const raiz = path.join(here, "..");
+const embed = (s) => {
+  const o = { ...s };
+  for (const k of ["img", "img1", "img2"]) if (typeof o[k] === "string" && o[k] && !/^(data:|https?:)/.test(o[k])) {
+    const f = path.join(raiz, o[k]);
+    if (fs.existsSync(f)) o[k] = "data:image/jpeg;base64," + fs.readFileSync(f).toString("base64");
+  }
+  return o;
+};
+export const render = (s) => Aciona.render(embed(s));
 export { sharp };

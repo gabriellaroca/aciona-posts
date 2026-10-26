@@ -331,248 +331,395 @@
   "data": "2026-10-25"
  },
  {
+  "id": "s44-seg",
   "dia": 1,
   "quadro": "Segunda sem susto",
-  "tema": "manutencao",
+  "tema": "ciclos_por_hora",
+  "ideia": "Todo motor de portão tem um limite de ciclos por hora definido pelo fabricante, e condomínio precisa de motor feito para uso intenso.",
   "itens": {
    "stories_manha": {
-    "id": "pm03_teaser_segunda",
-    "tema": "manutencao",
+    "id": "s44_seg_m",
+    "tema": "ciclos_por_hora",
+    "gancho": "Seu motor tem um limite por hora.",
     "spec": {
      "layout": "statement",
      "theme": "dark",
      "tag": "SEGUNDA SEM SUSTO",
      "lines": [
-      "Portão parado"
+      "Seu motor tem"
      ],
      "accent": [
-      "na hora de sair?"
+      "um limite por hora."
      ],
-     "sub": "Ao meio-dia: o hábito de 1 minuto que evita isso.",
+     "sub": "Quase ninguém sabe qual é o seu. Meio-dia a gente mostra.",
      "format": "story"
     }
    },
    "carrosseis": {
-    "id": "c06_rotina_mensal",
-    "legenda": "Um minuto por mês já ajuda a evitar parada. Salve e faça no primeiro dia do mês.\n\nWhatsApp: (16) 99634-1354\n\n#manutencaopreventiva #portaoautomatico #motordeportao #dicasdecasa #condominio",
-    "slides": [
-     {
-      "layout": "cover",
-      "theme": "light",
-      "tag": "ROTINA",
-      "lines": [
-       "Cuidados de",
-       "1 minuto por mês"
-      ],
-      "accent": [
-       "com o portão."
-      ],
-      "sub": "Pequenos hábitos evitam paradas.",
-      "format": "4x5"
-     },
-     {
-      "layout": "step",
-      "theme": "dark",
-      "num": "01",
-      "title": "Observe o movimento",
-      "body": "Veja se ele abre e fecha de forma suave, sem tranco nem demora.",
-      "format": "4x5"
-     },
-     {
-      "layout": "step",
-      "theme": "light",
-      "num": "02",
-      "title": "Limpe o trilho",
-      "body": "Retire folhas, poeira e pedrinhas com o motor desligado.",
-      "format": "4x5"
-     },
-     {
-      "layout": "step",
-      "theme": "dark",
-      "num": "03",
-      "title": "Olhe o sensor",
-      "body": "Veja se nada o encobre e se a luz indicadora está normal. O teste completo é com o técnico.",
-      "format": "4x5"
-     },
-     {
-      "layout": "step",
-      "theme": "light",
-      "num": "04",
-      "title": "Escute com atenção",
-      "body": "Ruído novo é aviso. Anote quando acontece e conte ao técnico.",
-      "format": "4x5"
-     },
-     {
-      "layout": "cta",
-      "theme": "dark",
-      "lines": [
-       "Quer uma revisão",
-       "completa?"
-      ],
-      "accent": [
-       "Chame a aciona."
-      ],
-      "format": "4x5"
-     }
+    "id": "s44_seg_c",
+    "tema": "ciclos_por_hora",
+    "gancho": "Seu motor tem limite de uso por hora.",
+    "fatos": [
+     "ppa_ciclos_res",
+     "ppa_bldc"
     ],
-    "tema": "manutencao"
-   },
-   "stories_tarde": {
-    "id": "stn11_rotina_no_feed",
-    "ref": "c06_rotina_mensal",
-    "spec": {
-     "layout": "statement",
-     "theme": "white",
-     "tag": "NO FEED HOJE",
-     "lines": [
-      "1 minuto por mês"
-     ],
-     "accent": [
-      "com o portão."
-     ],
-     "sub": "Veja como no perfil.",
-     "format": "story"
-    }
-   },
-   "posts": {
-    "id": "pp03_dia_do_portao",
-    "tema": "manutencao",
-    "legenda": "Hábito bom é hábito lembrado. Crie agora um lembrete mensal no celular e faça a revisão rápida que mostramos hoje. Salve para não esquecer.\n\nWhatsApp: (16) 99634-1354\n\n#manutencaopreventiva #portaoautomatico #dicasdecasa #motordeportao #organizacao",
-    "spec": {
-     "layout": "statement",
-     "theme": "white",
-     "tag": "DICA PRÁTICA",
-     "lines": [
-      "Crie no celular"
-     ],
-     "accent": [
-      "um lembrete:",
-      "“dia do portão”."
-     ],
-     "sub": "Todo dia 1º, um minuto de olho no trilho, no controle e nos ruídos.",
-     "format": "4x5",
-     "footer": true
-    }
-   }
-  }
- },
- {
-  "dia": 2,
-  "quadro": "Tecnologia no portão",
-  "tema": "controle",
-  "itens": {
-   "stories_manha": {
-    "id": "pm04_teaser_controle",
-    "tema": "controle",
-    "spec": {
-     "layout": "statement",
-     "theme": "light",
-     "tag": "HOJE AO MEIO-DIA",
-     "lines": [
-      "Alguém pode"
-     ],
-     "accent": [
-      "copiar o seu",
-      "controle?"
-     ],
-     "sub": "A resposta depende de um detalhe.",
-     "format": "story"
-    }
-   },
-   "carrosseis": {
-    "id": "c23_seu_controle_pode_ser_copiado",
-    "tema": "controle",
-    "legenda": "Seu controle de portão pode ser copiado? Depende do tipo de código. Arraste e descubra a diferença.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #controleremoto #portaoautomatico #rollingcode #dicasdecasa",
+    "cta": {
+     "tipo": "mensagem",
+     "texto": "Manda uma foto da etiqueta do motor"
+    },
+    "legenda": "Todo motor de portão sai de fábrica com um limite de ciclos por hora. Um ciclo é abrir e fechar uma vez.\n\nNos manuais da PPA, os deslizantes residenciais começam em 30 ciclos por hora e a versão sem escovas do DZ Home chega a 100. Em casa, isso sobra. No condomínio, às 7 da manhã, a conta muda.\n\nNão sabe o limite do seu? Manda uma foto da etiqueta do motor por mensagem que a gente te responde.\n\nWhatsApp: (16) 99634-1354\n\n#motordeportao #portaoautomatico #condominio #sindico #manutencaopreventiva",
     "slides": [
      {
       "layout": "cover",
       "theme": "dark",
-      "tag": "SEGURANÇA",
+      "tag": "SEGUNDA SEM SUSTO",
       "lines": [
-       "Seu controle pode"
+       "Seu motor tem"
       ],
       "accent": [
-       "ser copiado?"
+       "limite de uso",
+       "por hora."
       ],
-      "sub": "Depende do código. Arraste.",
-      "format": "4x5"
-     },
-     {
-      "layout": "compare",
-      "theme": "light",
-      "title": "Dois tipos de código",
-      "aT": "Código fixo",
-      "aB": "Manda sempre o mesmo sinal. Um sinal capturado pode ser repetido.",
-      "bT": "Código variável",
-      "bB": "O sinal muda a cada clique. Um sinal capturado não serve depois.",
+      "sub": "E quase ninguém conhece o do próprio portão.",
       "format": "4x5"
      },
      {
       "layout": "fact",
+      "theme": "light",
+      "tag": "O BÁSICO",
+      "big": "1 ciclo",
+      "bigSize": 220,
+      "title": "é abrir e fechar o portão uma vez.",
+      "body": "É assim que o fabricante mede quanto trabalho o motor aguenta sem esquentar demais.",
+      "format": "4x5"
+     },
+     {
+      "layout": "bars",
       "theme": "white",
-      "tag": "NA PRÁTICA",
-      "big": "?",
-      "title": "Não sabe qual é o seu?",
-      "body": "Veja no manual ou na embalagem do controle, ou pergunte ao técnico na próxima revisão.",
+      "title": "Ciclos por hora, segundo o fabricante",
+      "items": [
+       "DZ Rio 400|30|30",
+       "DZ Rio 500|40|40",
+       "DZ Rio 700|60|60",
+       "DZ Home BLDC|100|100"
+      ],
+      "hl": 3,
+      "note": "Quanto maior o número, mais uso intenso o motor suporta.",
+      "fonte": "manuais técnicos PPA",
       "format": "4x5"
      },
      {
       "layout": "statement",
       "theme": "dark",
-      "tag": "DICA",
+      "tag": "EM CASA",
       "lines": [
-       "Perdeu um controle?"
+       "Dois carros,"
       ],
       "accent": [
-       "Peça para",
-       "descadastrar."
+       "folga de sobra."
       ],
-      "sub": "Quando o modelo permite, o controle perdido deixa de abrir o portão.",
+      "sub": "Numa casa, é raro o portão chegar perto de 30 ciclos na mesma hora.",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "light",
+      "tag": "ONDE APERTA",
+      "lines": [
+       "Condomínio no"
+      ],
+      "accent": [
+       "horário de pico."
+      ],
+      "sub": "Dezenas de carros entrando e saindo pedem motor feito para uso intenso, não modelo de casa.",
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
+      "theme": "white",
+      "title": "Mesma linha, motores diferentes",
+      "aT": "Convencional",
+      "aB": "30 ciclos/h, 1.740 rpm e 16,4 m/min.",
+      "bT": "Sem escovas (BLDC)",
+      "bB": "100 ciclos/h, 4.500 rpm e 36 m/min.",
+      "fonte": "manual técnico PPA DZ Home",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "orange",
+      "tag": "QUER SABER O SEU?",
+      "lines": [
+       "Manda uma foto"
+      ],
+      "accent": [
+       "da etiqueta",
+       "do motor."
+      ],
+      "sub": "A gente responde quanto ele aguenta.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s44_seg_t",
+    "tema": "ciclos_por_hora",
+    "gancho": "Quantas vezes seu portão abre de manhã?",
+    "spec": {
+     "layout": "fact",
+     "theme": "light",
+     "tag": "FAZ A CONTA",
+     "big": "?",
+     "title": "Quantas vezes o seu portão abre das 7 às 8 da manhã?",
+     "body": "Conta pra gente por mensagem. Esse número diz se o motor está folgado ou no limite.",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s44_seg_r",
+    "tema": "ciclos_por_hora",
+    "gancho": "Motor de casa no condomínio? Dá problema.",
+    "fatos": [
+     "ppa_bldc"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Mande para o síndico do seu prédio"
+    },
+    "legenda": "Motor de casa em portão de condomínio é uma conta que não fecha.\n\nNo manual da PPA, o DZ Home convencional aguenta 30 ciclos por hora. A versão sem escovas, 100. Na hora do pico, essa diferença decide se o motor trabalha tranquilo ou esquenta.\n\nMande este vídeo para o síndico do seu prédio.\n\nWhatsApp: (16) 99634-1354\n\n#sindico #condominio #motordeportao #portaoautomatico #administradoradecondominios",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "CONDOMÍNIO",
+       "lines": [
+        "Motor de casa"
+       ],
+       "accent": [
+        "no condomínio?"
+       ]
+      },
+      "fala": "Motor de casa em portão de condomínio. Dá problema."
+     },
+     {
+      "spec": {
+       "layout": "bars",
+       "theme": "dark",
+       "title": "Ciclos por hora",
+       "items": [
+        "Convencional|30|30",
+        "Sem escovas|100|100"
+       ],
+       "hl": 1,
+       "fonte": "manual técnico PPA DZ Home"
+      },
+      "fala": "No manual da PPA, o modelo convencional aguenta trinta ciclos por hora. A versão sem escovas aguenta cem."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "light",
+       "tag": "NA PRÁTICA",
+       "lines": [
+        "Sete da manhã,"
+       ],
+       "accent": [
+        "o portão não para."
+       ]
+      },
+      "fala": "Agora pensa no seu prédio às sete da manhã. O portão não para. Passou do limite, o motor esquenta e sofre."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "tag": "SÍNDICO",
+       "lines": [
+        "Manda a foto"
+       ],
+       "accent": [
+        "da etiqueta."
+       ],
+       "sub": "A gente confere se o motor aguenta o seu prédio."
+      },
+      "fala": "Síndico, manda uma foto da etiqueta do motor pra gente. A gente confere se ele dá conta."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "s44-ter",
+  "dia": 2,
+  "quadro": "Tecnologia no portão",
+  "tema": "codigo_fixo",
+  "ideia": "Controles de código fixo já foram abertos em segundos por pesquisadores; o código variável resiste a esse ataque e aparelhos clonadores são barrados no Brasil.",
+  "itens": {
+   "stories_manha": {
+    "id": "s44_ter_m",
+    "tema": "codigo_fixo",
+    "gancho": "Um brinquedo abriu portões.",
+    "spec": {
+     "layout": "statement",
+     "theme": "light",
+     "tag": "TECNOLOGIA NO PORTÃO",
+     "lines": [
+      "Um brinquedo"
+     ],
+     "accent": [
+      "abriu portões."
+     ],
+     "sub": "Meio-dia: como isso aconteceu e como saber se o seu está protegido.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s44_ter_c",
+    "tema": "codigo_fixo",
+    "gancho": "8 segundos para abrir um portão.",
+    "fatos": [
+     "kamkar_2015",
+     "anatel_flipper"
+    ],
+    "cta": {
+     "tipo": "whatsapp",
+     "texto": "Quer trocar para código variável? Chama no WhatsApp"
+    },
+    "legenda": "Em 2015, um pesquisador abriu portões em 8 segundos usando um brinquedo infantil adaptado.\n\nO truque só funcionava em controles de código fixo, que mandam sempre o mesmo sinal. Nos de código variável, o sinal muda a cada clique e esse ataque não passava.\n\nNo Brasil, a Anatel barra aparelhos que copiam controles. Mesmo assim, vale saber qual é o seu. Quer trocar para código variável? Chama no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #controleremoto #portaoautomatico #tecnologia #casasegura",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "SEGURANÇA DIGITAL",
+      "lines": [
+       "8 segundos."
+      ],
+      "accent": [
+       "Foi o tempo para",
+       "abrir um portão."
+      ],
+      "sub": "Com um brinquedo infantil adaptado.",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "light",
+      "tag": "O QUE ACONTECEU",
+      "big": "2015",
+      "title": "O pesquisador Samy Kamkar mostrou o ataque em público.",
+      "body": "Ele adaptou um IM-Me, brinquedo de mensagens para crianças, para transmitir códigos de portão.",
+      "fonte": "Network World",
+      "format": "4x5"
+     },
+     {
+      "layout": "bars",
+      "theme": "white",
+      "title": "Tempo para testar todos os códigos",
+      "items": [
+       "Força bruta comum|1740|29 min",
+       "Ataque otimizado|8.2|8,2 s"
+      ],
+      "hl": 1,
+      "note": "Códigos de 12 bits têm só 4.096 combinações.",
+      "fonte": "Network World, 2015",
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
+      "theme": "light",
+      "title": "Por que funcionou",
+      "aT": "Código fixo",
+      "aB": "Manda sempre o mesmo sinal. Dá para descobrir e repetir.",
+      "bT": "Código variável",
+      "bB": "O sinal muda a cada clique. Esse ataque não passava.",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "dark",
+      "tag": "COMO SABER",
+      "lines": [
+       "Abriu o controle"
+      ],
+      "accent": [
+       "e viu chavinhas?"
+      ],
+      "sub": "Chavinhas numeradas por dentro são sinal de código fixo. Na dúvida, a gente confere.",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "white",
+      "tag": "NO BRASIL",
+      "big": "+340",
+      "bigSize": 240,
+      "title": "aparelhos clonadores retidos com apoio da Anatel.",
+      "body": "A agência nega homologação ao Flipper Zero, que copia controles de portão e chaves de carro.",
+      "fonte": "Canaltech, com dados da Anatel",
       "format": "4x5"
      },
      {
       "layout": "cta",
       "theme": "dark",
       "lines": [
-       "Quer revisar a",
-       "segurança do portão?"
+       "Quer trocar para"
       ],
       "accent": [
-       "Fale com a aciona."
+       "código variável?"
       ],
       "format": "4x5"
      }
     ]
    },
    "stories_tarde": {
-    "id": "stn08_controle_no_feed",
-    "ref": "c23_seu_controle_pode_ser_copiado",
+    "id": "s44_ter_t",
+    "tema": "codigo_fixo",
+    "gancho": "Meu controle é fácil de copiar?",
     "spec": {
-     "layout": "statement",
+     "layout": "chat",
      "theme": "white",
-     "tag": "NO FEED HOJE",
-     "lines": [
-      "Seu controle pode"
+     "msgs": [
+      {
+       "w": "them",
+       "t": "Meu controle é desses fáceis de copiar?"
+      },
+      {
+       "w": "us",
+       "t": "Se tiver chavinhas numeradas por dentro, é código fixo."
+      },
+      {
+       "w": "them",
+       "t": "E dá pra resolver?"
+      },
+      {
+       "w": "us",
+       "t": "Dá. Troca o receptor e os controles por código variável."
+      }
      ],
-     "accent": [
-      "ser copiado?"
-     ],
-     "sub": "Descubra no perfil.",
      "format": "story"
     }
    },
    "posts": {
-    "id": "pp04_nobreak",
-    "tema": "energia",
-    "legenda": "Faltou luz e o carro ficou do lado de fora? Existe nobreak feito para motor de portão. Quer saber se combina com o seu? Pergunte pra gente.\n\nWhatsApp: (16) 99634-1354\n\n#nobreak #portaoautomatico #motordeportao #tecnologia #faltadeenergia",
+    "id": "s44_ter_p",
+    "tema": "bloqueador",
+    "legenda": "Apertou o controle e o portão não respondeu? Pode ser só pilha. Pode ser interferência.\n\nBloqueadores de sinal são proibidos pela Anatel para uso privado, e quem usa pode pegar de 2 a 4 anos de detenção e multa de R$ 10 mil. Mesmo assim, eles aparecem.\n\nO hábito que protege: só saia depois de ver o portão fechar. Já aconteceu com você? Conta nos comentários.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #portaoautomatico #anatel #casasegura #dicasdeseguranca",
+    "gancho": "2 a 4 anos de detenção por bloqueador.",
+    "fatos": [
+     "jammer_lei"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Já aconteceu com você? Conta nos comentários"
+    },
     "spec": {
-     "layout": "fact",
+     "layout": "bignum",
      "theme": "dark",
-     "tag": "TECNOLOGIA",
-     "big": "Nobreak",
-     "bigSize": 220,
-     "title": "Existe nobreak para motor de portão.",
-     "body": "Ele mantém o portão funcionando por um tempo quando falta energia.",
+     "tag": "FIQUE DE OLHO",
+     "big": "2 a 4",
+     "title": "anos de detenção para quem usa bloqueador de sinal no Brasil.",
+     "sub": "Apertou o controle e o portão não fechou? Não saia antes de ver ele fechar.",
+     "fonte": "CNN Brasil, sobre a Lei 9.472/97",
      "format": "4x5",
      "footer": true
     }
@@ -580,358 +727,497 @@
   }
  },
  {
+  "id": "s44-qua",
   "dia": 3,
   "quadro": "Por dentro do portão",
-  "tema": "glossario",
+  "tema": "redutor_pinhao",
+  "ideia": "Um motor pequeno move 400 kg por causa do redutor, e o pinhão define o equilíbrio entre velocidade e força do portão.",
   "itens": {
    "stories_manha": {
-    "id": "pm05_teaser_glossario",
-    "tema": "glossario",
+    "id": "s44_qua_m",
+    "tema": "redutor_pinhao",
+    "gancho": "400 kg movidos por uma engrenagem.",
+    "fatos": [
+     "ppa_reducao"
+    ],
     "spec": {
      "layout": "statement",
      "theme": "dark",
-     "tag": "HOJE AO MEIO-DIA",
+     "tag": "POR DENTRO DO PORTÃO",
      "lines": [
-      "O técnico falou"
+      "400 kg"
      ],
      "accent": [
-      "“fim de curso”",
-      "e você travou?"
+      "movidos por uma",
+      "engrenagem pequena."
      ],
-     "sub": "Glossário do portão, em português claro.",
+     "sub": "Meio-dia: o segredo está numa caixinha.",
+     "fonte": "manual técnico PPA DZ Rio",
      "format": "story"
     }
    },
    "carrosseis": {
-    "id": "c19_glossario_do_portao",
-    "legenda": "Glossário do portão: seis palavras que o técnico usa e que agora você também entende. Salve para consultar.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #glossario #motordeportao #dicasdecasa #manutencaodeportao",
+    "id": "s44_qua_c",
+    "tema": "redutor_pinhao",
+    "gancho": "Como um motor pequeno move 400 kg?",
+    "fatos": [
+     "ppa_reducao",
+     "ppa_pinhao"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Seu portão é lento ou rápido? Conta nos comentários"
+    },
+    "legenda": "Um motor de portão gira rápido e com pouca força. Quem transforma isso em força para mover até 400 kg é o redutor.\n\nNo DZ Rio 400, o motor gira a 1.740 rpm e a redução é de 1 para 23. E tem mais: trocar só o pinhão muda a velocidade do portão de 13,3 para 17,1 metros por minuto.\n\nSeu portão é lento ou rápido demais? Conta nos comentários.\n\nWhatsApp: (16) 99634-1354\n\n#motordeportao #portaoautomatico #engenharia #comofunciona #portaodecorrer",
     "slides": [
      {
       "layout": "cover",
-      "theme": "dark",
-      "tag": "GLOSSÁRIO",
+      "theme": "light",
+      "tag": "POR DENTRO DO PORTÃO",
       "lines": [
-       "Fala de técnico,"
+       "Como um motor"
       ],
       "accent": [
-       "em português claro."
+       "pequeno move",
+       "400 kg?"
       ],
-      "sub": "Seis palavras do mundo dos portões.",
+      "sub": "A resposta cabe numa caixa de engrenagens.",
       "format": "4x5"
      },
      {
-      "layout": "glossary",
+      "layout": "flow",
+      "theme": "dark",
+      "title": "O caminho da força",
+      "nodes": [
+       "Motor|gira rápido, com pouca força",
+       "Redutor|troca velocidade por força",
+       "Pinhão|engata na cremalheira",
+       "Portão|desliza com até 400 kg"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
       "theme": "white",
-      "term": "Fotocélula",
-      "def": "Sensor que enxerga se há algo na passagem do portão. Se houver, o portão pode parar ou voltar.",
-      "tip": "Mantenha a lente limpa e sem nada na frente.",
+      "big": "1:23",
+      "tag": "EM NÚMEROS",
+      "title": "é a redução do DZ Rio 400.",
+      "body": "O motor gira a 1.740 rpm. No eixo sobram cerca de 76 rpm, com a força multiplicada.",
+      "fonte": "manual técnico PPA DZ Rio",
       "format": "4x5"
      },
      {
-      "layout": "glossary",
+      "layout": "bars",
+      "theme": "light",
+      "title": "Mesmo motor, outro pinhão",
+      "items": [
+       "Pinhão Z14|13.3|13,3 m/min",
+       "Pinhão Z18|17.1|17,1 m/min"
+      ],
+      "hl": 1,
+      "note": "Pinhão maior, portão mais rápido. A escolha depende do peso e do uso.",
+      "fonte": "manual técnico PPA DZ Rio",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
       "theme": "dark",
-      "term": "Cremalheira",
-      "def": "Barra dentada presa ao portão. O motor engrena nela para puxar e empurrar.",
-      "tip": "Se o portão pula ou range, peça uma avaliação.",
-      "format": "4x5"
-     },
-     {
-      "layout": "glossary",
-      "theme": "white",
-      "term": "Fim de curso",
-      "def": "Peça que avisa o motor onde o portão deve parar, ao abrir e ao fechar.",
-      "tip": "Se o portão para fora do ponto, chame um técnico.",
-      "format": "4x5"
-     },
-     {
-      "layout": "glossary",
-      "theme": "dark",
-      "term": "Central",
-      "def": "Placa eletrônica que recebe o sinal do receptor e comanda o motor.",
-      "tip": "É parte interna: o ajuste é com o técnico.",
-      "format": "4x5"
-     },
-     {
-      "layout": "glossary",
-      "theme": "white",
-      "term": "Destrave",
-      "def": "Mecanismo que solta o motor do portão para movê-lo com a mão.",
-      "tip": "Veja no manual onde fica e como religar depois.",
-      "format": "4x5"
-     },
-     {
-      "layout": "glossary",
-      "theme": "dark",
-      "term": "Lâmpada de sinalização",
-      "def": "Luz que pisca enquanto o portão se move. É um aviso para quem está por perto.",
-      "tip": "Se parou de piscar, vale avisar o técnico.",
-      "format": "4x5"
-     },
-     {
-      "layout": "cta",
-      "theme": "dark",
+      "tag": "POR ISSO",
       "lines": [
-       "Ficou alguma",
-       "palavra de fora?"
+       "Velocidade"
       ],
       "accent": [
-       "Pergunte pra gente."
+       "tem preço."
       ],
+      "sub": "Portão pesado e regulado para correr demais cobra a conta no motor e no trilho.",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "orange",
+      "tag": "E O SEU?",
+      "lines": [
+       "Lento ou"
+      ],
+      "accent": [
+       "rápido demais?"
+      ],
+      "sub": "Conta nos comentários. A gente diz o que dá para ajustar.",
       "format": "4x5"
      }
-    ],
-    "tema": "glossario"
+    ]
    },
    "stories_tarde": {
-    "id": "stn05_glossario_no_feed",
-    "ref": "c19_glossario_do_portao",
+    "id": "s44_qua_t",
+    "tema": "protecao_ambiente",
+    "gancho": "Seu motor aguenta respingo, não enchente.",
+    "fatos": [
+     "ppa_ipx4"
+    ],
     "spec": {
-     "layout": "statement",
-     "theme": "dark",
-     "tag": "NO FEED HOJE",
-     "lines": [
-      "Glossário do portão"
-     ],
-     "accent": [
-      "em 6 palavras."
-     ],
-     "sub": "Veja no perfil.",
+     "layout": "fact",
+     "theme": "light",
+     "tag": "LETRA MIÚDA",
+     "big": "IPX4",
+     "title": "Seu motor aguenta respingo. Ficar dentro d'água, não.",
+     "body": "É o grau de proteção dos motores DZ Home e DZ Rio, que operam de -5 a 50 °C.",
+     "fonte": "manuais técnicos PPA",
      "format": "story"
     }
    },
    "posts": {
-    "id": "pp05_quiz_fim_de_curso",
-    "tema": "glossario",
-    "legenda": "Valendo: quem viu o glossário de hoje acerta de primeira. Comente A, B ou C. A resposta está no fim da legenda.\n\nResposta: B. O fim de curso avisa o motor onde parar, ao abrir e ao fechar.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #portaoautomatico #glossario #motordeportao #dicasdecasa",
-    "spec": {
-     "layout": "quiz",
-     "theme": "light",
-     "title": "Qual peça avisa o motor onde o portão deve parar?",
-     "options": [
-      "Cremalheira",
-      "Fim de curso",
-      "Fotocélula"
-     ],
-     "format": "4x5",
-     "footer": true
-    }
+    "id": "s44_qua_r",
+    "tema": "portao_pesado",
+    "gancho": "Antes do motor, o teste da mão.",
+    "fatos": [
+     "ppa_teste_manual"
+    ],
+    "cta": {
+     "tipo": "whatsapp",
+     "texto": "Ficou na dúvida? Chama no WhatsApp"
+    },
+    "legenda": "Tem um teste que o manual do motor exige antes de automatizar qualquer portão, e ele é feito com a mão.\n\nPortão solto, você abre e fecha. O esforço tem que ser mínimo e igual no caminho todo. Se pesou na mão, vai pesar no motor.\n\nFicou na dúvida sobre o seu? Chama no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #motordeportao #instalacao #portaodecorrer #dicasdecasa",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "ANTES DO MOTOR",
+       "lines": [
+        "Tem um teste"
+       ],
+       "accent": [
+        "que se faz",
+        "com a mão."
+       ]
+      },
+      "fala": "Antes de colocar motor no portão, tem um teste. E ele é feito com a mão."
+     },
+     {
+      "spec": {
+       "layout": "flow",
+       "theme": "light",
+       "title": "O teste do manual",
+       "nodes": [
+        "Portão solto|ainda sem motor",
+        "Abra com a mão|o esforço deve ser mínimo",
+        "Feche com a mão|o esforço deve ser igual"
+       ],
+       "fonte": "manual técnico PPA DZ Home"
+      },
+      "fala": "Com o portão solto, você abre. O esforço tem que ser mínimo. Depois fecha, e tem que ser igual."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "white",
+       "tag": "REGRA DE OURO",
+       "lines": [
+        "Pesou na mão?"
+       ],
+       "accent": [
+        "Vai pesar",
+        "no motor."
+       ]
+      },
+      "fala": "Pesou na mão? Vai pesar no motor. Aí o certo é arrumar trilho e roldana primeiro."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "tag": "NA DÚVIDA",
+       "lines": [
+        "Chama a"
+       ],
+       "accent": [
+        "aciona."
+       ],
+       "sub": "WhatsApp (16) 99634-1354"
+      },
+      "fala": "Ficou na dúvida sobre o seu portão? Chama a gente no WhatsApp."
+     }
+    ]
    }
   }
  },
  {
+  "id": "s44-qui",
   "dia": 4,
   "quadro": "Segurança em casa",
-  "tema": "criancas_pets",
+  "tema": "antiesmagamento",
+  "ideia": "Normas limitam a força com que um portão automático pode apertar alguém e exigem que ela caia em fração de segundo; o sensor existe por causa de acidentes reais.",
   "itens": {
    "stories_manha": {
-    "id": "pm06_teaser_criancas",
-    "tema": "criancas_pets",
+    "id": "s44_qui_m",
+    "tema": "antiesmagamento",
+    "gancho": "Quanta força um portão pode fazer?",
     "spec": {
      "layout": "statement",
      "theme": "orange",
-     "tag": "HOJE AO MEIO-DIA",
+     "tag": "SEGURANÇA EM CASA",
      "lines": [
-      "Criança, cachorro"
+      "Quanta força"
      ],
      "accent": [
-      "e portão",
-      "automático."
+      "um portão pode",
+      "fazer em você?"
      ],
-     "sub": "Cuidados que toda casa deveria combinar.",
+     "sub": "Existe um limite, e ele é medido. Meio-dia no feed.",
      "format": "story"
     }
    },
    "carrosseis": {
-    "id": "c10_criancas_e_pets",
-    "legenda": "Portão automático e crianças: cuidados simples que fazem diferença. Compartilhe com quem tem criança em casa.\n\nWhatsApp: (16) 99634-1354\n\n#segurancainfantil #portaoautomatico #dicasdecasa #familia #condominio",
+    "id": "s44_qui_c",
+    "tema": "antiesmagamento",
+    "gancho": "Seu portão pode apertar. Existe limite.",
+    "fatos": [
+     "en12453_forca"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Mande para quem tem criança em casa"
+    },
+    "legenda": "Um portão automático pode apertar alguém. A pergunta é com quanta força, e por quanto tempo.\n\nA norma europeia EN 12453 limita a força em zona de esmagamento a 400 newtons, perto de 40 kg, e exige que ela caia para menos de 150 N em 0,75 segundo. Não é achismo: é medido com instrumento.\n\nMande para quem tem criança em casa.\n\nWhatsApp: (16) 99634-1354\n\n#seguranca #portaoautomatico #segurancainfantil #familia #normas",
     "slides": [
      {
       "layout": "cover",
       "theme": "dark",
-      "tag": "SEGURANÇA",
+      "tag": "SEGURANÇA EM CASA",
       "lines": [
-       "Portão automático",
-       "e crianças:"
+       "Seu portão"
       ],
       "accent": [
-       "cuidados",
-       "essenciais."
+       "pode apertar."
       ],
-      "sub": "Dicas simples para a família toda.",
+      "sub": "Mas existe um limite, e ele é medido.",
       "format": "4x5"
      },
      {
-      "layout": "step",
+      "layout": "fact",
       "theme": "light",
-      "num": "01",
-      "title": "Portão não é brinquedo",
-      "body": "Ensine as crianças a manter distância e nunca brincar no trilho ou na folha.",
+      "big": "400 N",
+      "tag": "O LIMITE",
+      "title": "é a força máxima em zona de esmagamento.",
+      "body": "Cerca de 40 kgf, pela norma europeia EN 12453.",
+      "fonte": "DHF, EN 12453:2017+A1:2021",
       "format": "4x5"
      },
      {
-      "layout": "step",
+      "layout": "timeline",
+      "theme": "white",
+      "title": "E ela precisa cair rápido",
+      "items": [
+       "Contato|até 400 N",
+       "0,75 s|abaixo de 150 N",
+       "5 s|abaixo de 25 N"
+      ],
+      "fonte": "DHF, EN 12453",
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
       "theme": "dark",
-      "num": "02",
-      "title": "Olho no movimento",
-      "body": "Só use o controle com o portão à vista, sem ninguém passando.",
+      "title": "Duas zonas, dois limites",
+      "aT": "Esmagamento",
+      "aB": "Onde alguém pode ficar preso: até 400 N.",
+      "bT": "Só impacto",
+      "bB": "Onde a pessoa só é atingida: até 1.400 N.",
+      "fonte": "DHF, EN 12453",
       "format": "4x5"
      },
      {
-      "layout": "step",
+      "layout": "statement",
       "theme": "light",
-      "num": "03",
-      "title": "Sensor em dia",
-      "body": "Peça ao técnico para conferir o sensor de obstáculo em cada revisão.",
-      "format": "4x5"
-     },
-     {
-      "layout": "step",
-      "theme": "dark",
-      "num": "04",
-      "title": "Controle fora do alcance",
-      "body": "Guarde o controle onde as crianças não alcancem.",
-      "format": "4x5"
-     },
-     {
-      "layout": "cta",
-      "theme": "dark",
+      "tag": "NA SUA CASA",
       "lines": [
-       "Quer revisar a",
-       "segurança do portão?"
+       "Segurança se"
       ],
       "accent": [
-       "Chame a aciona."
+       "testa, não se acha."
       ],
+      "sub": "Peça para o técnico testar a parada e a reversão do portão em toda revisão.",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Tem criança"
+      ],
+      "accent": [
+       "em casa?"
+      ],
+      "sub": "Mande este post para quem precisa ver.",
       "format": "4x5"
      }
-    ],
-    "tema": "criancas_pets"
+    ]
    },
    "stories_tarde": {
-    "id": "stn09_criancas_no_feed",
-    "ref": "c10_criancas_e_pets",
+    "id": "s44_qui_t",
+    "tema": "antiesmagamento",
+    "gancho": "Meu portão bate e volta sozinho.",
     "spec": {
-     "layout": "statement",
+     "layout": "chat",
      "theme": "dark",
-     "tag": "NO FEED HOJE",
-     "lines": [
-      "Crianças e"
+     "msgs": [
+      {
+       "w": "them",
+       "t": "Meu portão bate e volta sozinho. É defeito?"
+      },
+      {
+       "w": "us",
+       "t": "Pode ser a fotocélula ou a regulagem de força fazendo o trabalho dela."
+      },
+      {
+       "w": "them",
+       "t": "Então está tudo bem?"
+      },
+      {
+       "w": "us",
+       "t": "Vale avaliar. Segurança não é para adivinhar."
+      }
      ],
-     "accent": [
-      "portão automático."
-     ],
-     "sub": "Cuidados essenciais no perfil.",
      "format": "story"
     }
    },
    "posts": {
-    "id": "pp06_regra_da_casa",
-    "tema": "criancas_pets",
-    "legenda": "Uma regra simples, fácil de lembrar e que vale para a família toda. Salve e mostre em casa.\n\nWhatsApp: (16) 99634-1354\n\n#segurancainfantil #portaoautomatico #familia #pets #dicasdecasa",
-    "spec": {
-     "layout": "statement",
-     "theme": "dark",
-     "tag": "REGRA DA CASA",
-     "lines": [
-      "Portão se mexendo?"
-     ],
-     "accent": [
-      "Todo mundo",
-      "parado."
-     ],
-     "sub": "Combine com a família hoje. Salve e mostre para as crianças.",
-     "format": "4x5",
-     "footer": true
-    }
+    "id": "s44_qui_r",
+    "tema": "historia_sensor",
+    "gancho": "Esse sensor tem uma história.",
+    "fatos": [
+     "cpsc_1993"
+    ],
+    "cta": {
+     "tipo": "whatsapp",
+     "texto": "Não sabe se o sensor funciona? Chama a gente"
+    },
+    "legenda": "Aquele sensor no pé do portão não está ali por acaso.\n\nNos Estados Unidos, a agência de segurança de produtos registrou 54 crianças mortas por portas de garagem automáticas desde 1982. A partir de 1993, proteção contra aprisionamento virou obrigatória nos motores fabricados lá.\n\nNão sabe se o sensor do seu portão funciona? Chama a gente no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#segurancainfantil #portaoautomatico #fotocelula #seguranca #familia",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "HISTÓRIA REAL",
+       "lines": [
+        "Esse sensor"
+       ],
+       "accent": [
+        "tem uma história."
+       ]
+      },
+      "fala": "Sabe aquele sensor no pé do portão? Ele tem uma história triste."
+     },
+     {
+      "spec": {
+       "layout": "fact",
+       "theme": "light",
+       "big": "54",
+       "tag": "EUA, DESDE 1982",
+       "title": "crianças mortas por portas de garagem automáticas.",
+       "body": "Levantamento da CPSC, agência de segurança de produtos dos Estados Unidos.",
+       "fonte": "CPSC, 1993"
+      },
+      "fala": "Nos Estados Unidos, a agência de segurança de produtos fez a conta. Desde mil novecentos e oitenta e dois, cinquenta e quatro crianças morreram em portas de garagem automáticas."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "white",
+       "tag": "A MUDANÇA",
+       "lines": [
+        "Desde 1993,"
+       ],
+       "accent": [
+        "proteção",
+        "obrigatória."
+       ],
+       "sub": "Sensor ou botão que precisa ficar apertado para fechar.",
+       "fonte": "CPSC, 1993"
+      },
+      "fala": "A partir de mil novecentos e noventa e três, todo motor fabricado lá passou a ter proteção contra aprisionamento."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "tag": "E O SEU?",
+       "lines": [
+        "O sensor"
+       ],
+       "accent": [
+        "está funcionando?"
+       ]
+      },
+      "fala": "E o do seu portão? Se você não sabe se ele funciona, chama a gente."
+     }
+    ]
    }
   }
  },
  {
+  "id": "s44-sex",
   "dia": 5,
   "quadro": "Sextou com quiz",
-  "tema": "quiz",
+  "tema": "quiz_semana",
+  "recap": true,
+  "ideia": "Quiz que recapitula a semana: ciclos por hora, controle de código fixo e redutor do motor.",
   "itens": {
    "stories_manha": {
-    "id": "pm07_teaser_quiz",
-    "tema": "quiz",
+    "id": "s44_sex_m",
+    "tema": "quiz_semana",
+    "gancho": "Três perguntas, uma semana inteira.",
     "spec": {
      "layout": "statement",
      "theme": "dark",
      "tag": "SEXTOU",
      "lines": [
-      "Quiz da semana"
+      "Três perguntas,"
      ],
      "accent": [
-      "ao meio-dia."
+      "uma semana inteira."
      ],
-     "sub": "Prestou atenção nos posts? Vem provar.",
+     "sub": "Ao meio-dia no feed. Quem acompanhou, gabarita.",
      "format": "story"
     }
    },
    "carrosseis": {
-    "id": "pc07_quiz_da_semana",
-    "tema": "quiz",
-    "legenda": "Quiz da semana: três perguntas sobre o que mostramos nos últimos dias. Conta nos comentários quantas você acertou.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #sextou #portaoautomatico #dicasdecasa #seguranca",
+    "id": "s44_sex_c",
+    "tema": "quiz_semana",
+    "recap": true,
+    "gancho": "Você prestou atenção nesta semana?",
+    "fatos": [
+     "ppa_ciclos_res",
+     "kamkar_2015",
+     "ppa_reducao"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Conta quantas você acertou"
+    },
+    "legenda": "Três perguntas sobre o que mostramos nesta semana. Sem consultar, hein.\n\nAs respostas estão nos próprios slides. Conta nos comentários quantas você acertou e marca quem precisa fazer também.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #sextou #portaoautomatico #motordeportao #seguranca",
     "slides": [
      {
       "layout": "cover",
       "theme": "dark",
       "tag": "QUIZ DA SEMANA",
       "lines": [
-       "Prestou atenção"
+       "Você prestou"
       ],
       "accent": [
-       "nesta semana?"
+       "atenção?"
       ],
-      "sub": "3 perguntas. Arraste e responda.",
+      "sub": "Três perguntas sobre os posts desta semana.",
       "format": "4x5"
      },
      {
       "layout": "quiz",
       "theme": "light",
-      "title": "Quanto tempo leva a revisão rápida mensal do portão?",
+      "title": "Quantos ciclos por hora aguenta um DZ Rio 400?",
       "options": [
-       "Cerca de 1 minuto",
-       "Uma hora",
-       "Um dia inteiro"
-      ],
-      "format": "4x5"
-     },
-     {
-      "layout": "reveal",
-      "theme": "dark",
-      "letter": "A",
-      "title": "Cerca de 1 minuto.",
-      "body": "Trilho, controle e ruídos, uma vez por mês.",
-      "format": "4x5"
-     },
-     {
-      "layout": "quiz",
-      "theme": "white",
-      "title": "Qual controle é mais difícil de copiar?",
-      "options": [
-       "Tanto faz",
-       "Código fixo",
-       "Código variável"
-      ],
-      "format": "4x5"
-     },
-     {
-      "layout": "reveal",
-      "theme": "dark",
-      "letter": "C",
-      "title": "Código variável.",
-      "body": "O sinal muda a cada clique, então um sinal capturado não serve depois.",
-      "format": "4x5"
-     },
-     {
-      "layout": "quiz",
-      "theme": "light",
-      "title": "Portão fechando e criança por perto. O certo é:",
-      "options": [
-       "Passar correndo",
-       "Esperar o portão parar",
-       "Segurar o portão"
+       "10",
+       "30",
+       "300"
       ],
       "format": "4x5"
      },
@@ -939,53 +1225,419 @@
       "layout": "reveal",
       "theme": "dark",
       "letter": "B",
-      "title": "Esperar o portão parar.",
-      "body": "Portão se mexendo, todo mundo parado.",
+      "title": "30 ciclos por hora.",
+      "body": "Um ciclo é abrir e fechar uma vez. Versões para uso intenso chegam a 100.",
+      "fonte": "manuais técnicos PPA",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "white",
+      "title": "Em 2015, quanto tempo levou para abrir um portão de código fixo?",
+      "options": [
+       "8,2 segundos",
+       "8 horas",
+       "Não abriu"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "A",
+      "title": "8,2 segundos.",
+      "body": "Com um brinquedo infantil adaptado. Controles de código variável resistiram.",
+      "fonte": "Network World",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "light",
+      "title": "O que o redutor faz dentro do motor?",
+      "options": [
+       "Liga a fotocélula",
+       "Gera o código do controle",
+       "Troca velocidade por força"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "C",
+      "title": "Troca velocidade por força.",
+      "body": "No DZ Rio 400, de 1.740 para cerca de 76 rpm, com a força multiplicada.",
+      "fonte": "manual técnico PPA DZ Rio",
       "format": "4x5"
      },
      {
       "layout": "save",
       "theme": "orange",
       "lines": [
-       "Acertou as 3?"
+       "Gabaritou?"
       ],
       "accent": [
-       "Desafie alguém",
+       "Desafia alguém",
        "nos comentários."
       ],
-      "sub": "Toda sexta tem quiz novo.",
+      "sub": "Toda sexta tem quiz da semana aqui.",
       "format": "4x5"
      }
     ]
    },
    "stories_tarde": {
-    "id": "pt07_quantas_acertou",
-    "tema": "quiz",
+    "id": "s44_sex_t",
+    "tema": "quiz_semana",
+    "gancho": "Manda a pergunta que pegou você.",
     "spec": {
      "layout": "statement",
      "theme": "orange",
-     "tag": "E AÍ?",
+     "tag": "ERROU ALGUMA?",
      "lines": [
-      "Quantas você"
+      "Manda a pergunta"
      ],
      "accent": [
-      "acertou no",
-      "quiz da semana?"
+      "que pegou você."
      ],
-     "sub": "Responde por mensagem: 0, 1, 2 ou 3.",
+     "sub": "A gente explica por mensagem, sem complicar.",
      "format": "story"
     }
    },
    "posts": {
-    "id": "pp07_mito_megapixel",
-    "tema": "cameras",
-    "legenda": "Mito! Resolução ajuda, mas não faz milagre sozinha. Quer uma câmera que realmente mostre o que importa? Fale com a gente.\n\nWhatsApp: (16) 99634-1354\n\n#mitoouverdade #cameradeseguranca #cftv #seguranca #dicasdecasa",
+    "id": "s44_sex_p",
+    "tema": "cameras_ciencia",
+    "legenda": "Câmera ajuda, e a ciência confirma. Mas não faz milagre sozinha.\n\nUma revisão de 40 anos de estudos mostrou redução significativa e modesta do crime onde há câmeras. O efeito é maior em estacionamentos, aparece também em áreas residenciais e cresce quando alguém monitora as imagens de verdade.\n\nSalve para lembrar na hora de planejar as suas câmeras.\n\nWhatsApp: (16) 99634-1354\n\n#cameradeseguranca #cftv #seguranca #mitoouverdade #casasegura",
+    "gancho": "Câmera instalada acaba com o crime?",
+    "fatos": [
+     "cftv_meta"
+    ],
+    "cta": {
+     "tipo": "salvar",
+     "texto": "Salve para planejar as suas câmeras"
+    },
     "spec": {
      "layout": "myth",
      "theme": "white",
      "label": "MITO",
-     "title": "“Câmera boa é a que tem mais megapixels.”",
-     "body": "Lente, posição e iluminação pesam tanto quanto a resolução na hora de ver um rosto ou uma placa.",
+     "title": "“Câmera instalada acaba com o crime.”",
+     "body": "Uma revisão de 40 anos de estudos achou redução real, mas modesta. O efeito é maior com monitoramento ativo.",
+     "fonte": "Piza et al., Criminology & Public Policy, 2019",
+     "format": "4x5",
+     "footer": true
+    }
+   }
+  }
+ },
+ {
+  "id": "s44-sab",
+  "dia": 6,
+  "quadro": "Escolha certa",
+  "tema": "surtos",
+  "ideia": "Em país campeão de raios, quem protege a central do portão é o DPS no quadro e uma instalação elétrica certa, não o para-raios.",
+  "itens": {
+   "stories_manha": {
+    "id": "s44_sab_m",
+    "tema": "surtos",
+    "gancho": "Tem para-raios? O motor ainda queima.",
+    "fatos": [
+     "pararaios_dps"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "ESCOLHA CERTA",
+     "lines": [
+      "Tem para-raios?"
+     ],
+     "accent": [
+      "Seu motor ainda",
+      "pode queimar."
+     ],
+     "sub": "Meio-dia: por quê, e o que protege de verdade.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s44_sab_c",
+    "tema": "surtos",
+    "gancho": "Raio não precisa cair na sua casa.",
+    "fatos": [
+     "raios_brasil",
+     "raio_15km",
+     "pararaios_dps",
+     "ppa_dr_terra"
+    ],
+    "cta": {
+     "tipo": "whatsapp",
+     "texto": "A gente confere antes da próxima tempestade"
+    },
+    "legenda": "Raio não precisa cair na sua casa para queimar a central do portão. O surto chega pela rede.\n\nO Brasil recebe de 50 a 70 milhões de raios por ano, segundo o Elat/Inpe, e um raio pode cair a até 15 km de onde está chovendo. Para-raios protege a estrutura. Quem protege os aparelhos é o DPS no quadro.\n\nQuer saber se o seu portão está protegido? A gente confere antes da próxima tempestade.\n\nWhatsApp: (16) 99634-1354\n\n#raios #protecaocontrasurtos #portaoautomatico #motordeportao #temporadadechuvas",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "TEMPORADA DE CHUVA",
+      "lines": [
+       "Raio não precisa"
+      ],
+      "accent": [
+       "cair na sua casa."
+      ],
+      "sub": "Para queimar a central do seu portão.",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "light",
+      "big": "50 a 70 mi",
+      "bigSize": 200,
+      "title": "de raios por ano no Brasil.",
+      "body": "Estimativa do Elat/Inpe. Em número total, o país é campeão mundial.",
+      "fonte": "Agência Fapesp, dados do Elat/Inpe",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "white",
+      "big": "15 km",
+      "title": "é quanto um raio pode cair longe da chuva.",
+      "body": "Não está chovendo aí? Ainda pode haver risco.",
+      "fonte": "Defesa Civil de Santos",
+      "format": "4x5"
+     },
+     {
+      "layout": "myth",
+      "theme": "dark",
+      "label": "MITO",
+      "title": "“Tenho para-raios, meus aparelhos estão protegidos.”",
+      "body": "Para-raios protege a estrutura. Contra surto na rede, quem protege é o DPS no quadro.",
+      "fonte": "Schneider Electric",
+      "format": "4x5"
+     },
+     {
+      "layout": "checklist",
+      "theme": "light",
+      "title": "O que o manual do motor já exige",
+      "items": [
+       "Disjuntor DR de 30 mA",
+       "Aterramento ligado ao terra da rede",
+       "Chave de desligamento total"
+      ],
+      "fonte": "manuais técnicos PPA",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "orange",
+      "tag": "ANTES DA CHUVA",
+      "lines": [
+       "Sua central tem"
+      ],
+      "accent": [
+       "DPS e aterramento?"
+      ],
+      "sub": "A gente confere antes da próxima tempestade.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s44_sab_t",
+    "tema": "surtos",
+    "gancho": "Já perdeu aparelho em tempestade?",
+    "spec": {
+     "layout": "statement",
+     "theme": "light",
+     "tag": "PERGUNTA RÁPIDA",
+     "lines": [
+      "Já perdeu aparelho"
+     ],
+     "accent": [
+      "em tempestade?"
+     ],
+     "sub": "Responde aqui. Queremos saber o que mais queima por aí.",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s44_sab_p",
+    "tema": "surtos",
+    "legenda": "Tempestade chegando? Dois cuidados que fazem diferença para o seu portão e dois erros comuns.\n\nO DPS e o aterramento são o que segura o surto que vem pela rede. O para-raios cuida da estrutura, não dos aparelhos.\n\nQuer uma revisão elétrica do portão? Fala com a gente no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#raios #portaoautomatico #protecaocontrasurtos #manutencaopreventiva #casasegura",
+    "gancho": "Tempestade chegando",
+    "fatos": [
+     "pararaios_dps"
+    ],
+    "cta": {
+     "tipo": "perfil",
+     "texto": "Veja mais no perfil"
+    },
+    "spec": {
+     "layout": "dodont",
+     "theme": "white",
+     "title": "Tempestade chegando",
+     "faca": [
+      "Confira se o portão fechou antes de a energia oscilar",
+      "Peça revisão do DPS e do aterramento"
+     ],
+     "evite": [
+      "Confiar só no para-raios",
+      "Ligar a central em extensão ou benjamim"
+     ],
+     "format": "4x5",
+     "footer": true
+    }
+   }
+  }
+ },
+ {
+  "id": "s44-dom",
+  "dia": 0,
+  "quadro": "Domingo leve",
+  "tema": "maior_portao",
+  "ideia": "O maior portão automático do mundo protege uma região inteira da Holanda e fecha sozinho quando a maré ameaça.",
+  "itens": {
+   "stories_manha": {
+    "id": "s44_dom_m",
+    "tema": "maior_portao",
+    "gancho": "Imagina um portão de 210 metros.",
+    "fatos": [
+     "maeslant"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "light",
+     "tag": "DOMINGO LEVE",
+     "lines": [
+      "Imagina um portão"
+     ],
+     "accent": [
+      "de 210 metros."
+     ],
+     "sub": "Ele existe. E fecha sozinho. Meio-dia no feed.",
+     "fonte": "Rijkswaterstaat",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s44_dom_c",
+    "tema": "maior_portao",
+    "gancho": "O maior portão automático do mundo.",
+    "fatos": [
+     "maeslant"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Manda para quem ama engenharia"
+    },
+    "legenda": "O maior portão automático do mundo não fica numa garagem. Fica na entrada de Roterdã, na Holanda.\n\nA Maeslantkering tem duas comportas de 210 metros, rótulas de 680 toneladas e fecha sozinha quando a previsão de maré passa de 3 metros. Mesma lógica do seu portão: sensor, comando e motor. Outra escala.\n\nManda para quem ama engenharia.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #engenharia #holanda #portaoautomatico #domingo",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "CURIOSIDADE",
+      "lines": [
+       "O maior portão"
+      ],
+      "accent": [
+       "automático",
+       "do mundo."
+      ],
+      "sub": "Ele protege uma região inteira da Holanda.",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "light",
+      "big": "210 m",
+      "title": "de largura em cada uma das duas comportas.",
+      "body": "E 22 metros de altura. Fica em Roterdã e se chama Maeslantkering.",
+      "fonte": "Rijkswaterstaat",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "white",
+      "big": "680 t",
+      "title": "pesa cada rótula que segura as comportas.",
+      "body": "São juntas em forma de bola, com 10 metros de diâmetro.",
+      "fonte": "Rijkswaterstaat",
+      "format": "4x5"
+     },
+     {
+      "layout": "flow",
+      "theme": "dark",
+      "title": "Como ele fecha sozinho",
+      "nodes": [
+       "Previsão|maré acima de 3 metros",
+       "Comando|o sistema decide fechar",
+       "Comportas|enchem de água e afundam",
+       "Rio fechado|em até duas horas"
+      ],
+      "fonte": "Rijkswaterstaat",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "light",
+      "tag": "E O SEU?",
+      "lines": [
+       "Mesma lógica,"
+      ],
+      "accent": [
+       "outra escala."
+      ],
+      "sub": "Sensor, comando e motor: o portão da sua casa também decide sozinho quando parar.",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Manda para quem"
+      ],
+      "accent": [
+       "ama engenharia."
+      ],
+      "sub": "Domingo é dia de curiosidade por aqui.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s44_dom_t",
+    "tema": "historia_controle",
+    "gancho": "1931: o primeiro controle de garagem.",
+    "fatos": [
+     "controle_1931"
+    ],
+    "spec": {
+     "layout": "fact",
+     "theme": "dark",
+     "tag": "DE ONDE VEIO",
+     "big": "1931",
+     "title": "Ano dos primeiros portões de garagem com controle remoto.",
+     "body": "Duas equipes, sem saber uma da outra, chegaram lá ao mesmo tempo.",
+     "fonte": "IEEE Spectrum",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s44_dom_p",
+    "tema": "enquete_domingo",
+    "legenda": "Domingo que vem tem mais curiosidade por aqui, e quem escolhe o tema é você.\n\nComente 1 para comportas de eclusas ou 2 para cancelas de pedágio. O mais votado vira post.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #domingo #engenharia #portaoautomatico",
+    "gancho": "Qual curiosidade no próximo domingo?",
+    "ideia": "Enquete para o público escolher o tema da próxima curiosidade de domingo.",
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Comente 1 ou 2"
+    },
+    "spec": {
+     "layout": "poll",
+     "theme": "light",
+     "tag": "VOCÊ ESCOLHE",
+     "title": "Qual curiosidade no próximo domingo?",
+     "o1": "Comportas de eclusas",
+     "o2": "Cancelas de pedágio",
      "format": "4x5",
      "footer": true
     }

@@ -1,0 +1,21 @@
+{
+ "hash": "4e5480f6dafa5b40ae292a7308886627",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.617,
+   "texto": "Dois."
+  },
+  {
+   "t0": 0.91,
+   "t1": 1.668,
+   "texto": "O trilho."
+  },
+  {
+   "t0": 2.018,
+   "t1": 5.207,
+   "texto": "Veja se não há pedra, folha ou sujeira travando o caminho."
+  }
+ ]
+}

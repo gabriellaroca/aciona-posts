@@ -1,0 +1,16 @@
+{
+ "hash": "5765c32f1e557e0b93793f5a2e204545",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 2.942,
+   "texto": "Se o controle perdeu alcance, comece trocando a pilha."
+  },
+  {
+   "t0": 3.277,
+   "t1": 4.755,
+   "texto": "Muitas vezes resolve."
+  }
+ ]
+}

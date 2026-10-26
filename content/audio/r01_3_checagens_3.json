@@ -1,0 +1,21 @@
+{
+ "hash": "759429704971683f6487d77e7ff8a4f4",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.558,
+   "texto": "Três."
+  },
+  {
+   "t0": 0.895,
+   "t1": 1.754,
+   "texto": "A energia."
+  },
+  {
+   "t0": 2.079,
+   "t1": 5.187,
+   "texto": "Confira se o portão está ligado e se não faltou luz."
+  }
+ ]
+}

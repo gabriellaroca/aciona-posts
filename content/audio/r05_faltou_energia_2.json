@@ -1,0 +1,21 @@
+{
+ "hash": "1d46cb67668a1d14908a4e93ae32b4bd",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.617,
+   "texto": "Dois."
+  },
+  {
+   "t0": 0.958,
+   "t1": 2.204,
+   "texto": "Não force o portão."
+  },
+  {
+   "t0": 2.541,
+   "t1": 6.069,
+   "texto": "Com o motor engatado, empurrar pode danificar o mecanismo."
+  }
+ ]
+}

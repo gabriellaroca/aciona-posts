@@ -1,0 +1,13 @@
+{
+ "como_usar": "Perfis e fontes para estudar no planejamento semanal. Só registre um @ depois de confirmar que ele existe e é oficial. Anote o que funciona em content/estudos/.",
+ "perfis": [
+  {"nome": "PPA (fabricante de motores)", "perfil": null, "olhar": "como explicam produto e instalação em vídeo curto"},
+  {"nome": "Garen (fabricante de motores)", "perfil": null, "olhar": "formatos de Reels técnicos e ganchos"},
+  {"nome": "Rossi (fabricante de motores)", "perfil": null, "olhar": "conteúdo para instaladores e clientes finais"},
+  {"nome": "Intelbras (segurança eletrônica)", "perfil": null, "olhar": "carrosséis educativos, linguagem e identidade visual"},
+  {"nome": "Hikvision Brasil (câmeras)", "perfil": null, "olhar": "como mostram imagem diurna e noturna"},
+  {"nome": "Instaladores e serralherias com bom engajamento no Brasil", "perfil": null, "olhar": "bastidores de instalação, antes e depois, vídeos de obra"},
+  {"nome": "Criadores de manutenção residencial e 'faça você mesmo' seguro", "perfil": null, "olhar": "ritmo de fala, cortes e legendas"}
+ ],
+ "fontes_tendencias": ["Anúncios do Instagram e de Adam Mosseri sobre Reels e algoritmo", "Meta for Creators / Instagram for Business", "ABESE (mercado de segurança eletrônica)", "Notícias da Anatel sobre radiofrequência", "Elat/Inpe e Defesa Civil para temporada de raios", "SSP-SP para dados de criminalidade (consultar manualmente)"]
+}

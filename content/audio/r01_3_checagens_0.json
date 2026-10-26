@@ -1,0 +1,21 @@
+{
+ "hash": "720fe17cc1b40e3e642e2967c0fc63ca",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.998,
+   "texto": "Portão parou?"
+  },
+  {
+   "t0": 1.403,
+   "t1": 2.011,
+   "texto": "Calma."
+  },
+  {
+   "t0": 2.348,
+   "t1": 6.001,
+   "texto": "Antes de chamar alguém, confira três coisas simples e seguras."
+  }
+ ]
+}

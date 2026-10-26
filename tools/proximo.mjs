@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { carregar, checar } from "./conteudo.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(here, "..");
@@ -35,6 +36,13 @@ if (!id && fs.existsSync(pf)) {
 }
 const item = id ? (q[fila].find((i) => i.id === id) || (fs.existsSync(pf) && JSON.parse(fs.readFileSync(pf, "utf8")).flatMap((x) => Object.values(x.itens)).find((i) => i.id === id))) : doDia || refs[0] || (resto[0] && resto[0].i);
 if (!item) { console.log(JSON.stringify({ vazia: true })); process.exit(0); }
+if (!process.env.SEM_CHECAGEM) {
+  const ctx = carregar();
+  const rec = ctx.recs.find((x) => x.id === item.id);
+  const res = checar(rec, ctx, { data: hoje });
+  if (!res.ok) { console.log(JSON.stringify({ bloqueado: true, id: item.id, fila, erros: res.erros, avisos: res.avisos }, null, 1)); process.exit(3); }
+  if (res.avisos.length) console.error("avisos: " + res.avisos.join("; "));
+}
 const video = !!item.cenas;
 const multi = !!(item.slides || item.imagens) && (item.slides || item.imagens).length > 1;
 const dir = video && fila === "posts" ? "reels" : fila.startsWith("stories") ? "stories" : multi ? "carrosseis" : "posts";
@@ -42,7 +50,7 @@ const out = path.join(root, dir, item.id);
 fs.mkdirSync(out, { recursive: true });
 if (video) {
   const { makeVideo } = await import("./video.mjs");
-  await makeVideo({ id: item.id, cenas: item.cenas, out: path.join(out, "video.mp4"), fim: item.fim !== false });
+  await makeVideo({ id: item.id, cenas: item.cenas, out: path.join(out, "video.mp4"), fim: !!item.fim });
 } else if (item.imagens) {
   item.imagens.forEach((f, k) => fs.copyFileSync(path.join(root, f), path.join(out, `slide_${String(k + 1).padStart(2, "0")}.jpg`)));
 } else {
@@ -55,6 +63,7 @@ const files = fs.readdirSync(out).filter((f) => /\.(jpg|mp4)$/.test(f)).sort();
 const base = "https://raw.githubusercontent.com/gabriellaroca/aciona-posts/main/" + dir + "/" + item.id + "/";
 const r = { id: item.id, tema: item.tema || null, tipo: dir, formato: video ? "video" : "imagem", legenda: item.legenda || null, ref: item.ref || null, arquivos: files.map((f) => path.join(out, f)), urls: files.map((f) => base + f) };
 r.pauta = pauta ? { quadro: pauta.quadro, data: pauta.data } : null;
+r.registrar = `node tools/registrar.mjs ${item.id} <media_id>`;
 r.acao = video ? (dir === "reels" ? "create_video_post" : "create_story") : dir === "stories" ? "create_story" : r.urls.length > 1 ? "create_carousel_post" : "create_image_post";
 if (video) {
   const cdn = "https://cdn.jsdelivr.net/gh/gabriellaroca/aciona-posts@main/" + dir + "/" + item.id + "/";

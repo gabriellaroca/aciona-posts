@@ -1,0 +1,21 @@
+{
+ "hash": "fb11792262c4249e28ce8c3a6cc99732",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.022,
+   "texto": "Pesou na mão?"
+  },
+  {
+   "t0": 1.431,
+   "t1": 2.809,
+   "texto": "Vai pesar no motor."
+  },
+  {
+   "t0": 3.146,
+   "t1": 5.622,
+   "texto": "Aí o certo é arrumar trilho e roldana primeiro."
+  }
+ ]
+}

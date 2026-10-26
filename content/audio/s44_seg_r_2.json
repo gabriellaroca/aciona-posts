@@ -1,0 +1,21 @@
+{
+ "hash": "63fcc757e3f87b613fdeaf6cb54f611f",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 2.671,
+   "texto": "Agora pensa no seu prédio às sete da manhã."
+  },
+  {
+   "t0": 3.017,
+   "t1": 4.215,
+   "texto": "O portão não para."
+  },
+  {
+   "t0": 4.505,
+   "t1": 6.967,
+   "texto": "Passou do limite, o motor esquenta e sofre."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "hash": "425995c3942772820945145743a29f6e",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.111,
+   "texto": "Faltou energia."
+  },
+  {
+   "t0": 1.452,
+   "t1": 2.549,
+   "texto": "E o seu portão?"
+  }
+ ]
+}

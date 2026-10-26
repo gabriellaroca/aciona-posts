@@ -1,0 +1,21 @@
+{
+ "hash": "76bfc6e7446cd5dfc1d07aad873166ca",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.552,
+   "texto": "Um."
+  },
+  {
+   "t0": 0.827,
+   "t1": 3.068,
+   "texto": "Descubra onde fica o destrave manual."
+  },
+  {
+   "t0": 3.403,
+   "t1": 5.149,
+   "texto": "Está no manual do seu motor."
+  }
+ ]
+}

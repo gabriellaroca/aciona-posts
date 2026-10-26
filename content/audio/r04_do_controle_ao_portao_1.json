@@ -1,0 +1,26 @@
+{
+ "hash": "37084afe6c7dbe78d5e53039a409526e",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 2.131,
+   "texto": "Primeiro, o controle envia o sinal."
+  },
+  {
+   "t0": 2.431,
+   "t1": 4.228,
+   "texto": "O receptor recebe esse sinal."
+  },
+  {
+   "t0": 4.522,
+   "t1": 6.41,
+   "texto": "A central decide o que fazer."
+  },
+  {
+   "t0": 6.676,
+   "t1": 8.257,
+   "texto": "E o motor move o portão."
+  }
+ ]
+}

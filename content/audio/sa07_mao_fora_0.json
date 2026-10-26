@@ -1,0 +1,21 @@
+{
+ "hash": "48ebc46acca60e80dc4d00bea644cd69",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 0.89,
+   "texto": "Atenção."
+  },
+  {
+   "t0": 1.175,
+   "t1": 3.016,
+   "texto": "Mantenha a mão longe do trilho."
+  },
+  {
+   "t0": 3.313,
+   "t1": 5.54,
+   "texto": "Nunca encoste no portão em movimento."
+  }
+ ]
+}
