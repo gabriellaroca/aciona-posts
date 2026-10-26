@@ -412,5 +412,25 @@
   "data": "2026-10-26",
   "hora": "17:51",
   "media_id": "18077695421448292"
+ },
+ {
+  "id": "s44_seg_r",
+  "tipo": "reels",
+  "fila": "posts",
+  "quadro": "Segunda sem susto",
+  "tema": "ciclos_por_hora",
+  "ideia": "Todo motor de portão tem um limite de ciclos por hora definido pelo fabricante, e condomínio precisa de motor feito para uso intenso.",
+  "gancho": "Motor de casa no condomínio? Dá problema.",
+  "cta": {
+   "tipo": "compartilhar",
+   "texto": "Mande para o síndico do seu prédio"
+  },
+  "fatos": [
+   "ppa_bldc"
+  ],
+  "estrutura": "statement>bars>statement>statement|video",
+  "data": "2026-10-26",
+  "hora": "19:13",
+  "media_id": "18128447278845861"
  }
 ]
