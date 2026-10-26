@@ -361,5 +361,20 @@
   "tema": "historia_heron",
   "data": "2026-10-25",
   "media_id": "18127586845666829"
+ },
+ {
+  "id": "s44_seg_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Segunda sem susto",
+  "tema": "ciclos_por_hora",
+  "ideia": "Todo motor de portão tem um limite de ciclos por hora definido pelo fabricante, e condomínio precisa de motor feito para uso intenso.",
+  "gancho": "Seu motor tem um limite por hora.",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-10-26",
+  "hora": "08:23",
+  "media_id": "18131449111775310"
  }
 ]
