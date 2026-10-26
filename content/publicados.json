@@ -397,5 +397,20 @@
   "data": "2026-10-26",
   "hora": "12:15",
   "media_id": "18136732951673626"
+ },
+ {
+  "id": "s44_seg_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Segunda sem susto",
+  "tema": "ciclos_por_hora",
+  "ideia": "Todo motor de portão tem um limite de ciclos por hora definido pelo fabricante, e condomínio precisa de motor feito para uso intenso.",
+  "gancho": "Quantas vezes seu portão abre de manhã?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "fact",
+  "data": "2026-10-26",
+  "hora": "17:51",
+  "media_id": "18077695421448292"
  }
 ]
