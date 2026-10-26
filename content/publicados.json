@@ -376,5 +376,26 @@
   "data": "2026-10-26",
   "hora": "08:23",
   "media_id": "18131449111775310"
+ },
+ {
+  "id": "s44_seg_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Segunda sem susto",
+  "tema": "ciclos_por_hora",
+  "ideia": "Todo motor de portão tem um limite de ciclos por hora definido pelo fabricante, e condomínio precisa de motor feito para uso intenso.",
+  "gancho": "Seu motor tem limite de uso por hora.",
+  "cta": {
+   "tipo": "mensagem",
+   "texto": "Manda uma foto da etiqueta do motor"
+  },
+  "fatos": [
+   "ppa_ciclos_res",
+   "ppa_bldc"
+  ],
+  "estrutura": "cover>fact>bars>statement>statement>compare>statement",
+  "data": "2026-10-26",
+  "hora": "12:15",
+  "media_id": "18136732951673626"
  }
 ]
