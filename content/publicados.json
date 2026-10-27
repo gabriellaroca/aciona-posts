@@ -483,5 +483,25 @@
   "data": "2026-10-27",
   "hora": "17:52",
   "media_id": "18131318971773908"
+ },
+ {
+  "id": "s44_ter_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Tecnologia no portão",
+  "tema": "bloqueador",
+  "ideia": "Controles de código fixo já foram abertos em segundos por pesquisadores; o código variável resiste a esse ataque e aparelhos clonadores são barrados no Brasil.",
+  "gancho": "2 a 4 anos de detenção por bloqueador.",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Já aconteceu com você? Conta nos comentários"
+  },
+  "fatos": [
+   "jammer_lei"
+  ],
+  "estrutura": "bignum",
+  "data": "2026-10-27",
+  "hora": "19:13",
+  "media_id": "18134258656665344"
  }
 ]
