@@ -468,5 +468,20 @@
   "data": "2026-10-27",
   "hora": "12:17",
   "media_id": "18108710288205340"
+ },
+ {
+  "id": "s44_ter_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Tecnologia no portão",
+  "tema": "codigo_fixo",
+  "ideia": "Controles de código fixo já foram abertos em segundos por pesquisadores; o código variável resiste a esse ataque e aparelhos clonadores são barrados no Brasil.",
+  "gancho": "Meu controle é fácil de copiar?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "chat",
+  "data": "2026-10-27",
+  "hora": "17:52",
+  "media_id": "18131318971773908"
  }
 ]
