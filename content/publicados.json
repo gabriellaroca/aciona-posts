@@ -447,5 +447,26 @@
   "data": "2026-10-27",
   "hora": "08:26",
   "media_id": "17914302924510465"
+ },
+ {
+  "id": "s44_ter_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Tecnologia no portão",
+  "tema": "codigo_fixo",
+  "ideia": "Controles de código fixo já foram abertos em segundos por pesquisadores; o código variável resiste a esse ataque e aparelhos clonadores são barrados no Brasil.",
+  "gancho": "8 segundos para abrir um portão.",
+  "cta": {
+   "tipo": "whatsapp",
+   "texto": "Quer trocar para código variável? Chama no WhatsApp"
+  },
+  "fatos": [
+   "kamkar_2015",
+   "anatel_flipper"
+  ],
+  "estrutura": "cover>fact>bars>compare>statement>fact>cta",
+  "data": "2026-10-27",
+  "hora": "12:17",
+  "media_id": "18108710288205340"
  }
 ]
