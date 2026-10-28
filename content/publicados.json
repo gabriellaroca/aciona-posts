@@ -558,5 +558,25 @@
   "data": "2026-10-28",
   "hora": "17:52",
   "media_id": "17894665584438680"
+ },
+ {
+  "id": "s44_qua_r",
+  "tipo": "reels",
+  "fila": "posts",
+  "quadro": "Por dentro do portão",
+  "tema": "portao_pesado",
+  "ideia": "Um motor pequeno move 400 kg por causa do redutor, e o pinhão define o equilíbrio entre velocidade e força do portão.",
+  "gancho": "Antes do motor, o teste da mão.",
+  "cta": {
+   "tipo": "whatsapp",
+   "texto": "Ficou na dúvida? Chama no WhatsApp"
+  },
+  "fatos": [
+   "ppa_teste_manual"
+  ],
+  "estrutura": "statement>flow>statement>statement|video",
+  "data": "2026-10-28",
+  "hora": "19:13",
+  "media_id": "18016716428956777"
  }
 ]
