@@ -520,5 +520,26 @@
   "data": "2026-10-28",
   "hora": "08:24",
   "media_id": "17943637899368018"
+ },
+ {
+  "id": "s44_qua_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Por dentro do portão",
+  "tema": "redutor_pinhao",
+  "ideia": "Um motor pequeno move 400 kg por causa do redutor, e o pinhão define o equilíbrio entre velocidade e força do portão.",
+  "gancho": "Como um motor pequeno move 400 kg?",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Seu portão é lento ou rápido? Conta nos comentários"
+  },
+  "fatos": [
+   "ppa_reducao",
+   "ppa_pinhao"
+  ],
+  "estrutura": "cover>flow>fact>bars>statement>statement",
+  "data": "2026-10-28",
+  "hora": "12:26",
+  "media_id": "18348628300252807"
  }
 ]
