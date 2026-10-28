@@ -541,5 +541,22 @@
   "data": "2026-10-28",
   "hora": "12:26",
   "media_id": "18348628300252807"
+ },
+ {
+  "id": "s44_qua_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Por dentro do portão",
+  "tema": "protecao_ambiente",
+  "ideia": "Um motor pequeno move 400 kg por causa do redutor, e o pinhão define o equilíbrio entre velocidade e força do portão.",
+  "gancho": "Seu motor aguenta respingo, não enchente.",
+  "cta": null,
+  "fatos": [
+   "ppa_ipx4"
+  ],
+  "estrutura": "fact",
+  "data": "2026-10-28",
+  "hora": "17:52",
+  "media_id": "17894665584438680"
  }
 ]
