@@ -578,5 +578,20 @@
   "data": "2026-10-28",
   "hora": "19:13",
   "media_id": "18016716428956777"
+ },
+ {
+  "id": "s44_qui_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Segurança em casa",
+  "tema": "antiesmagamento",
+  "ideia": "Normas limitam a força com que um portão automático pode apertar alguém e exigem que ela caia em fração de segundo; o sensor existe por causa de acidentes reais.",
+  "gancho": "Quanta força um portão pode fazer?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-10-29",
+  "hora": "08:27",
+  "media_id": "18130536793864718"
  }
 ]
