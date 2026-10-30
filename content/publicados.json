@@ -630,5 +630,20 @@
   "data": "2026-10-30",
   "hora": "12:18",
   "media_id": "18134330248705373"
+ },
+ {
+  "id": "s44_sex_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_semana",
+  "ideia": "Quiz que recapitula a semana: ciclos por hora, controle de código fixo e redutor do motor.",
+  "gancho": "Manda a pergunta que pegou você.",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-10-30",
+  "hora": "17:51",
+  "media_id": "17958969216267698"
  }
 ]
