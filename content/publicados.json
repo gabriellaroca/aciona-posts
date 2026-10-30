@@ -608,5 +608,27 @@
   "data": "2026-10-30",
   "hora": "08:24",
   "media_id": "17887093161503872"
+ },
+ {
+  "id": "s44_sex_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_semana",
+  "ideia": "Quiz que recapitula a semana: ciclos por hora, controle de código fixo e redutor do motor.",
+  "gancho": "Você prestou atenção nesta semana?",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Conta quantas você acertou"
+  },
+  "fatos": [
+   "ppa_ciclos_res",
+   "kamkar_2015",
+   "ppa_reducao"
+  ],
+  "estrutura": "cover>quiz>reveal>quiz>reveal>quiz>reveal>save",
+  "data": "2026-10-30",
+  "hora": "12:18",
+  "media_id": "18134330248705373"
  }
 ]
