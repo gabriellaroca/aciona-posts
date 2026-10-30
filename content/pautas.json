@@ -1295,7 +1295,7 @@
     "gancho": "Manda a pergunta que pegou você.",
     "spec": {
      "layout": "statement",
-     "theme": "orange",
+     "theme": "dark",
      "tag": "ERROU ALGUMA?",
      "lines": [
       "Manda a pergunta"
