@@ -645,5 +645,25 @@
   "data": "2026-10-30",
   "hora": "17:51",
   "media_id": "17958969216267698"
+ },
+ {
+  "id": "s44_sex_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Sextou com quiz",
+  "tema": "cameras_ciencia",
+  "ideia": "Quiz que recapitula a semana: ciclos por hora, controle de código fixo e redutor do motor.",
+  "gancho": "Câmera instalada acaba com o crime?",
+  "cta": {
+   "tipo": "salvar",
+   "texto": "Salve para planejar as suas câmeras"
+  },
+  "fatos": [
+   "cftv_meta"
+  ],
+  "estrutura": "myth",
+  "data": "2026-10-30",
+  "hora": "19:14",
+  "media_id": "17934330336413306"
  }
 ]
