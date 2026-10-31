@@ -705,5 +705,20 @@
   "data": "2026-10-31",
   "hora": "12:13",
   "media_id": "18482343388116185"
+ },
+ {
+  "id": "s44_sab_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Escolha certa",
+  "tema": "surtos",
+  "ideia": "Em país campeão de raios, quem protege a central do portão é o DPS no quadro e uma instalação elétrica certa, não o para-raios.",
+  "gancho": "Já perdeu aparelho em tempestade?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-10-31",
+  "hora": "17:51",
+  "media_id": "18165383710430729"
  }
 ]
