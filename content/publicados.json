@@ -720,5 +720,26 @@
   "data": "2026-10-31",
   "hora": "17:51",
   "media_id": "18165383710430729"
+ },
+ {
+  "id": "s44_sab_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Escolha certa",
+  "tema": "surtos",
+  "ideia": "Em país campeão de raios, quem protege a central do portão é o DPS no quadro e uma instalação elétrica certa, não o para-raios.",
+  "gancho": "Raio cai a 15 km da chuva",
+  "cta": {
+   "tipo": "salvar",
+   "texto": "Salve para a próxima tempestade"
+  },
+  "fatos": [
+   "raio_15km",
+   "pararaios_dps"
+  ],
+  "estrutura": "dodont",
+  "data": "2026-10-31",
+  "hora": "19:11",
+  "media_id": "18104034914042390"
  }
 ]
