@@ -1467,29 +1467,31 @@
    "posts": {
     "id": "s44_sab_p",
     "tema": "surtos",
-    "legenda": "Tempestade chegando? Dois cuidados que fazem diferença para o seu portão e dois erros comuns.\n\nO DPS e o aterramento são o que segura o surto que vem pela rede. O para-raios cuida da estrutura, não dos aparelhos.\n\nQuer uma revisão elétrica do portão? Fala com a gente no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#raios #portaoautomatico #protecaocontrasurtos #manutencaopreventiva #casasegura",
-    "gancho": "Tempestade chegando",
+    "legenda": "Raio cai a 15 km de onde está chovendo. O portão pode ser atingido com o céu ainda aberto.\n\nO surto entra pela rede elétrica e queima a central. Para-raios não protege aparelho, quem protege é o DPS no quadro de distribuição.\n\nSalve este post para a próxima tempestade.\n\nWhatsApp: (16) 99634-1354\n\n#raios #portaoautomatico #protecaocontrasurtos #dps #casasegura",
+    "gancho": "Raio cai a 15 km da chuva",
     "fatos": [
+     "raio_15km",
      "pararaios_dps"
     ],
     "cta": {
-     "tipo": "perfil",
-     "texto": "Veja mais no perfil"
+     "tipo": "salvar",
+     "texto": "Salve para a próxima tempestade"
     },
     "spec": {
      "layout": "dodont",
      "theme": "white",
-     "title": "Tempestade chegando",
+     "title": "Raio cai a 15 km da chuva",
      "faca": [
-      "Confira se o portão fechou antes de a energia oscilar",
-      "Peça revisão do DPS e do aterramento"
+      "Peça um DPS no quadro de distribuição",
+      "Confira o aterramento do portão"
      ],
      "evite": [
       "Confiar só no para-raios",
-      "Ligar a central em extensão ou benjamim"
+      "Esperar a chuva chegar para se proteger"
      ],
      "format": "4x5",
-     "footer": true
+     "footer": true,
+     "fonte": "Defesa Civil de Santos, com dados do Inpe; Schneider Electric"
     }
    }
   },
