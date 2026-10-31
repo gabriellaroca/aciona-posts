@@ -682,5 +682,28 @@
   "data": "2026-10-31",
   "hora": "08:22",
   "media_id": "18023033996927918"
+ },
+ {
+  "id": "s44_sab_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Escolha certa",
+  "tema": "surtos",
+  "ideia": "Em país campeão de raios, quem protege a central do portão é o DPS no quadro e uma instalação elétrica certa, não o para-raios.",
+  "gancho": "Raio não precisa cair na sua casa.",
+  "cta": {
+   "tipo": "whatsapp",
+   "texto": "A gente confere antes da próxima tempestade"
+  },
+  "fatos": [
+   "raios_brasil",
+   "raio_15km",
+   "pararaios_dps",
+   "ppa_dr_terra"
+  ],
+  "estrutura": "cover>fact>fact>myth>checklist>statement",
+  "data": "2026-10-31",
+  "hora": "12:13",
+  "media_id": "18482343388116185"
  }
 ]
