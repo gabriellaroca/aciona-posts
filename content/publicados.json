@@ -665,5 +665,22 @@
   "data": "2026-10-30",
   "hora": "19:14",
   "media_id": "17934330336413306"
+ },
+ {
+  "id": "s44_sab_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Escolha certa",
+  "tema": "surtos",
+  "ideia": "Em país campeão de raios, quem protege a central do portão é o DPS no quadro e uma instalação elétrica certa, não o para-raios.",
+  "gancho": "Tem para-raios? O motor ainda queima.",
+  "cta": null,
+  "fatos": [
+   "pararaios_dps"
+  ],
+  "estrutura": "statement",
+  "data": "2026-10-31",
+  "hora": "08:22",
+  "media_id": "18023033996927918"
  }
 ]
