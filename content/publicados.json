@@ -758,5 +758,25 @@
   "data": "2026-11-01",
   "hora": "08:21",
   "media_id": "18107002007308698"
+ },
+ {
+  "id": "s44_dom_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Domingo leve",
+  "tema": "maior_portao",
+  "ideia": "O maior portão automático do mundo protege uma região inteira da Holanda e fecha sozinho quando a maré ameaça.",
+  "gancho": "O maior portão automático do mundo.",
+  "cta": {
+   "tipo": "compartilhar",
+   "texto": "Manda para quem ama engenharia"
+  },
+  "fatos": [
+   "maeslant"
+  ],
+  "estrutura": "cover>fact>fact>flow>statement>save",
+  "data": "2026-11-01",
+  "hora": "12:14",
+  "media_id": "18121826999287396"
  }
 ]
