@@ -741,5 +741,22 @@
   "data": "2026-10-31",
   "hora": "19:11",
   "media_id": "18104034914042390"
+ },
+ {
+  "id": "s44_dom_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Domingo leve",
+  "tema": "maior_portao",
+  "ideia": "O maior portão automático do mundo protege uma região inteira da Holanda e fecha sozinho quando a maré ameaça.",
+  "gancho": "Imagina um portão de 210 metros.",
+  "cta": null,
+  "fatos": [
+   "maeslant"
+  ],
+  "estrutura": "statement",
+  "data": "2026-11-01",
+  "hora": "08:21",
+  "media_id": "18107002007308698"
  }
 ]
