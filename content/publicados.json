@@ -778,5 +778,22 @@
   "data": "2026-11-01",
   "hora": "12:14",
   "media_id": "18121826999287396"
+ },
+ {
+  "id": "s44_dom_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Domingo leve",
+  "tema": "historia_controle",
+  "ideia": "O maior portão automático do mundo protege uma região inteira da Holanda e fecha sozinho quando a maré ameaça.",
+  "gancho": "1931: o primeiro controle de garagem.",
+  "cta": null,
+  "fatos": [
+   "controle_1931"
+  ],
+  "estrutura": "fact",
+  "data": "2026-11-01",
+  "hora": "17:52",
+  "media_id": "18030700367719603"
  }
 ]
