@@ -795,5 +795,23 @@
   "data": "2026-11-01",
   "hora": "17:52",
   "media_id": "18030700367719603"
+ },
+ {
+  "id": "s44_dom_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Domingo leve",
+  "tema": "enquete_domingo",
+  "ideia": "Enquete para o público escolher o tema da próxima curiosidade de domingo.",
+  "gancho": "Qual curiosidade no próximo domingo?",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Comente 1 ou 2"
+  },
+  "fatos": [],
+  "estrutura": "poll",
+  "data": "2026-11-01",
+  "hora": "19:12",
+  "media_id": "18220431574343861"
  }
 ]
