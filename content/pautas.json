@@ -2040,7 +2040,7 @@
       "o motor",
       "que chegou?"
      ],
-     "sub": "Uma peça do tamanho de uma caixa de fósforo. Meio-dia no feed.",
+     "sub": "Ela é pequena e fica presa na cremalheira. Meio-dia no feed.",
      "format": "story"
     }
    },
@@ -2336,7 +2336,7 @@
      "tag": "VISTORIA RÁPIDA",
      "big": "1,80 m",
      "title": "é a altura máxima do destrave manual.",
-     "body": "Acima disso, ninguém alcança na hora de uma queda de energia.",
+     "body": "É o manual de instalação que fixa esse limite: o destrave precisa ficar ao alcance quando falta energia.",
      "fonte": "manual Nice deslizantes",
      "format": "story"
     }
@@ -2574,7 +2574,7 @@
         "Um dedo"
        ]
       },
-      "fala": "Nenhuma folga, dois milímetros ou um dedo? Pensa aí."
+      "fala": "Pensa aí: nenhuma folga, dois milímetros ou um dedo?"
      },
      {
       "spec": {
@@ -2880,7 +2880,7 @@
      "big": "1min45",
      "bigSize": 230,
      "title": "é o tempo das comportas antigas, de abrir.",
-     "body": "As novas, de correr, levam uns 5 minutos. Mais pesadas, mais devagar.",
+     "body": "As novas, de correr, levam uns 5 minutos para abrir ou fechar.",
      "fonte": "Autoridade do Canal do Panamá",
      "format": "story"
     }
