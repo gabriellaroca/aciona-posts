@@ -1651,5 +1651,1261 @@
     }
    }
   }
+ },
+ {
+  "id": "s45-seg",
+  "dia": 1,
+  "quadro": "Segunda sem susto",
+  "tema": "cremalheira_graxa",
+  "ideia": "O manual de motores deslizantes da Nice proíbe graxa na cremalheira e pede checagem mensal da reversão; mostramos o que conferir sem abrir nada.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_seg_m",
+    "tema": "cremalheira_graxa",
+    "gancho": "Graxa na cremalheira ajuda?",
+    "fatos": [
+     "nice_sem_graxa"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "SEGUNDA SEM SUSTO",
+     "lines": [
+      "Graxa na"
+     ],
+     "accent": [
+      "cremalheira",
+      "ajuda?"
+     ],
+     "sub": "O manual do fabricante responde em uma linha. Meio-dia no feed.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_seg_c",
+    "tema": "cremalheira_graxa",
+    "gancho": "O manual proíbe graxa aqui.",
+    "fatos": [
+     "nice_sem_graxa",
+     "folga_2mm",
+     "nice_reversao_mensal"
+    ],
+    "cta": {
+     "tipo": "salvar",
+     "texto": "Salve o checklist do mês"
+    },
+    "legenda": "Muita gente passa graxa na cremalheira achando que ajuda. O manual diz o contrário.\n\nNo manual de instalação dos motores deslizantes da Nice está escrito: nenhum óleo e nenhuma graxa na cremalheira ou na engrenagem. O que importa ali é a folga de uns 2 mm entre os dentes, a mesma medida que a PPA indica.\n\nSalve o checklist do mês e confira o seu sem abrir nada.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #manutencaopreventiva #motordeportao #portaodecorrer",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "SEGUNDA SEM SUSTO",
+      "lines": [
+       "O manual"
+      ],
+      "accent": [
+       "proíbe graxa",
+       "aqui."
+      ],
+      "sub": "Na cremalheira, a barra dentada que puxa o portão de correr.",
+      "format": "4x5"
+     },
+     {
+      "layout": "myth",
+      "theme": "light",
+      "label": "MITO",
+      "title": "“Graxa na cremalheira deixa o portão macio.”",
+      "vlabel": "O manual diz",
+      "body": "Nenhum óleo e nenhuma graxa na cremalheira ou na engrenagem. Limpeza só com pano e detergente neutro.",
+      "fonte": "manual Nice deslizantes",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "white",
+      "tag": "A MEDIDA CERTA",
+      "big": "2 mm",
+      "title": "de folga entre os dentes da cremalheira e do pinhão.",
+      "body": "Folgado demais danifica. Apertado demais desgasta. Nice e PPA indicam a mesma medida.",
+      "fonte": "manuais Nice e PPA DZ Brutalle",
+      "format": "4x5"
+     },
+     {
+      "layout": "checklist",
+      "theme": "dark",
+      "title": "Todo mês, sem abrir nada",
+      "items": [
+       "Reversão ajustada: o manual pede checar mensalmente",
+       "Roldanas girando livres",
+       "Cremalheira limpa e seca",
+       "Sem solvente e sem jato de água"
+      ],
+      "fonte": "manual Nice deslizantes",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Salve o checklist"
+      ],
+      "accent": [
+       "do mês."
+      ],
+      "sub": "E mande para quem cuida do portão aí.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_seg_t",
+    "tema": "cremalheira_graxa",
+    "gancho": "E a sua cremalheira, tem graxa?",
+    "spec": {
+     "layout": "poll",
+     "theme": "light",
+     "tag": "RESPONDE AQUI",
+     "title": "E a sua cremalheira, tem graxa?",
+     "o1": "Tem sim",
+     "o2": "Nem sei onde fica",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_seg_r",
+    "tema": "cremalheira_graxa",
+    "gancho": "Graxa na cremalheira? O manual diz não.",
+    "fatos": [
+     "nice_sem_graxa",
+     "folga_2mm"
+    ],
+    "cta": {
+     "tipo": "mensagem",
+     "texto": "Manda foto da sua cremalheira"
+    },
+    "legenda": "Graxa na cremalheira do portão? O manual do fabricante diz não.\n\nO que a cremalheira precisa é de folga certa: uns 2 mm entre os dentes dela e os do pinhão do motor. Folgado demais danifica, apertado demais desgasta.\n\nManda uma foto da sua cremalheira por mensagem que a gente dá uma olhada.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #cremalheira #manutencaodeportao #dicasdecasa",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "CREMALHEIRA",
+       "lines": [
+        "Graxa aqui?"
+       ],
+       "accent": [
+        "O manual",
+        "diz não."
+       ]
+      },
+      "fala": "Graxa na cremalheira do portão? O manual diz não."
+     },
+     {
+      "spec": {
+       "layout": "notice",
+       "theme": "light",
+       "tag": "ESTÁ NO MANUAL",
+       "title": "Nada de óleo. Nada de graxa.",
+       "body": "Nem na cremalheira, nem na engrenagem do motor.",
+       "fonte": "manual Nice deslizantes"
+      },
+      "fala": "O manual da Nice é direto. Nada de óleo e nada de graxa na cremalheira ou na engrenagem."
+     },
+     {
+      "spec": {
+       "layout": "fact",
+       "theme": "white",
+       "tag": "O QUE IMPORTA",
+       "big": "2 mm",
+       "title": "de folga entre os dentes.",
+       "fonte": "manuais Nice e PPA"
+      },
+      "fala": "O que importa é a folga. Uns dois milímetros entre os dentes. Folgado demais danifica, apertado demais desgasta."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "tag": "NA DÚVIDA",
+       "lines": [
+        "Manda uma foto."
+       ],
+       "accent": [
+        "A gente olha."
+       ]
+      },
+      "fala": "Ficou na dúvida? Manda uma foto da sua cremalheira pra gente."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "s45-ter",
+  "dia": 2,
+  "quadro": "Tecnologia no portão",
+  "tema": "senha_padrao",
+  "ideia": "A senha de fábrica do gravador de câmeras é a entrada mais fácil: o Mirai invadiu aparelhos com só 61 combinações e a Anatel já barra senha repetida.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_ter_m",
+    "tema": "senha_padrao",
+    "gancho": "61 senhas bastaram para um ataque histórico.",
+    "fatos": [
+     "mirai_61"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "TECNOLOGIA",
+     "lines": [
+      "61 senhas"
+     ],
+     "accent": [
+      "bastaram."
+     ],
+     "sub": "Para um dos maiores ataques da internet. A história completa ao meio-dia.",
+     "fonte": "CSO Online, 2016",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_ter_c",
+    "tema": "senha_padrao",
+    "gancho": "A senha de fábrica é a porta.",
+    "fatos": [
+     "mirai_61",
+     "anatel_ato77"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Manda para quem instalou câmera e nunca trocou a senha"
+    },
+    "legenda": "O gravador das suas câmeras ainda usa a senha que veio da fábrica?\n\nEm 2016, o Mirai invadiu câmeras, gravadores e roteadores testando só 61 combinações de usuário e senha de fábrica. Com eles, fez um ataque de 620 Gbps. No Brasil, o Ato 77/2021 da Anatel proíbe equipamento de telecom com senha fraca ou igual em todos os aparelhos.\n\nManda para quem instalou câmera e nunca trocou a senha.\n\nWhatsApp: (16) 99634-1354\n\n#cameradeseguranca #segurancadigital #cftv #dvr #tecnologia",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "TECNOLOGIA NO PORTÃO",
+      "lines": [
+       "A senha de"
+      ],
+      "accent": [
+       "fábrica",
+       "é a porta."
+      ],
+      "sub": "Do gravador das câmeras, do roteador, do app do portão.",
+      "format": "4x5"
+     },
+     {
+      "layout": "bignum",
+      "theme": "light",
+      "big": "61",
+      "title": "senhas de fábrica bastaram para o Mirai.",
+      "sub": "Em 2016, câmeras e gravadores invadidos viraram um ataque de 620 Gbps.",
+      "fonte": "CSO Online, 2016",
+      "format": "4x5"
+     },
+     {
+      "layout": "notice",
+      "theme": "dark",
+      "tag": "NO BRASIL",
+      "title": "A Anatel barrou a senha repetida.",
+      "body": "Pelo Ato 77/2021, nada de senha fraca, em branco ou igual em todos os aparelhos. E a troca no primeiro uso é obrigatória.",
+      "fonte": "Anatel, Ato 77/2021",
+      "format": "4x5"
+     },
+     {
+      "layout": "checklist",
+      "theme": "white",
+      "title": "Faça hoje no gravador e no app",
+      "items": [
+       "Troque a senha de fábrica por uma longa",
+       "Uma senha diferente para cada aparelho",
+       "Atualize o firmware quando sair versão nova",
+       "Desligue o acesso remoto que você não usa"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Manda para quem"
+      ],
+      "accent": [
+       "nunca trocou",
+       "a senha."
+      ],
+      "sub": "Leva poucos minutos e fecha a porta mais fácil.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_ter_t",
+    "tema": "senha_padrao",
+    "gancho": "Quando você trocou a senha do gravador?",
+    "fatos": [
+     "mirai_61"
+    ],
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "PERGUNTA SÉRIA",
+       "lines": [
+        "Quando você"
+       ],
+       "accent": [
+        "trocou a senha",
+        "do gravador?"
+       ]
+      },
+      "fala": "Quando foi a última vez que você trocou a senha do gravador?"
+     },
+     {
+      "spec": {
+       "layout": "bignum",
+       "theme": "light",
+       "big": "61",
+       "title": "senhas de fábrica num ataque histórico.",
+       "fonte": "CSO Online, 2016"
+      },
+      "fala": "Em dois mil e dezesseis, sessenta e uma senhas de fábrica bastaram pra um ataque gigante."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "lines": [
+        "Troca hoje."
+       ],
+       "accent": [
+        "Travou?",
+        "Chama a gente."
+       ]
+      },
+      "fala": "Troca hoje. Se travar no caminho, chama a gente."
+     }
+    ]
+   },
+   "posts": {
+    "id": "s45_ter_p",
+    "tema": "senha_padrao",
+    "gancho": "Senha de fábrica ou senha sua?",
+    "fatos": [
+     "anatel_ato77"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Comenta: já trocou a do seu gravador?"
+    },
+    "legenda": "Senha de fábrica ou senha sua? No gravador de câmeras, essa escolha muda tudo.\n\nA senha que vem na caixa costuma ser igual em muitos aparelhos e é a primeira que um ataque automático tenta. A Anatel já exige que equipamento de telecom force a troca no primeiro uso.\n\nComenta aqui: você já trocou a do seu gravador?\n\nWhatsApp: (16) 99634-1354\n\n#cameradeseguranca #senhaforte #cftv #casasegura",
+    "spec": {
+     "layout": "compare",
+     "theme": "white",
+     "title": "O gravador das suas câmeras",
+     "aT": "Senha de fábrica",
+     "aB": "Igual em muitos aparelhos. É a primeira que um ataque testa.",
+     "bT": "Senha sua",
+     "bB": "Longa, única e trocada no primeiro uso, como a Anatel exige.",
+     "fonte": "Anatel, Ato 77/2021",
+     "footer": true,
+     "format": "4x5"
+    }
+   }
+  }
+ },
+ {
+  "id": "s45-qua",
+  "dia": 3,
+  "quadro": "Por dentro do portão",
+  "tema": "fim_de_curso",
+  "ideia": "Como o motor sabe a hora exata de parar: o fim de curso magnético ou mecânico, com o ímã ou a chave presos na cremalheira.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_qua_m",
+    "tema": "fim_de_curso",
+    "gancho": "Quem avisa o motor que chegou?",
+    "spec": {
+     "layout": "statement",
+     "theme": "light",
+     "tag": "POR DENTRO",
+     "lines": [
+      "Quem avisa"
+     ],
+     "accent": [
+      "o motor",
+      "que chegou?"
+     ],
+     "sub": "Uma peça do tamanho de uma caixa de fósforo. Meio-dia no feed.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_qua_c",
+    "tema": "fim_de_curso",
+    "gancho": "Como o motor sabe onde parar.",
+    "fatos": [
+     "nice_fim_curso",
+     "ppa_brutalle"
+    ],
+    "cta": {
+     "tipo": "mensagem",
+     "texto": "Manda um vídeo do seu portão parando"
+    },
+    "legenda": "O motor não adivinha onde o portão termina. Quem avisa é o fim de curso.\n\nPode ser magnético, com um ímã na cremalheira passando a no máximo 0,5 cm do motor, ou mecânico, com uma peça de metal que empurra uma chave e faz aquele clique. Em motores industriais, como o PPA DZ Brutalle, ele é híbrido.\n\nSeu portão anda passando do ponto ou parando antes? Manda um vídeo por mensagem.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #fimdecurso #motordeportao #comofunciona",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "light",
+      "tag": "POR DENTRO DO PORTÃO",
+      "lines": [
+       "Como o motor"
+      ],
+      "accent": [
+       "sabe onde",
+       "parar."
+      ],
+      "sub": "Ele não adivinha. Tem uma peça avisando.",
+      "format": "4x5"
+     },
+     {
+      "layout": "flow",
+      "theme": "dark",
+      "title": "Do botão à parada",
+      "nodes": [
+       "Comando|o motor começa a girar",
+       "Movimento|o portão corre no trilho",
+       "Sinal|o acionador passa pelo sensor",
+       "Parada|o motor desliga no ponto"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
+      "theme": "white",
+      "title": "Dois jeitos de avisar",
+      "aT": "Magnético",
+      "aB": "Um ímã na cremalheira passa a no máximo 0,5 cm do motor.",
+      "bT": "Mecânico",
+      "bB": "Uma peça de metal empurra uma chave. Você ouve um clique.",
+      "fonte": "manual Nice deslizantes",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "dark",
+      "tag": "NO PESADO",
+      "big": "3.000 kg",
+      "bigSize": 230,
+      "title": "move o PPA DZ Brutalle, com fim de curso híbrido.",
+      "body": "Analógico e digital juntos, em motor de portão industrial.",
+      "fonte": "manual técnico PPA DZ Brutalle",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "light",
+      "tag": "SINAL DE ALERTA",
+      "lines": [
+       "Passou do ponto"
+      ],
+      "accent": [
+       "ou parou antes?"
+      ],
+      "sub": "O fim de curso pode ter saído do lugar. Quem ajusta é o técnico.",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Manda um vídeo"
+      ],
+      "accent": [
+       "do portão parando."
+      ],
+      "sub": "Por mensagem, a gente já tem uma boa pista.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_qua_t",
+    "tema": "fim_de_curso",
+    "gancho": "Seu portão faz clique ao parar?",
+    "spec": {
+     "layout": "quiz",
+     "theme": "light",
+     "tag": "REPARA HOJE",
+     "title": "Seu portão faz clique ao parar?",
+     "options": [
+      "Faz, sempre",
+      "Não faz nada",
+      "Nunca reparei"
+     ],
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_qua_r",
+    "tema": "fim_de_curso",
+    "gancho": "Ouviu um clique quando o portão parou?",
+    "fatos": [
+     "nice_fim_curso"
+    ],
+    "cta": {
+     "tipo": "whatsapp",
+     "texto": "Passou do ponto? Chama no WhatsApp"
+    },
+    "legenda": "Ouviu um clique quando o portão parou? Tem explicação.\n\nÉ o fim de curso. Em alguns motores, um ímã preso na cremalheira passa a no máximo 0,5 cm do sensor. Em outros, uma peça de metal empurra uma chave, e é esse o clique.\n\nSe o portão começou a passar do ponto, chama no WhatsApp antes que ele bata.\n\nWhatsApp: (16) 99634-1354\n\n#portaoautomatico #fimdecurso #motordeportao #portaodecorrer",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "POR DENTRO",
+       "lines": [
+        "Ouviu um"
+       ],
+       "accent": [
+        "clique?"
+       ]
+      },
+      "fala": "Ouviu um clique quando o portão parou? Tem explicação."
+     },
+     {
+      "spec": {
+       "layout": "fact",
+       "theme": "light",
+       "tag": "MAGNÉTICO",
+       "big": "0,5 cm",
+       "title": "entre o ímã e o motor, no máximo.",
+       "fonte": "manual Nice deslizantes"
+      },
+      "fala": "Em muitos motores, um ímã preso na cremalheira passa pertinho do sensor. Meio centímetro, no máximo."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "white",
+       "tag": "MECÂNICO",
+       "lines": [
+        "Ou uma chave"
+       ],
+       "accent": [
+        "que faz",
+        "clique."
+       ],
+       "fonte": "manual Nice deslizantes"
+      },
+      "fala": "Em outros, uma peça de metal empurra uma chave. É esse o clique que você ouve."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "tag": "SINAL DE ALERTA",
+       "lines": [
+        "Passou do ponto?"
+       ],
+       "accent": [
+        "Chama a gente."
+       ]
+      },
+      "fala": "Se o portão começou a passar do ponto, chama a gente antes que ele bata."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "s45-qui",
+  "dia": 4,
+  "quadro": "Segurança em casa",
+  "tema": "sindico_lei",
+  "ideia": "O Código Civil põe a conservação das partes comuns nas mãos do síndico e a NBR 5674 pede plano e registro: o portão automático do prédio entra nessa conta.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_qui_m",
+    "tema": "sindico_lei",
+    "gancho": "Síndico, o portão é com você?",
+    "fatos": [
+     "cc_1348"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "PARA SÍNDICOS",
+     "lines": [
+      "Síndico,"
+     ],
+     "accent": [
+      "o portão",
+      "é com você?"
+     ],
+     "sub": "O Código Civil responde em uma linha. Meio-dia no feed.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_qui_c",
+    "tema": "sindico_lei",
+    "gancho": "Síndico: a lei fala do portão.",
+    "fatos": [
+     "cc_1348",
+     "nbr5674"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Manda para o síndico do seu prédio"
+    },
+    "legenda": "Síndico: o portão automático do prédio é parte comum, e a lei fala disso.\n\nO art. 1.348 do Código Civil diz que compete ao síndico diligenciar a conservação e a guarda das partes comuns. A NBR 5674 completa: plano de manutenção do prédio, periodicidade de cada verificação, registro com data e empresa capacitada para portas automatizadas e câmeras.\n\nManda para o síndico do seu prédio.\n\nWhatsApp: (16) 99634-1354\n\n#sindico #condominio #gestaocondominial #portaoautomatico",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "PARA SÍNDICOS",
+      "lines": [
+       "Síndico:"
+      ],
+      "accent": [
+       "a lei fala",
+       "do portão."
+      ],
+      "sub": "O que o Código Civil e a NBR 5674 pedem de quem cuida do prédio.",
+      "format": "4x5"
+     },
+     {
+      "layout": "quote",
+      "theme": "light",
+      "text": "Diligenciar a conservação e a guarda das partes comuns.",
+      "name": "Código Civil, art. 1.348, V",
+      "place": "Uma das funções do síndico",
+      "fonte": "Lei 10.406/2002",
+      "format": "4x5"
+     },
+     {
+      "layout": "bullets",
+      "theme": "white",
+      "title": "O que a NBR 5674 pede",
+      "items": [
+       "Plano feito para o prédio, não modelo pronto",
+       "Local, sistema e periodicidade de cada verificação",
+       "Cada ocorrência registrada com data",
+       "Portas automatizadas e câmeras com empresa capacitada"
+      ],
+      "fonte": "NBR 5674, via SíndicoNet",
+      "format": "4x5"
+     },
+     {
+      "layout": "notice",
+      "theme": "dark",
+      "tag": "NA PRÁTICA",
+      "title": "Guarde o registro.",
+      "body": "Com a documentação, o síndico comprova que a manutenção está em dia, inclusive para cobrar a construtora.",
+      "fonte": "SíndicoNet",
+      "format": "4x5"
+     },
+     {
+      "layout": "cta",
+      "theme": "light",
+      "lines": [
+       "Plano para o"
+      ],
+      "accent": [
+       "portão do prédio?"
+      ],
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_qui_t",
+    "tema": "sindico_lei",
+    "gancho": "Destrave alto demais é erro de instalação.",
+    "fatos": [
+     "nice_distancias"
+    ],
+    "spec": {
+     "layout": "fact",
+     "theme": "dark",
+     "tag": "VISTORIA RÁPIDA",
+     "big": "1,80 m",
+     "title": "é a altura máxima do destrave manual.",
+     "body": "Acima disso, ninguém alcança na hora de uma queda de energia.",
+     "fonte": "manual Nice deslizantes",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_qui_p",
+    "tema": "sindico_lei",
+    "gancho": "Seu portão passa nesta vistoria?",
+    "fatos": [
+     "nice_distancias"
+    ],
+    "cta": {
+     "tipo": "salvar",
+     "texto": "Salve para a próxima vistoria"
+    },
+    "legenda": "Seu portão passa nesta vistoria? São quatro medidas do manual de instalação.\n\nDestrave manual a no máximo 1,80 m, botoeira a pelo menos 1,5 m do chão, folha a 2,5 cm do muro e nada de portão avançando sobre a calçada. Dá para conferir com uma trena.\n\nSalve para a próxima vistoria do prédio ou da sua casa.\n\nWhatsApp: (16) 99634-1354\n\n#sindico #condominio #portaoautomatico #vistoria",
+    "spec": {
+     "layout": "checklist",
+     "theme": "light",
+     "title": "Seu portão passa nesta vistoria?",
+     "items": [
+      "Destrave manual a até 1,80 m",
+      "Botoeira a 1,5 m do chão ou mais",
+      "Folha a 2,5 cm do muro ou mais",
+      "Nada avançando sobre a calçada"
+     ],
+     "fonte": "manual de instalação Nice deslizantes",
+     "footer": true,
+     "format": "4x5"
+    }
+   }
+  }
+ },
+ {
+  "id": "s45-sex",
+  "dia": 5,
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_s45",
+  "recap": true,
+  "ideia": "Quiz que recapitula a semana: graxa na cremalheira, senha de fábrica do Mirai, fim de curso magnético e o dever do síndico.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_sex_m",
+    "tema": "quiz_s45",
+    "gancho": "Hoje o feed vira prova.",
+    "spec": {
+     "layout": "statement",
+     "theme": "orange",
+     "tag": "SEXTOU",
+     "lines": [
+      "Hoje o feed"
+     ],
+     "accent": [
+      "vira prova."
+     ],
+     "sub": "Quatro perguntas sobre a semana, ao meio-dia. Sem cola.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_sex_c",
+    "tema": "quiz_s45",
+    "gancho": "Quatro perguntas. Quem viu, gabarita.",
+    "fatos": [
+     "nice_sem_graxa",
+     "mirai_61",
+     "nice_fim_curso",
+     "cc_1348"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Comenta seu placar de 0 a 4"
+    },
+    "legenda": "Quatro perguntas sobre o que mostramos nesta semana. Quem acompanhou, gabarita.\n\nGraxa na cremalheira, as senhas do Mirai, o ímã do fim de curso e o artigo do Código Civil que fala do síndico. As respostas estão nos slides seguintes.\n\nComenta seu placar de 0 a 4 e chama alguém pra tentar também.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #sextou #portaoautomatico #segurancadigital",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "QUIZ DA SEMANA",
+      "lines": [
+       "Quatro perguntas."
+      ],
+      "accent": [
+       "Quem viu,",
+       "gabarita."
+      ],
+      "sub": "Responda de cabeça antes de arrastar.",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "light",
+      "title": "O que o manual da Nice diz sobre graxa na cremalheira?",
+      "options": [
+       "Passe todo mês",
+       "Nenhuma graxa",
+       "Só no verão"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "B",
+      "title": "Nenhuma graxa.",
+      "body": "Nem óleo, na cremalheira e na engrenagem. Limpeza com pano e detergente neutro.",
+      "fonte": "manual Nice deslizantes",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "white",
+      "title": "Quantas senhas de fábrica o Mirai testava?",
+      "options": [
+       "61",
+       "6.100",
+       "1 milhão"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "A",
+      "title": "Só 61.",
+      "body": "E bastaram para juntar câmeras e gravadores num ataque de 620 Gbps, em 2016.",
+      "fonte": "CSO Online, 2016",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "light",
+      "title": "No fim de curso magnético, o que passa perto do sensor?",
+      "options": [
+       "Uma mola",
+       "O controle",
+       "Um ímã"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "C",
+      "title": "Um ímã.",
+      "body": "Preso na cremalheira, a no máximo 0,5 cm do motor.",
+      "fonte": "manual Nice deslizantes",
+      "format": "4x5"
+     },
+     {
+      "layout": "quiz",
+      "theme": "white",
+      "title": "Que lei põe a conservação das partes comuns com o síndico?",
+      "options": [
+       "Lei do Inquilinato",
+       "Código Civil",
+       "Código de Trânsito"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "reveal",
+      "theme": "dark",
+      "letter": "B",
+      "title": "Código Civil.",
+      "body": "Art. 1.348, inciso V: diligenciar a conservação e a guarda das partes comuns.",
+      "fonte": "Lei 10.406/2002",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "Fez 4 de 4?"
+      ],
+      "accent": [
+       "Comenta",
+       "seu placar."
+      ],
+      "sub": "Toda sexta tem quiz da semana aqui.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_sex_t",
+    "tema": "quiz_s45",
+    "gancho": "Qual foi a mais difícil?",
+    "spec": {
+     "layout": "poll",
+     "theme": "dark",
+     "tag": "VOTA AQUI",
+     "title": "Qual foi a mais difícil?",
+     "o1": "As senhas do Mirai",
+     "o2": "O ímã do fim de curso",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_sex_r",
+    "tema": "quiz_s45",
+    "gancho": "Quanta folga vai entre os dentes?",
+    "fatos": [
+     "folga_2mm"
+    ],
+    "cta": {
+     "tipo": "compartilhar",
+     "texto": "Desafia alguém com essa pergunta"
+    },
+    "legenda": "Pergunta relâmpago: quanta folga vai entre os dentes da cremalheira e do pinhão?\n\nA resposta está no fim do vídeo. Nice e PPA indicam a mesma medida nos manuais, e errar para qualquer lado custa caro: folgado demais danifica, apertado demais desgasta.\n\nAcertou de primeira? Desafia alguém com essa pergunta.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #sextou #portaoautomatico #cremalheira",
+    "cenas": [
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "dark",
+       "tag": "QUIZ RELÂMPAGO",
+       "lines": [
+        "Quanta folga"
+       ],
+       "accent": [
+        "entre os",
+        "dentes?"
+       ]
+      },
+      "fala": "Pergunta rápida. Quanta folga vai entre os dentes da cremalheira?"
+     },
+     {
+      "spec": {
+       "layout": "quiz",
+       "theme": "light",
+       "title": "Entre a cremalheira e o pinhão do motor:",
+       "options": [
+        "Nenhuma folga",
+        "Dois milímetros",
+        "Um dedo"
+       ]
+      },
+      "fala": "Nenhuma folga, dois milímetros ou um dedo? Pensa aí."
+     },
+     {
+      "spec": {
+       "layout": "reveal",
+       "theme": "dark",
+       "letter": "B",
+       "title": "Dois milímetros.",
+       "body": "Folgado demais danifica. Apertado demais desgasta.",
+       "fonte": "manuais Nice e PPA"
+      },
+      "fala": "Resposta: dois milímetros. Folgado demais danifica. Apertado demais desgasta."
+     },
+     {
+      "spec": {
+       "layout": "statement",
+       "theme": "orange",
+       "lines": [
+        "Acertou?"
+       ],
+       "accent": [
+        "Desafia",
+        "alguém."
+       ]
+      },
+      "fala": "Acertou de primeira? Manda pra alguém tentar também."
+     }
+    ]
+   }
+  }
+ },
+ {
+  "id": "s45-sab",
+  "dia": 6,
+  "quadro": "Escolha certa",
+  "tema": "homologacao_anatel",
+  "ideia": "Antes de comprar controle, câmera ou interfone, confira o selo e o número de homologação da Anatel: sem ele, a venda nem é permitida no Brasil.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_sab_m",
+    "tema": "homologacao_anatel",
+    "gancho": "Seu controle tem RG?",
+    "spec": {
+     "layout": "statement",
+     "theme": "white",
+     "tag": "ESCOLHA CERTA",
+     "lines": [
+      "Seu controle"
+     ],
+     "accent": [
+      "tem RG?"
+     ],
+     "sub": "Tem, e ele fica na etiqueta. Meio-dia no feed.",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_sab_c",
+    "tema": "homologacao_anatel",
+    "gancho": "Sem esse selo, nem pode vender.",
+    "fatos": [
+     "anatel_homologacao"
+    ],
+    "cta": {
+     "tipo": "mensagem",
+     "texto": "Ficou na dúvida? Mande o selo por mensagem"
+    },
+    "legenda": "Controle, câmera, interfone: sem o selo da Anatel, nem pode ser vendido no Brasil.\n\nProduto de telecomunicações só pode ser usado ou vendido aqui depois de homologado pela Anatel. O homologado traz a logomarca da agência e o número de homologação na etiqueta ou na caixa.\n\nFicou na dúvida com algum aparelho? Mande o selo por mensagem e a gente confere.\n\nWhatsApp: (16) 99634-1354\n\n#anatel #controleremoto #cameradeseguranca #comprasegura",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "white",
+      "tag": "ESCOLHA CERTA",
+      "lines": [
+       "Sem esse selo,"
+      ],
+      "accent": [
+       "nem pode",
+       "vender."
+      ],
+      "sub": "Vale para controle, câmera, interfone e roteador.",
+      "format": "4x5"
+     },
+     {
+      "layout": "notice",
+      "theme": "dark",
+      "tag": "A REGRA",
+      "title": "Sem homologação, não pode.",
+      "body": "A Anatel não permite usar nem vender produto de telecomunicações no Brasil sem homologação.",
+      "fonte": "gov.br, Anatel",
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
+      "theme": "light",
+      "title": "Na hora de comprar",
+      "aT": "Com selo",
+      "aB": "Logomarca da Anatel e número de homologação na etiqueta.",
+      "bT": "Sem selo",
+      "bB": "Não passou pelos testes de qualidade e segurança exigidos aqui.",
+      "fonte": "gov.br, Anatel",
+      "format": "4x5"
+     },
+     {
+      "layout": "checklist",
+      "theme": "white",
+      "title": "Confira antes de pagar",
+      "items": [
+       "Logomarca da Anatel no produto ou na caixa",
+       "Número de homologação legível",
+       "Marca e modelo iguais aos do anúncio",
+       "Nota fiscal de quem vendeu"
+      ],
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "orange",
+      "lines": [
+       "Manda a foto"
+      ],
+      "accent": [
+       "da etiqueta."
+      ],
+      "sub": "A gente confere com você antes de instalar.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_sab_t",
+    "tema": "homologacao_anatel",
+    "gancho": "Controle barato sem selo?",
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "CONTA PRA GENTE",
+     "lines": [
+      "Controle barato"
+     ],
+     "accent": [
+      "sem selo?"
+     ],
+     "sub": "Responde aqui: você já conferiu a etiqueta de algum que comprou?",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_sab_p",
+    "tema": "homologacao_anatel",
+    "gancho": "Homologação, explicada em uma linha.",
+    "fatos": [
+     "anatel_homologacao"
+    ],
+    "cta": {
+     "tipo": "perfil",
+     "texto": "Siga para mais dicas antes de comprar"
+    },
+    "legenda": "Homologação, explicada em uma linha: é a autorização da Anatel para um aparelho ser usado e vendido no Brasil.\n\nControle de portão, câmera Wi-Fi e interfone entram nessa regra. Procure a logomarca da Anatel e o número de homologação na etiqueta.\n\nSiga o perfil para mais dicas antes de comprar.\n\nWhatsApp: (16) 99634-1354\n\n#anatel #homologacao #controleremoto #portaoautomatico",
+    "spec": {
+     "layout": "glossary",
+     "theme": "light",
+     "tag": "GLOSSÁRIO",
+     "term": "Homologação",
+     "fonte": "gov.br, Anatel",
+     "footer": true,
+     "format": "4x5",
+     "def": "Autorização da Anatel para um aparelho de telecom ser usado e vendido no Brasil.",
+     "tip": "Procure a logomarca da Anatel e o número de homologação na etiqueta."
+    }
+   }
+  }
+ },
+ {
+  "id": "s45-dom",
+  "dia": 0,
+  "quadro": "Domingo leve",
+  "tema": "eclusas_panama",
+  "ideia": "O Canal do Panamá usa os dois tipos de portão que você conhece: de abrir nas eclusas antigas e de correr nas novas, com 3.100 toneladas cada.",
+  "itens": {
+   "stories_manha": {
+    "id": "s45_dom_m",
+    "tema": "eclusas_panama",
+    "gancho": "Rola de lado e pesa 3.100 toneladas.",
+    "fatos": [
+     "panama_comportas"
+    ],
+    "spec": {
+     "layout": "statement",
+     "theme": "dark",
+     "tag": "CURIOSIDADE",
+     "lines": [
+      "Rola de lado"
+     ],
+     "accent": [
+      "e pesa",
+      "3.100 t."
+     ],
+     "sub": "É uma comporta do Canal do Panamá. A história completa às 12h.",
+     "fonte": "Autoridade do Canal do Panamá",
+     "format": "story"
+    }
+   },
+   "carrosseis": {
+    "id": "s45_dom_c",
+    "tema": "eclusas_panama",
+    "gancho": "O Panamá tem portão de correr.",
+    "fatos": [
+     "panama_comportas"
+    ],
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Comenta: o seu é de abrir ou de correr?"
+    },
+    "legenda": "O Canal do Panamá tem portão de abrir e portão de correr. Igual garagem, só que com 3.100 toneladas.\n\nAs eclusas antigas usam comportas de duas folhas que giram presas às paredes e fecham em 1 min 45 s. As novas usam 16 comportas que rolam de lado sobre trilhos, com 57,6 m de comprimento, e levam cerca de 5 minutos.\n\nE o seu, é de abrir ou de correr? Comenta aqui.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #engenharia #canaldopanama #portaodecorrer #domingo",
+    "slides": [
+     {
+      "layout": "cover",
+      "theme": "dark",
+      "tag": "DOMINGO LEVE",
+      "lines": [
+       "O Panamá tem"
+      ],
+      "accent": [
+       "portão",
+       "de correr."
+      ],
+      "sub": "E também o de abrir. O mesmo dilema da sua garagem.",
+      "format": "4x5"
+     },
+     {
+      "layout": "fact",
+      "theme": "light",
+      "tag": "AS NOVAS",
+      "big": "3.100 t",
+      "bigSize": 240,
+      "title": "pesa, em média, cada comporta nova.",
+      "body": "São 16, feitas na Itália, com 57,6 metros de comprimento.",
+      "fonte": "Autoridade do Canal do Panamá",
+      "format": "4x5"
+     },
+     {
+      "layout": "compare",
+      "theme": "white",
+      "title": "Antigas x novas",
+      "aT": "De abrir",
+      "aB": "Duas folhas presas às paredes. Fecham em 1 min 45 s.",
+      "bT": "De correr",
+      "bB": "Rolam de lado sobre trilhos. Levam uns 5 minutos.",
+      "fonte": "Autoridade do Canal do Panamá",
+      "format": "4x5"
+     },
+     {
+      "layout": "bars",
+      "theme": "dark",
+      "title": "Altura das comportas",
+      "items": [
+       "Antiga mais alta|23|23 m",
+       "Nova padrão|30.19|30,19 m",
+       "Nova mais alta|33|33 m"
+      ],
+      "hl": 2,
+      "fonte": "Autoridade do Canal do Panamá",
+      "format": "4x5"
+     },
+     {
+      "layout": "statement",
+      "theme": "light",
+      "tag": "E AÍ NA SUA CASA?",
+      "lines": [
+       "Abrir pede frente."
+      ],
+      "accent": [
+       "Correr pede lado."
+      ],
+      "sub": "Por isso a escolha do portão começa pelo espaço que você tem.",
+      "format": "4x5"
+     },
+     {
+      "layout": "save",
+      "theme": "orange",
+      "lines": [
+       "E o seu,"
+      ],
+      "accent": [
+       "abre ou corre?"
+      ],
+      "sub": "Conta nos comentários.",
+      "format": "4x5"
+     }
+    ]
+   },
+   "stories_tarde": {
+    "id": "s45_dom_t",
+    "tema": "eclusas_panama",
+    "gancho": "1 min 45 s para fechar uma eclusa.",
+    "fatos": [
+     "panama_comportas"
+    ],
+    "spec": {
+     "layout": "fact",
+     "theme": "dark",
+     "tag": "CURIOSIDADE",
+     "big": "1min45",
+     "bigSize": 230,
+     "title": "é o tempo das comportas antigas, de abrir.",
+     "body": "As novas, de correr, levam uns 5 minutos. Mais pesadas, mais devagar.",
+     "fonte": "Autoridade do Canal do Panamá",
+     "format": "story"
+    }
+   },
+   "posts": {
+    "id": "s45_dom_p",
+    "tema": "eclusas_panama",
+    "gancho": "Você escolhe o domingo que vem.",
+    "ideia": "Segunda rodada da votação de domingo: pontes levadiças ou portas giratórias.",
+    "cta": {
+     "tipo": "comentar",
+     "texto": "Vota com 1 ou 2"
+    },
+    "legenda": "Domingo que vem tem mais engenharia por aqui, e a escolha é sua de novo.\n\nVota com 1 para pontes levadiças ou 2 para portas giratórias. A mais votada vira o post do próximo domingo.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #engenharia #domingo #portaoautomatico",
+    "spec": {
+     "layout": "poll",
+     "theme": "white",
+     "tag": "VOCÊ ESCOLHE",
+     "title": "Próximo domingo:",
+     "o1": "1. Pontes levadiças",
+     "o2": "2. Portas giratórias",
+     "footer": true,
+     "format": "4x5"
+    }
+   }
+  }
  }
 ]

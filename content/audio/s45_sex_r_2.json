@@ -1,0 +1,21 @@
+{
+ "hash": "d8d09514b2dc18686d8268a8f7f91701",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.704,
+   "texto": "Resposta: dois milímetros."
+  },
+  {
+   "t0": 1.964,
+   "t1": 3.705,
+   "texto": "Folgado demais danifica."
+  },
+  {
+   "t0": 4.019,
+   "t1": 5.746,
+   "texto": "Apertado demais desgasta."
+  }
+ ]
+}

@@ -254,5 +254,125 @@
   "url": "https://itforum.com.br/?p=9604417",
   "conf": "B",
   "verificado": "2026-10-26"
+ },
+ {
+  "id": "nice_sem_graxa",
+  "area": "manutencao",
+  "tema": "cremalheira_graxa",
+  "fato": "O manual de instalação dos motores deslizantes da Nice diz: não aplicar nenhum tipo de lubrificante (óleos ou graxas) na cremalheira nem na engrenagem. Limpeza com a energia desligada, pano macio ou esponja com detergente neutro, sem solventes nem jatos de água.",
+  "fonte": "Nice Brasil, manual de instalação de automatizadores deslizantes (30010881)",
+  "url": "https://niceforyou.com/sites/default/files/upload/manuals/30010881-MANUAL-INST-DESLIZANTES-V2.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "nice_reversao_mensal",
+  "area": "manutencao",
+  "tema": "cremalheira_graxa",
+  "fato": "O mesmo manual da Nice pede verificar mensalmente se o ajuste de reversão permanece e conferir se roldanas e rolamentos giram livremente e se o esforço para abrir e fechar não é excessivo.",
+  "fonte": "Nice Brasil, manual de instalação de automatizadores deslizantes (30010881)",
+  "url": "https://niceforyou.com/sites/default/files/upload/manuals/30010881-MANUAL-INST-DESLIZANTES-V2.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "folga_2mm",
+  "area": "instalacao",
+  "tema": "cremalheira_graxa",
+  "fato": "Entre os dentes da cremalheira e do pinhão fica uma folga de cerca de 2 mm. A Nice alerta: muito folgado danifica o equipamento, muito apertado provoca desgaste excessivo. O manual do PPA DZ Brutalle indica os mesmos 2 mm.",
+  "fonte": "Manual Nice deslizantes (30010881) e manual técnico PPA DZ Brutalle (P09994)",
+  "url": "https://niceforyou.com/sites/default/files/upload/manuals/30010881-MANUAL-INST-DESLIZANTES-V2.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "nice_fim_curso",
+  "area": "motor",
+  "tema": "fim_de_curso",
+  "fato": "Fim de curso magnético: o ímã fica a no máximo 0,5 cm da face externa da carenagem do motor. Fim de curso mecânico: um acionador metálico na cremalheira aciona a chave e se ouve um clique.",
+  "fonte": "Nice Brasil, manual de instalação de automatizadores deslizantes (30010881)",
+  "url": "https://niceforyou.com/sites/default/files/upload/manuals/30010881-MANUAL-INST-DESLIZANTES-V2.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "ppa_brutalle",
+  "area": "motor",
+  "tema": "fim_de_curso",
+  "fato": "O PPA DZ Brutalle 3.0T move portões de até 3.000 kg (pinhão Z12), faz até 150 ciclos por hora, tem fim de curso híbrido (analógico e digital) e grau de proteção IPX4.",
+  "fonte": "PPA, manual técnico DZ Brutalle (P09994 rev. 3)",
+  "url": "https://media.ppa.com.br/files/P09994_Manual_Tecnico_DzBrutalle_REV_3_1776367504622.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "nice_distancias",
+  "area": "seguranca",
+  "tema": "sindico_lei",
+  "fato": "Pelo manual da Nice para deslizantes: destrave manual a no máximo 1,80 m de altura, botoeiras a no mínimo 1,5 m do solo, folha do portão a pelo menos 2,5 cm do muro e o portão não deve se estender sobre a calçada.",
+  "fonte": "Nice Brasil, manual de instalação de automatizadores deslizantes (30010881)",
+  "url": "https://niceforyou.com/sites/default/files/upload/manuals/30010881-MANUAL-INST-DESLIZANTES-V2.pdf",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "mirai_61",
+  "area": "cameras",
+  "tema": "senha_padrao",
+  "fato": "O malware Mirai (2016) tentava 61 combinações de usuário e senha de fábrica em câmeras, gravadores (DVRs) e roteadores; com os aparelhos invadidos, atacou o site do jornalista Brian Krebs com pico de 620 Gbps.",
+  "fonte": "CSO Online, 3/10/2016",
+  "url": "https://www.csoonline.com/article/558215/here-are-the-61-passwords-that-powered-the-mirai-iot-botnet.html",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "anatel_ato77",
+  "area": "controle",
+  "tema": "senha_padrao",
+  "fato": "O Ato 77/2021 da Anatel fixou requisitos de segurança cibernética para equipamentos de telecomunicações: sem senhas em branco ou fracas, sem credenciais idênticas em todos os aparelhos produzidos e com troca obrigatória da senha padrão no primeiro uso.",
+  "fonte": "Tecnoblog e Teletime sobre o Ato Anatel 77/2021",
+  "url": "https://tecnoblog.net/noticias/anatel-vai-barrar-roteadores-wi-fi-que-venham-com-senha-facil/",
+  "conf": "B",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "anatel_homologacao",
+  "area": "controle",
+  "tema": "homologacao_anatel",
+  "fato": "Não se permite o uso ou a comercialização de produtos para telecomunicações no Brasil sem homologação da Anatel; produtos homologados devem exibir selo com a logomarca da Anatel e o número de homologação.",
+  "fonte": "gov.br, serviço Homologar produtos de telecomunicações (Anatel)",
+  "url": "https://www.gov.br/pt-br/servicos/homologar-produtos-de-telecomunicacoes-anatel",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "cc_1348",
+  "area": "condominio",
+  "tema": "sindico_lei",
+  "fato": "Código Civil, art. 1.348, inciso V: compete ao síndico diligenciar a conservação e a guarda das partes comuns e zelar pela prestação dos serviços que interessem aos possuidores.",
+  "fonte": "Código Civil (Lei 10.406/2002), art. 1.348, via Âmbito Jurídico",
+  "url": "https://ambitojuridico.com.br/artigo-1348-do-codigo-civil/",
+  "conf": "A",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "nbr5674",
+  "area": "condominio",
+  "tema": "sindico_lei",
+  "fato": "A NBR 5674 (manutenção de edificações) pede plano de manutenção feito para o prédio, com local, sistema e periodicidade de cada verificação e registro de cada ocorrência com data; equipamentos como portas automatizadas e câmeras ficam com empresa capacitada.",
+  "fonte": "SíndicoNet, NBR 5674: a bússola da gestão de manutenção predial",
+  "url": "https://www.sindiconet.com.br/informese/nbr-5674-a-bussola-da-gestao-de-manutencao-predial-manutencao-manutencao-predial/amp",
+  "conf": "B",
+  "verificado": "2026-10-31"
+ },
+ {
+  "id": "panama_comportas",
+  "area": "historia",
+  "tema": "eclusas_panama",
+  "fato": "As eclusas novas do Canal do Panamá têm 16 comportas rolantes (correm de lado sobre carrinhos em trilhos), feitas na Itália, com 57,6 m de comprimento, 30,19 m de altura (até 33 m) e 3.100 t em média; levam cerca de 5 minutos para abrir ou fechar. As antigas são de duas folhas articuladas, a mais alta com 23 m, e operam em 1 min 45 s.",
+  "fonte": "Autoridade do Canal do Panamá (pancanal.com)",
+  "url": "https://pancanal.com/llegan-las-primeras-cuatro-compuertas-del-tercer-juego-de-esclusas/",
+  "conf": "A",
+  "verificado": "2026-10-31"
  }
 ]

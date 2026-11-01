@@ -1,0 +1,21 @@
+{
+ "hash": "f4165c33c3d7a332b0f9ec6f0e38796d",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.68,
+   "texto": "O que importa é a folga."
+  },
+  {
+   "t0": 2.022,
+   "t1": 4.307,
+   "texto": "Uns dois milímetros entre os dentes."
+  },
+  {
+   "t0": 4.607,
+   "t1": 7.811,
+   "texto": "Folgado demais danifica, apertado demais desgasta."
+  }
+ ]
+}
