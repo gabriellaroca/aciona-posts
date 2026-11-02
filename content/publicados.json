@@ -867,5 +867,26 @@
   "data": "2026-11-02",
   "hora": "17:51",
   "media_id": "17987953044082652"
+ },
+ {
+  "id": "s45_seg_r",
+  "tipo": "reels",
+  "fila": "posts",
+  "quadro": "Segunda sem susto",
+  "tema": "cremalheira_graxa",
+  "ideia": "O manual de motores deslizantes da Nice proíbe graxa na cremalheira e pede checagem mensal da reversão; mostramos o que conferir sem abrir nada.",
+  "gancho": "Graxa na cremalheira? O manual diz não.",
+  "cta": {
+   "tipo": "mensagem",
+   "texto": "Manda foto da sua cremalheira"
+  },
+  "fatos": [
+   "nice_sem_graxa",
+   "folga_2mm"
+  ],
+  "estrutura": "statement>notice>fact>statement|video",
+  "data": "2026-11-02",
+  "hora": "19:13",
+  "media_id": "17915793210536067"
  }
 ]
