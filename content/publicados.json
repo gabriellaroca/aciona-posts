@@ -830,5 +830,27 @@
   "data": "2026-11-02",
   "hora": "08:25",
   "media_id": "17876576280593859"
+ },
+ {
+  "id": "s45_seg_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Segunda sem susto",
+  "tema": "cremalheira_graxa",
+  "ideia": "O manual de motores deslizantes da Nice proíbe graxa na cremalheira e pede checagem mensal da reversão; mostramos o que conferir sem abrir nada.",
+  "gancho": "O manual proíbe graxa aqui.",
+  "cta": {
+   "tipo": "salvar",
+   "texto": "Salve o checklist do mês"
+  },
+  "fatos": [
+   "nice_sem_graxa",
+   "folga_2mm",
+   "nice_reversao_mensal"
+  ],
+  "estrutura": "cover>myth>fact>checklist>save",
+  "data": "2026-11-02",
+  "hora": "13:13",
+  "media_id": "17934152709439403"
  }
 ]
