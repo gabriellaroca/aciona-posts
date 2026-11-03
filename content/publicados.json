@@ -926,5 +926,22 @@
   "data": "2026-11-03",
   "hora": "12:15",
   "media_id": "17931797571422192"
+ },
+ {
+  "id": "s45_ter_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Tecnologia no portão",
+  "tema": "senha_padrao",
+  "ideia": "A senha de fábrica do gravador de câmeras é a entrada mais fácil: o Mirai invadiu aparelhos com só 61 combinações e a Anatel já barra senha repetida.",
+  "gancho": "Quando você trocou a senha do gravador?",
+  "cta": null,
+  "fatos": [
+   "mirai_61"
+  ],
+  "estrutura": "statement>bignum>statement|video",
+  "data": "2026-11-03",
+  "hora": "17:54",
+  "media_id": "17954289558324952"
  }
 ]
