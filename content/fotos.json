@@ -12,5 +12,26 @@
   "4x5": "fotos/prontas/motor_duplo_lado_b_4x5.jpg",
   "story": "fotos/prontas/motor_duplo_lado_b_story.jpg",
   "usada": true
+ },
+ "motor_jetflex_detalhe": {
+  "original": "fotos/entrada/motor_jetflex_detalhe.jpg",
+  "preparada": "2026-11-04",
+  "4x5": "fotos/prontas/motor_jetflex_detalhe_4x5.jpg",
+  "story": "fotos/prontas/motor_jetflex_detalhe_story.jpg",
+  "usada": false
+ },
+ "motor_jetflex_instalado": {
+  "original": "fotos/entrada/motor_jetflex_instalado.jpg",
+  "preparada": "2026-11-04",
+  "4x5": "fotos/prontas/motor_jetflex_instalado_4x5.jpg",
+  "story": "fotos/prontas/motor_jetflex_instalado_story.jpg",
+  "usada": false
+ },
+ "trava_eletrica": {
+  "original": "fotos/entrada/trava_eletrica.jpg",
+  "preparada": "2026-11-04",
+  "4x5": "fotos/prontas/trava_eletrica_4x5.jpg",
+  "story": "fotos/prontas/trava_eletrica_story.jpg",
+  "usada": false
  }
 }
