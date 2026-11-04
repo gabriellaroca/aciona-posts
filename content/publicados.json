@@ -978,5 +978,25 @@
   "data": "2026-11-04",
   "hora": "08:23",
   "media_id": "18138370636649199"
+ },
+ {
+  "id": "s45_qua_r",
+  "tipo": "reels",
+  "fila": "posts",
+  "quadro": "Por dentro do portão",
+  "tema": "fim_de_curso",
+  "ideia": "Como o motor sabe a hora exata de parar: o fim de curso magnético ou mecânico, com o ímã ou a chave presos na cremalheira.",
+  "gancho": "Ouviu um clique quando o portão parou?",
+  "cta": {
+   "tipo": "whatsapp",
+   "texto": "Passou do ponto? Chama no WhatsApp"
+  },
+  "fatos": [
+   "nice_fim_curso"
+  ],
+  "estrutura": "statement>fact>statement>statement|video",
+  "data": "2026-11-04",
+  "hora": "19:13",
+  "media_id": "18118676093095349"
  }
 ]
