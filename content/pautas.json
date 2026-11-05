@@ -2330,17 +2330,17 @@
    "stories_tarde": {
     "id": "s45_qui_t",
     "tema": "sindico_lei",
-    "gancho": "Destrave alto demais é erro de instalação.",
+    "gancho": "Seu destrave alcança a mão de todo mundo?",
     "fatos": [
      "nice_distancias"
     ],
     "spec": {
-     "layout": "fact",
+     "layout": "poll",
      "theme": "dark",
      "tag": "VISTORIA RÁPIDA",
-     "big": "1,80 m",
-     "title": "é a altura máxima do destrave manual.",
-     "body": "É o manual de instalação que fixa esse limite: o destrave precisa ficar ao alcance quando falta energia.",
+     "title": "O destrave manual do seu portão está a até 1,80 m do chão?",
+     "o1": "Sim, confere",
+     "o2": "Nunca medi",
      "fonte": "manual Nice deslizantes",
      "format": "story"
     }
