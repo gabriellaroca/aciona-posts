@@ -1036,5 +1036,22 @@
   "data": "2026-11-05",
   "hora": "12:16",
   "media_id": "17935715115146716"
+ },
+ {
+  "id": "s45_qui_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Segurança em casa",
+  "tema": "sindico_lei",
+  "ideia": "O Código Civil põe a conservação das partes comuns nas mãos do síndico e a NBR 5674 pede plano e registro: o portão automático do prédio entra nessa conta.",
+  "gancho": "Seu destrave alcança a mão de todo mundo?",
+  "cta": null,
+  "fatos": [
+   "nice_distancias"
+  ],
+  "estrutura": "poll",
+  "data": "2026-11-05",
+  "hora": "17:51",
+  "media_id": "18047291303832403"
  }
 ]
