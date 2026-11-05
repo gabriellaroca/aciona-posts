@@ -1015,5 +1015,26 @@
   "data": "2026-11-05",
   "hora": "08:21",
   "media_id": "17873865864640817"
+ },
+ {
+  "id": "s45_qui_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Segurança em casa",
+  "tema": "sindico_lei",
+  "ideia": "O Código Civil põe a conservação das partes comuns nas mãos do síndico e a NBR 5674 pede plano e registro: o portão automático do prédio entra nessa conta.",
+  "gancho": "Síndico: a lei fala do portão.",
+  "cta": {
+   "tipo": "compartilhar",
+   "texto": "Manda para o síndico do seu prédio"
+  },
+  "fatos": [
+   "cc_1348",
+   "nbr5674"
+  ],
+  "estrutura": "cover>quote>bullets>notice>cta",
+  "data": "2026-11-05",
+  "hora": "12:16",
+  "media_id": "17935715115146716"
  }
 ]
