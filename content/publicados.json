@@ -1053,5 +1053,25 @@
   "data": "2026-11-05",
   "hora": "17:51",
   "media_id": "18047291303832403"
+ },
+ {
+  "id": "s45_qui_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Segurança em casa",
+  "tema": "sindico_lei",
+  "ideia": "O Código Civil põe a conservação das partes comuns nas mãos do síndico e a NBR 5674 pede plano e registro: o portão automático do prédio entra nessa conta.",
+  "gancho": "Seu portão passa nesta vistoria?",
+  "cta": {
+   "tipo": "salvar",
+   "texto": "Salve para a próxima vistoria"
+  },
+  "fatos": [
+   "nice_distancias"
+  ],
+  "estrutura": "checklist",
+  "data": "2026-11-05",
+  "hora": "19:13",
+  "media_id": "17955081519326755"
  }
 ]
