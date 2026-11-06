@@ -1126,5 +1126,25 @@
   "data": "2026-11-06",
   "hora": "17:51",
   "media_id": "17889522399688645"
+ },
+ {
+  "id": "s45_sex_r",
+  "tipo": "reels",
+  "fila": "posts",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_s45",
+  "ideia": "Quiz que recapitula a semana: graxa na cremalheira, senha de fábrica do Mirai, fim de curso magnético e o dever do síndico.",
+  "gancho": "Quanta folga vai entre os dentes?",
+  "cta": {
+   "tipo": "compartilhar",
+   "texto": "Desafia alguém com essa pergunta"
+  },
+  "fatos": [
+   "folga_2mm"
+  ],
+  "estrutura": "statement>quiz>reveal>statement|video",
+  "data": "2026-11-06",
+  "hora": "19:12",
+  "media_id": "18168008458435998"
  }
 ]
