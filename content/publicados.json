@@ -1073,5 +1073,20 @@
   "data": "2026-11-05",
   "hora": "19:13",
   "media_id": "17955081519326755"
+ },
+ {
+  "id": "s45_sex_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_s45",
+  "ideia": "Quiz que recapitula a semana: graxa na cremalheira, senha de fábrica do Mirai, fim de curso magnético e o dever do síndico.",
+  "gancho": "Hoje o feed vira prova.",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-11-06",
+  "hora": "08:22",
+  "media_id": "17991311208075820"
  }
 ]
