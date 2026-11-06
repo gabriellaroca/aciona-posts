@@ -1111,5 +1111,20 @@
   "data": "2026-11-06",
   "hora": "12:17",
   "media_id": "18380262469301323"
+ },
+ {
+  "id": "s45_sex_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_s45",
+  "ideia": "Quiz que recapitula a semana: graxa na cremalheira, senha de fábrica do Mirai, fim de curso magnético e o dever do síndico.",
+  "gancho": "Qual foi a mais difícil?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "poll",
+  "data": "2026-11-06",
+  "hora": "17:51",
+  "media_id": "17889522399688645"
  }
 ]
