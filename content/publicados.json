@@ -1088,5 +1088,28 @@
   "data": "2026-11-06",
   "hora": "08:22",
   "media_id": "17991311208075820"
+ },
+ {
+  "id": "s45_sex_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Sextou com quiz",
+  "tema": "quiz_s45",
+  "ideia": "Quiz que recapitula a semana: graxa na cremalheira, senha de fábrica do Mirai, fim de curso magnético e o dever do síndico.",
+  "gancho": "Quatro perguntas. Quem viu, gabarita.",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Comenta seu placar de 0 a 4"
+  },
+  "fatos": [
+   "nice_sem_graxa",
+   "mirai_61",
+   "nice_fim_curso",
+   "cc_1348"
+  ],
+  "estrutura": "cover>quiz>reveal>quiz>reveal>quiz>reveal>quiz>reveal>save",
+  "data": "2026-11-06",
+  "hora": "12:17",
+  "media_id": "18380262469301323"
  }
 ]
