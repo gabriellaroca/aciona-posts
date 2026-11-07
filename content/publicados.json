@@ -1181,5 +1181,20 @@
   "data": "2026-11-07",
   "hora": "12:12",
   "media_id": "18109407149195498"
+ },
+ {
+  "id": "s45_sab_t",
+  "tipo": "stories",
+  "fila": "stories_tarde",
+  "quadro": "Escolha certa",
+  "tema": "homologacao_anatel",
+  "ideia": "Antes de comprar controle, câmera ou interfone, confira o selo e o número de homologação da Anatel: sem ele, a venda nem é permitida no Brasil.",
+  "gancho": "Controle barato sem selo?",
+  "cta": null,
+  "fatos": [],
+  "estrutura": "statement",
+  "data": "2026-11-07",
+  "hora": "17:51",
+  "media_id": "18187305256374043"
  }
 ]
