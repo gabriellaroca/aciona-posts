@@ -1161,5 +1161,25 @@
   "data": "2026-11-07",
   "hora": "08:22",
   "media_id": "18124468706070040"
+ },
+ {
+  "id": "s45_sab_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Escolha certa",
+  "tema": "homologacao_anatel",
+  "ideia": "Antes de comprar controle, câmera ou interfone, confira o selo e o número de homologação da Anatel: sem ele, a venda nem é permitida no Brasil.",
+  "gancho": "Sem esse selo, nem pode vender.",
+  "cta": {
+   "tipo": "mensagem",
+   "texto": "Ficou na dúvida? Mande o selo por mensagem"
+  },
+  "fatos": [
+   "anatel_homologacao"
+  ],
+  "estrutura": "cover>notice>compare>checklist>statement",
+  "data": "2026-11-07",
+  "hora": "12:12",
+  "media_id": "18109407149195498"
  }
 ]
