@@ -1196,5 +1196,25 @@
   "data": "2026-11-07",
   "hora": "17:51",
   "media_id": "18187305256374043"
+ },
+ {
+  "id": "s45_sab_p",
+  "tipo": "posts",
+  "fila": "posts",
+  "quadro": "Escolha certa",
+  "tema": "homologacao_anatel",
+  "ideia": "Antes de comprar controle, câmera ou interfone, confira o selo e o número de homologação da Anatel: sem ele, a venda nem é permitida no Brasil.",
+  "gancho": "Vire a caixa antes de pagar.",
+  "cta": {
+   "tipo": "salvar",
+   "texto": "Salve para conferir na hora da compra"
+  },
+  "fatos": [
+   "anatel_homologacao"
+  ],
+  "estrutura": "glossary",
+  "data": "2026-11-07",
+  "hora": "19:12",
+  "media_id": "18000499343825005"
  }
 ]
