@@ -2632,7 +2632,7 @@
      "accent": [
       "tem RG?"
      ],
-     "sub": "Tem, e ele fica na etiqueta. Meio-dia no feed.",
+     "sub": "Tem, e ele fica na etiqueta. Vai olhar o seu.",
      "format": "story"
     }
    },
@@ -2751,7 +2751,8 @@
      "tip": "Procure a logomarca da Anatel e o número de homologação na etiqueta."
     }
    }
-  }
+  },
+  "data": "2026-11-07"
  },
  {
   "id": "s45-dom",
