@@ -1233,5 +1233,25 @@
   "data": "2026-11-08",
   "hora": "08:22",
   "media_id": "18098511824677700"
+ },
+ {
+  "id": "s45_dom_c",
+  "tipo": "carrosseis",
+  "fila": "carrosseis",
+  "quadro": "Domingo leve",
+  "tema": "eclusas_panama",
+  "ideia": "O Canal do Panamá usa os dois tipos de portão que você conhece: de abrir nas eclusas antigas e de correr nas novas, com 3.100 toneladas cada.",
+  "gancho": "O Panamá tem portão de correr.",
+  "cta": {
+   "tipo": "comentar",
+   "texto": "Comenta: o seu é de abrir ou de correr?"
+  },
+  "fatos": [
+   "panama_comportas"
+  ],
+  "estrutura": "cover>fact>compare>bars>statement>save",
+  "data": "2026-11-08",
+  "hora": "12:13",
+  "media_id": "18571173874078178"
  }
 ]
