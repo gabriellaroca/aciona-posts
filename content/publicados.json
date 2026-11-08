@@ -1216,5 +1216,22 @@
   "data": "2026-11-07",
   "hora": "19:12",
   "media_id": "18000499343825005"
+ },
+ {
+  "id": "s45_dom_m",
+  "tipo": "stories",
+  "fila": "stories_manha",
+  "quadro": "Domingo leve",
+  "tema": "eclusas_panama",
+  "ideia": "O Canal do Panamá usa os dois tipos de portão que você conhece: de abrir nas eclusas antigas e de correr nas novas, com 3.100 toneladas cada.",
+  "gancho": "Rola de lado e pesa 3.100 toneladas.",
+  "cta": null,
+  "fatos": [
+   "panama_comportas"
+  ],
+  "estrutura": "statement",
+  "data": "2026-11-08",
+  "hora": "08:22",
+  "media_id": "18098511824677700"
  }
 ]
