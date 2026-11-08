@@ -1,4 +1,4 @@
-Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 2026-11-07 com 49 publicações do feed. Leia antes de planejar.
+Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 2026-11-08 com 49 publicações do feed. Leia antes de planejar.
 
 ## Conclusões
 - Posts com foto real tiveram alcance médio 7.4x o dos posts só com arte (1 contra 48 posts).
@@ -13,7 +13,7 @@ Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 20
 - 2026-11-02 s45_seg_r (reel, Segunda sem susto): alcance 30, interação 7%
 
 ## Piores por alcance
-- 2026-11-07 s45_sab_p (imagem, Escolha certa): alcance 3
+- 2026-11-07 s45_sab_p (imagem, Escolha certa): alcance 4
 - 2026-11-07 s45_sab_c (carrossel, Escolha certa): alcance 5
 - 2026-11-05 s45_qui_c (carrossel, Segurança em casa): alcance 5
 - 2026-11-04 s45_qua_r (reel, Por dentro do portão): alcance 5
@@ -24,7 +24,7 @@ Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 20
 |---|---|---|---|
 | reel | 8 | 16.1 | 3.7% |
 | carrossel | 26 | 15.2 | 19.2% |
-| imagem | 15 | 11.0 | 23.4% |
+| imagem | 15 | 11.1 | 27.9% |
 
 ### Por quadro
 | Grupo | Posts | Alcance médio | Interação por alcance |
@@ -35,7 +35,7 @@ Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 20
 | Sextou com quiz | 4 | 13.3 | 1.1% |
 | Domingo leve | 4 | 12.8 | 12.5% |
 | Por dentro do portão | 3 | 8.7 | 2.8% |
-| Escolha certa | 5 | 8.4 | 8.5% |
+| Escolha certa | 5 | 8.6 | 21.8% |
 | Segurança em casa | 2 | 5.5 | 0.0% |
 
 ### Por layout da capa
@@ -53,13 +53,13 @@ Aprendizados do Instagram @aciona.portoes. Gerado por tools/desempenho.mjs em 20
 | compare | 1 | 7.0 | 0.0% |
 | services | 1 | 6.0 | 0.0% |
 | checklist | 1 | 6.0 | 0.0% |
-| glossary | 1 | 3.0 | 33.3% |
+| glossary | 1 | 4.0 | 100.0% |
 
 ### Foto real x só arte
 | Grupo | Posts | Alcance médio | Interação por alcance |
 |---|---|---|---|
 | true | 1 | 92.0 | 29.3% |
-| false | 48 | 12.5 | 17.7% |
+| false | 48 | 12.5 | 19.1% |
 
 ### Reels
 | Data | Id | Alcance | Pulam em 3 s | Assistido |
