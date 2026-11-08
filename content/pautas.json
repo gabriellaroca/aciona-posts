@@ -2914,5 +2914,1246 @@
         }
       }
     }
+  },
+  {
+    "id": "s46-seg",
+    "dia": 1,
+    "quadro": "Segunda sem susto",
+    "tema": "bateria_nobreak",
+    "ideia": "Dois dias depois do temporal de julho, 13 mil casas de Guariba seguiam sem luz; nessas horas quem abre o portão é a bateria do nobreak, e o calor corta a vida dela pela metade a cada 10 °C acima de 25 °C.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_seg_m",
+        "tema": "bateria_nobreak",
+        "gancho": "13 mil casas sem luz em Guariba.",
+        "fatos": [
+          "guariba_apagao_2026"
+        ],
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "SEGUNDA SEM SUSTO",
+          "lines": [
+            "13 mil casas"
+          ],
+          "accent": [
+            "sem luz",
+            "em Guariba."
+          ],
+          "sub": "Foi dois dias depois do temporal de julho. E o portão dessas casas? Ao meio-dia a gente conta.",
+          "fonte": "Agência Brasil, 26/7/2026",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_seg_c",
+        "tema": "bateria_nobreak",
+        "gancho": "Faltou luz. Seu portão abre?",
+        "fatos": [
+          "guariba_apagao_2026",
+          "bateria_temperatura"
+        ],
+        "cta": {
+          "tipo": "whatsapp",
+          "texto": "Manda no WhatsApp a foto da etiqueta da bateria"
+        },
+        "legenda": "Faltou luz. Seu portão abre? Em julho, essa pergunta valeu para 13 mil casas de Guariba.\n\nDois dias depois do temporal, elas ainda estavam sem energia. Em portão com nobreak, quem abre nessa hora é a bateria. E ela sofre com calor: a Schneider Electric explica que a vida útil cai pela metade a cada 10 °C acima de 25 °C.\n\nO teste não pede abrir nada: desligue o disjuntor do portão e aperte o controle. Não abriu? A bateria não está segurando.\n\nManda a foto da etiqueta da bateria que a gente lê pra você.\n\nWhatsApp: (16) 99634-1354\n\n#guariba #nobreak #portaoeletronico #temporal",
+        "slides": [
+          {
+            "layout": "cover",
+            "theme": "dark",
+            "tag": "SEGUNDA SEM SUSTO",
+            "lines": [
+              "Faltou luz."
+            ],
+            "accent": [
+              "Seu portão",
+              "abre?"
+            ],
+            "sub": "Dois dias depois do temporal de julho, 13 mil casas de Guariba seguiam sem energia.",
+            "fonte": "Agência Brasil, 26/7/2026",
+            "format": "4x5"
+          },
+          {
+            "layout": "statement",
+            "theme": "light",
+            "tag": "QUEM SEGURA O PORTÃO",
+            "lines": [
+              "Sem energia,"
+            ],
+            "accent": [
+              "quem abre é",
+              "a bateria."
+            ],
+            "sub": "Portão com nobreak depende de uma bateria selada, guardada perto do motor.",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "dark",
+            "tag": "O INIMIGO DELA",
+            "big": "+10 °C",
+            "bigSize": 230,
+            "title": "acima de 25 °C e a vida útil da bateria cai pela metade.",
+            "body": "Calor acumulado na caixa envelhece a bateria antes da hora.",
+            "fonte": "Schneider Electric",
+            "format": "4x5"
+          },
+          {
+            "layout": "bars",
+            "theme": "white",
+            "title": "Vida útil que sobra, pela temperatura",
+            "items": [
+              "25 °C|100|100%",
+              "35 °C|50|50%",
+              "45 °C|25|25%"
+            ],
+            "hl": 1,
+            "fonte": "Schneider Electric (metade a cada 10 °C)",
+            "format": "4x5"
+          },
+          {
+            "layout": "flow",
+            "theme": "light",
+            "title": "Teste sem abrir nada",
+            "nodes": [
+              "Desligue o disjuntor|só o do portão",
+              "Aperte o controle|abriu? a bateria segura",
+              "Não abriu?|chame para medir a bateria"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "save",
+            "theme": "orange",
+            "lines": [
+              "Teste hoje,"
+            ],
+            "accent": [
+              "antes do",
+              "próximo temporal."
+            ],
+            "sub": "Manda a foto da etiqueta da bateria no WhatsApp que a gente lê pra você.",
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_seg_t",
+        "tema": "bateria_nobreak",
+        "gancho": "Faltou luz e o portão travou.",
+        "spec": {
+          "layout": "chat",
+          "theme": "light",
+          "tag": "PERGUNTA DE CLIENTE",
+          "msgs": [
+            {
+              "w": "them",
+              "t": "Faltou luz e o portão travou. E agora?"
+            },
+            {
+              "w": "us",
+              "t": "Todo motor tem destrave manual com chave. Se tem nobreak e não abriu, a bateria pode estar no fim."
+            },
+            {
+              "w": "them",
+              "t": "Como eu sei?"
+            },
+            {
+              "w": "us",
+              "t": "Manda a foto da etiqueta dela pra gente."
+            }
+          ],
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_seg_r",
+        "tema": "bateria_nobreak",
+        "gancho": "Faltou luz. Seu portão abre?",
+        "fatos": [
+          "guariba_apagao_2026",
+          "bateria_temperatura"
+        ],
+        "cta": {
+          "tipo": "compartilhar",
+          "texto": "Manda esse vídeo pra quem tem nobreak no portão"
+        },
+        "legenda": "Faltou luz em Guariba. Seu portão abriu ou ficou preso?\n\nNo temporal de julho, 13 mil casas daqui ficaram sem energia por dois dias. Quem tem nobreak depende da bateria, e o calor corta a vida dela pela metade a cada 10 °C acima de 25 °C.\n\nManda esse vídeo pra quem tem nobreak no portão.\n\nWhatsApp: (16) 99634-1354\n\n#guariba #nobreak #portaoautomatico #faltadeenergia",
+        "cenas": [
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "dark",
+              "tag": "SEGUNDA SEM SUSTO",
+              "lines": [
+                "Faltou luz."
+              ],
+              "accent": [
+                "Portão abre?"
+              ]
+            },
+            "fala": "Faltou luz. Seu portão abre?"
+          },
+          {
+            "spec": {
+              "layout": "fact",
+              "theme": "light",
+              "tag": "GUARIBA, JULHO",
+              "big": "13 mil",
+              "bigSize": 260,
+              "title": "casas ainda sem luz dois dias depois do temporal.",
+              "fonte": "Agência Brasil"
+            },
+            "fala": "Em julho, dois dias depois do temporal, treze mil casas de Guariba ainda estavam sem luz."
+          },
+          {
+            "spec": {
+              "layout": "bars",
+              "theme": "dark",
+              "title": "Vida útil da bateria",
+              "items": [
+                "25 °C|100|100%",
+                "35 °C|50|50%",
+                "45 °C|25|25%"
+              ],
+              "hl": 1,
+              "fonte": "Schneider Electric"
+            },
+            "fala": "Nessa hora, quem abre o portão é a bateria do nobreak. E o calor corta a vida dela pela metade a cada dez graus acima de vinte e cinco."
+          },
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "orange",
+              "lines": [
+                "Desliga o disjuntor."
+              ],
+              "accent": [
+                "Aperta o controle."
+              ]
+            },
+            "fala": "O teste é fácil. Desliga o disjuntor do portão e aperta o controle. Não abriu? Chama a gente."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "s46-ter",
+    "dia": 2,
+    "quadro": "Tecnologia no portão",
+    "tema": "controle_perdido",
+    "ideia": "Um controle perdido continua abrindo o portão até o código sair da memória do receptor, que guarda centenas de controles e, em muitos modelos, só apaga tudo de uma vez.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_ter_m",
+        "tema": "controle_perdido",
+        "gancho": "Perdeu o controle? Ele ainda abre.",
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "TECNOLOGIA NO PORTÃO",
+          "lines": [
+            "Perdeu o controle?"
+          ],
+          "accent": [
+            "Ele ainda",
+            "abre o portão."
+          ],
+          "sub": "Ao meio-dia: por que jogar o outro fora não resolve nada.",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_ter_c",
+        "tema": "controle_perdido",
+        "gancho": "Controle perdido continua abrindo o portão.",
+        "fatos": [
+          "ppa_receptor_500"
+        ],
+        "cta": {
+          "tipo": "salvar",
+          "texto": "Salve para o dia em que sumir um controle"
+        },
+        "legenda": "Perdeu o controle do portão? Ele continua abrindo até alguém apagar o código do receptor.\n\nNo receptor de alcance da PPA, por exemplo, cabem 500 controles. E o manual só mostra como apagar a memória inteira, não um controle sozinho. Por isso, depois de apagar, todo controle em uso precisa ser cadastrado de novo.\n\nJunte todos os controles da casa antes de chamar o técnico: a visita fica bem mais rápida.\n\nSalve para o dia em que sumir um.\n\nWhatsApp: (16) 99634-1354\n\n#controleremoto #portaoeletronico #segurancaresidencial #tecnologia",
+        "slides": [
+          {
+            "layout": "cover",
+            "theme": "dark",
+            "tag": "TECNOLOGIA NO PORTÃO",
+            "lines": [
+              "Controle perdido"
+            ],
+            "accent": [
+              "ainda abre",
+              "o portão."
+            ],
+            "sub": "O código dele continua salvo no receptor da central.",
+            "format": "4x5"
+          },
+          {
+            "layout": "notice",
+            "theme": "light",
+            "tag": "COMO FUNCIONA",
+            "title": "O cadastro mora na central.",
+            "body": "No dia da instalação, o receptor grava o código de cada controle. Perder o controle não apaga esse registro.",
+            "format": "4x5"
+          },
+          {
+            "layout": "bignum",
+            "theme": "dark",
+            "big": "500",
+            "title": "controles cabem na memória de um receptor PPA.",
+            "sub": "Quem acha o seu pode usar enquanto o código estiver lá.",
+            "fonte": "manual do receptor de alcance PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "white",
+            "tag": "O DETALHE DO MANUAL",
+            "big": "Tudo",
+            "bigSize": 220,
+            "title": "ou nada: o manual só ensina apagar a memória inteira.",
+            "body": "Depois, cada controle que fica na casa é cadastrado de novo.",
+            "fonte": "manual do receptor de alcance PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "checklist",
+            "theme": "light",
+            "title": "Perdeu? Nesta ordem",
+            "items": [
+              "Conte os controles em uso",
+              "Junte todos antes da visita",
+              "Peça para apagar e recadastrar",
+              "Anote quem ficou com cada um"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "save",
+            "theme": "orange",
+            "lines": [
+              "Salve para"
+            ],
+            "accent": [
+              "o dia em que",
+              "sumir um."
+            ],
+            "sub": "E manda pra quem vive perdendo a chave.",
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_ter_t",
+        "tema": "controle_perdido",
+        "gancho": "Quantos controles abrem seu portão?",
+        "cenas": [
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "dark",
+              "tag": "FAZ A CONTA",
+              "lines": [
+                "Quantos controles"
+              ],
+              "accent": [
+                "abrem seu",
+                "portão?"
+              ]
+            },
+            "fala": "Quantos controles abrem o seu portão hoje?"
+          },
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "light",
+              "lines": [
+                "Os da gaveta."
+              ],
+              "accent": [
+                "Os perdidos.",
+                "O do ex-inquilino."
+              ]
+            },
+            "fala": "Conta os da gaveta. Agora lembra dos perdidos e daquele que ficou com o antigo inquilino."
+          },
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "orange",
+              "lines": [
+                "Todos"
+              ],
+              "accent": [
+                "ainda abrem."
+              ]
+            },
+            "fala": "Todos ainda abrem. Até alguém apagar a memória do receptor."
+          }
+        ]
+      },
+      "posts": {
+        "id": "s46_ter_p",
+        "tema": "controle_perdido",
+        "gancho": "Jogou fora o controle, acabou o risco?",
+        "cta": {
+          "tipo": "comentar",
+          "texto": "Comenta quantos controles circulam na sua casa"
+        },
+        "legenda": "Jogou fora o controle quebrado ou perdeu um na rua? O código dele continua valendo.\n\nO receptor guarda cada controle cadastrado. O acesso só acaba quando a memória é apagada e os controles certos voltam a ser gravados.\n\nE aí, quantos controles circulam na sua casa? Comenta aqui.\n\nWhatsApp: (16) 99634-1354\n\n#controleremoto #portaoautomatico #seguranca",
+        "spec": {
+          "layout": "myth",
+          "theme": "white",
+          "label": "MITO",
+          "title": "Perdeu o controle? Acabou o risco.",
+          "vlabel": "A verdade",
+          "body": "O código segue gravado no receptor. Só deixa de abrir quando a memória é apagada e os controles certos são cadastrados de novo.",
+          "format": "4x5"
+        }
+      }
+    }
+  },
+  {
+    "id": "s46-qua",
+    "dia": 3,
+    "quadro": "Por dentro do portão",
+    "tema": "portao_de_abrir",
+    "ideia": "Bastidor de uma instalação da aciona em portão de abrir: o manual manda a folha abrir para dentro do imóvel, sem nada sobre a calçada, e testa o esforço a 80 cm da dobradiça; a trava elétrica segura o portão fechado.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_qua_m",
+        "tema": "portao_de_abrir",
+        "gancho": "Que peça é essa na folha?",
+        "spec": {
+          "layout": "photo",
+          "img": "fotos/prontas/trava_eletrica_story.jpg",
+          "ph": 0.62,
+          "title": "Que peça é essa na folha?",
+          "sub": "Foto de uma instalação nossa. A resposta sai ao meio-dia.",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_qua_c",
+        "tema": "portao_de_abrir",
+        "gancho": "Portão de abrir tem regra.",
+        "fatos": [
+          "ppa_pivotante"
+        ],
+        "cta": {
+          "tipo": "mensagem",
+          "texto": "Manda uma foto do seu portão de abrir"
+        },
+        "legenda": "Portão de abrir tem regra de manual, e a primeira é o lado para onde a folha abre.\n\nNo manual técnico da PPA, o portão deve abrir para dentro do imóvel e nenhuma peça pode avançar sobre calçada ou rua. O esforço da folha é testado a 80 cm da dobradiça, antes de qualquer motor entrar.\n\nNas fotos, uma instalação nossa: o motor na folha e a trava elétrica que mantém o portão fechado.\n\nTem portão de abrir? Manda uma foto dele por mensagem.\n\nWhatsApp: (16) 99634-1354\n\n#portaodeabrir #portaoautomatico #bastidores #guariba",
+        "slides": [
+          {
+            "layout": "photo",
+            "img": "fotos/prontas/motor_jetflex_instalado_4x5.jpg",
+            "ph": 0.64,
+            "title": "Portão de abrir tem regra.",
+            "sub": "Bastidor de uma instalação nossa. Arraste para ver o que o manual exige.",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "light",
+            "tag": "REGRA 1",
+            "big": "Para dentro",
+            "bigSize": 170,
+            "title": "do imóvel: é para lá que a folha deve abrir.",
+            "body": "E nenhuma peça pode avançar sobre a calçada ou a rua.",
+            "fonte": "manual técnico PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "dark",
+            "tag": "REGRA 2",
+            "big": "80 cm",
+            "bigSize": 260,
+            "title": "da dobradiça: é ali que se testa o esforço da folha.",
+            "body": "Antes do motor, ela precisa correr suave em todo o percurso.",
+            "fonte": "manual técnico PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "photo",
+            "img": "fotos/prontas/trava_eletrica_4x5.jpg",
+            "ph": 0.64,
+            "title": "E esta é a trava elétrica.",
+            "sub": "A central libera a trava e só então o motor empurra a folha.",
+            "format": "4x5"
+          },
+          {
+            "layout": "bars",
+            "theme": "white",
+            "title": "Limites de cada folha no manual",
+            "items": [
+              "Altura máxima|2.5|2,5 m",
+              "Comprimento, Standard|1.5|1,5 m",
+              "Comprimento, Super|3|3,0 m"
+            ],
+            "hl": 2,
+            "fonte": "manual técnico PPA, linha Piston",
+            "format": "4x5"
+          },
+          {
+            "layout": "save",
+            "theme": "orange",
+            "lines": [
+              "Tem portão"
+            ],
+            "accent": [
+              "de abrir?"
+            ],
+            "sub": "Manda uma foto dele pra gente ver se está dentro das regras.",
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_qua_t",
+        "tema": "portao_de_abrir",
+        "gancho": "Para que lado ele deve abrir?",
+        "fatos": [
+          "ppa_pivotante"
+        ],
+        "spec": {
+          "layout": "quiz",
+          "theme": "dark",
+          "tag": "QUIZ RÁPIDO",
+          "title": "Portão de abrir automático deve abrir para:",
+          "options": [
+            "A calçada",
+            "Dentro do imóvel",
+            "Tanto faz"
+          ],
+          "fonte": "manual técnico PPA",
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_qua_r",
+        "tema": "portao_de_abrir",
+        "gancho": "Por que essa folha abre para dentro?",
+        "fatos": [
+          "ppa_pivotante"
+        ],
+        "cta": {
+          "tipo": "whatsapp",
+          "texto": "Chama no WhatsApp para avaliar seu portão de abrir"
+        },
+        "legenda": "Por que essa folha abre para dentro? Porque o manual manda.\n\nNenhuma peça do portão pode avançar sobre a calçada. E antes de instalar o motor, a gente testa o esforço da folha a 80 cm da dobradiça. Por último, a trava elétrica mantém tudo fechado.\n\nQuer avaliar o seu portão de abrir? Chama no WhatsApp.\n\nWhatsApp: (16) 99634-1354\n\n#portaodeabrir #bastidores #portaoautomatico #guariba",
+        "cenas": [
+          {
+            "spec": {
+              "layout": "photo",
+              "img": "fotos/prontas/motor_jetflex_instalado_story.jpg",
+              "ph": 0.62,
+              "title": "Por que ela abre para dentro?"
+            },
+            "fala": "Por que essa folha abre pra dentro?"
+          },
+          {
+            "spec": {
+              "layout": "statement",
+              "theme": "light",
+              "tag": "REGRA DO MANUAL",
+              "lines": [
+                "Nada sobre"
+              ],
+              "accent": [
+                "a calçada."
+              ],
+              "fonte": "manual técnico PPA"
+            },
+            "fala": "É regra do manual. Nenhuma peça pode avançar sobre a calçada ou a rua."
+          },
+          {
+            "spec": {
+              "layout": "fact",
+              "theme": "dark",
+              "tag": "ANTES DO MOTOR",
+              "big": "80 cm",
+              "bigSize": 260,
+              "title": "da dobradiça: ponto do teste de esforço.",
+              "fonte": "manual técnico PPA"
+            },
+            "fala": "Antes do motor, a gente testa a folha a oitenta centímetros da dobradiça. Ela tem que correr suave."
+          },
+          {
+            "spec": {
+              "layout": "photo",
+              "img": "fotos/prontas/trava_eletrica_story.jpg",
+              "ph": 0.62,
+              "title": "E a trava mantém tudo fechado."
+            },
+            "fala": "No fim, essa trava elétrica mantém o portão fechado. Quer o seu assim? Chama a gente."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "s46-qui",
+    "dia": 4,
+    "quadro": "Segurança em casa",
+    "tema": "dori_cameras",
+    "ideia": "Para síndicos: megapixel não garante rosto; pela norma IEC 62676-4, identificar alguém pede 250 pixels por metro, e uma câmera 4 MP com lente 2,8 mm só chega lá até uns 6 metros.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_qui_m",
+        "tema": "dori_cameras",
+        "gancho": "A câmera da portaria reconhece um rosto?",
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "SÍNDICO, OLHA ISSO",
+          "lines": [
+            "A câmera"
+          ],
+          "accent": [
+            "da portaria",
+            "pega o rosto?"
+          ],
+          "sub": "Depende de um número que quase ninguém confere. Meio-dia no feed.",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_qui_c",
+        "tema": "dori_cameras",
+        "gancho": "Megapixel não identifica ninguém.",
+        "fatos": [
+          "dori_ppm"
+        ],
+        "cta": {
+          "tipo": "compartilhar",
+          "texto": "Encaminha para o grupo do condomínio"
+        },
+        "legenda": "Megapixel não identifica ninguém. Quem decide se dá para ver o rosto é a distância e a lente.\n\nA norma IEC 62676-4 define quatro níveis, e identificar uma pessoa pede 250 pixels por metro. Numa câmera de 4 MP com lente de 2,8 mm, isso só acontece até uns 6 metros. Com lente de 6 mm, vai a 13 metros, mas o ângulo fecha.\n\nPor isso vale pensar em duas câmeras na entrada: uma aberta para o pátio, outra fechada para quem passa pelo portão.\n\nEncaminha para o grupo do condomínio.\n\nWhatsApp: (16) 99634-1354\n\n#sindico #condominio #cftv #cameradeseguranca",
+        "slides": [
+          {
+            "layout": "cover",
+            "theme": "dark",
+            "tag": "SEGURANÇA EM CASA",
+            "lines": [
+              "Megapixel não"
+            ],
+            "accent": [
+              "identifica",
+              "ninguém."
+            ],
+            "sub": "Quem decide é a distância e a lente. E existe norma para isso.",
+            "format": "4x5"
+          },
+          {
+            "layout": "flow",
+            "theme": "light",
+            "title": "Os 4 níveis da norma",
+            "nodes": [
+              "Detectar|25 pixels por metro",
+              "Observar|62 pixels por metro",
+              "Reconhecer|125 pixels por metro",
+              "Identificar|250 pixels por metro"
+            ],
+            "fonte": "IEC 62676-4, via TP-Link",
+            "format": "4x5"
+          },
+          {
+            "layout": "bars",
+            "theme": "dark",
+            "title": "Até onde identifica um rosto, câmera 4 MP",
+            "items": [
+              "Lente 2,8 mm|6|6 m",
+              "Lente 4 mm|9|9 m",
+              "Lente 6 mm|13|13 m"
+            ],
+            "hl": 0,
+            "fonte": "TP-Link, tabela DORI",
+            "format": "4x5"
+          },
+          {
+            "layout": "compare",
+            "theme": "white",
+            "title": "Lente aberta ou fechada?",
+            "aT": "2,8 mm",
+            "aB": "Cerca de 100° de visão. Mostra o pátio inteiro.",
+            "bT": "4 a 6 mm",
+            "bB": "Ângulo menor, rosto maior. Boa para a entrada.",
+            "fonte": "TP-Link",
+            "format": "4x5"
+          },
+          {
+            "layout": "statement",
+            "theme": "light",
+            "tag": "NA PORTARIA",
+            "lines": [
+              "Uma vê o pátio."
+            ],
+            "accent": [
+              "Outra vê",
+              "quem entra."
+            ],
+            "sub": "Duas câmeras com lentes diferentes cobrem o que uma só não cobre.",
+            "format": "4x5"
+          },
+          {
+            "layout": "cta",
+            "theme": "orange",
+            "lines": [
+              "Síndico,"
+            ],
+            "accent": [
+              "quer revisar",
+              "as câmeras?"
+            ],
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_qui_t",
+        "tema": "dori_cameras",
+        "gancho": "Ela pega o rosto ou o vulto?",
+        "spec": {
+          "layout": "poll",
+          "theme": "white",
+          "tag": "ENQUETE",
+          "title": "A câmera do seu prédio pega:",
+          "o1": "1. O rosto",
+          "o2": "2. Só o vulto",
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_qui_p",
+        "tema": "dori_cameras",
+        "gancho": "A 13 metros, ela só reconhece.",
+        "fatos": [
+          "dori_ppm"
+        ],
+        "cta": {
+          "tipo": "salvar",
+          "texto": "Salve a tabela antes de comprar câmera"
+        },
+        "legenda": "A 13 metros, uma câmera 4 MP com lente de 2,8 mm só reconhece. Identificar, só até uns 6.\n\nA tabela segue o critério DORI da norma IEC 62676-4. Vale olhar antes de escolher onde e qual câmera instalar.\n\nSalve a tabela antes de comprar câmera.\n\nWhatsApp: (16) 99634-1354\n\n#cftv #cameradeseguranca #sindico #condominio",
+        "spec": {
+          "layout": "hours",
+          "theme": "dark",
+          "tag": "4 MP, LENTE 2,8 MM",
+          "lines": [
+            "A cada distância,"
+          ],
+          "accent": [
+            "um nível."
+          ],
+          "rows": [
+            "até 6 m|identifica",
+            "até 13 m|reconhece",
+            "até 25 m|observa",
+            "até 64 m|detecta"
+          ],
+          "fonte": "TP-Link, critério DORI (IEC 62676-4)",
+          "format": "4x5"
+        }
+      }
+    }
+  },
+  {
+    "id": "s46-sex",
+    "dia": 5,
+    "quadro": "Sextou com quiz",
+    "tema": "quiz_s46",
+    "recap": true,
+    "ideia": "Quiz de sexta-feira 13 que recapitula a semana: calor e bateria, controle perdido, lado do portão de abrir e pixels para identificar um rosto.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_sex_m",
+        "tema": "quiz_s46",
+        "gancho": "Sexta-feira 13. Azar é errar o quiz.",
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "SEXTOU",
+          "lines": [
+            "Sexta-feira 13."
+          ],
+          "accent": [
+            "Azar é errar",
+            "o quiz."
+          ],
+          "sub": "Quatro perguntas da semana, ao meio-dia.",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_sex_c",
+        "tema": "quiz_s46",
+        "gancho": "Quatro perguntas para sexta-feira 13.",
+        "fatos": [
+          "bateria_temperatura",
+          "ppa_receptor_500",
+          "ppa_pivotante",
+          "dori_ppm"
+        ],
+        "cta": {
+          "tipo": "comentar",
+          "texto": "Comenta qual pergunta te pegou"
+        },
+        "legenda": "Sexta-feira 13 por aqui é dia de prova. Quatro perguntas sobre o que passou no feed nesta semana.\n\nTem bateria de nobreak, controle perdido, portão de abrir e câmera de portaria. As respostas aparecem logo depois de cada pergunta.\n\nQual pergunta te pegou? Comenta aqui.\n\nWhatsApp: (16) 99634-1354\n\n#quiz #sextou #portaoautomatico #sextafeira13",
+        "slides": [
+          {
+            "layout": "cover",
+            "theme": "dark",
+            "tag": "SEXTOU COM QUIZ",
+            "lines": [
+              "Sexta-feira 13."
+            ],
+            "accent": [
+              "Azar é errar."
+            ],
+            "sub": "Quatro perguntas da semana. A resposta vem logo depois.",
+            "format": "4x5"
+          },
+          {
+            "layout": "quiz",
+            "theme": "light",
+            "title": "A bateria do nobreak a 35 °C dura:",
+            "options": [
+              "O mesmo que a 25 °C",
+              "O dobro",
+              "A metade"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "reveal",
+            "theme": "dark",
+            "letter": "C",
+            "title": "A metade.",
+            "body": "A cada 10 °C acima de 25 °C, a vida útil cai pela metade.",
+            "fonte": "Schneider Electric",
+            "format": "4x5"
+          },
+          {
+            "layout": "quiz",
+            "theme": "white",
+            "title": "Sumiu um controle. O que corta o acesso dele?",
+            "options": [
+              "Apagar a memória e recadastrar",
+              "Trocar a pilha do outro",
+              "Esperar a bateria dele acabar"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "reveal",
+            "theme": "dark",
+            "letter": "A",
+            "title": "Apagar e recadastrar.",
+            "body": "O manual do receptor PPA só ensina apagar a memória inteira.",
+            "fonte": "manual do receptor PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "quiz",
+            "theme": "light",
+            "title": "Portão de abrir automático abre para:",
+            "options": [
+              "A calçada",
+              "Dentro do imóvel",
+              "Tanto faz"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "reveal",
+            "theme": "dark",
+            "letter": "B",
+            "title": "Para dentro do imóvel.",
+            "body": "E nenhuma peça pode avançar sobre a calçada.",
+            "fonte": "manual técnico PPA",
+            "format": "4x5"
+          },
+          {
+            "layout": "quiz",
+            "theme": "white",
+            "title": "Para identificar um rosto, a norma pede:",
+            "options": [
+              "25 pixels por metro",
+              "125 pixels por metro",
+              "250 pixels por metro"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "reveal",
+            "theme": "dark",
+            "letter": "C",
+            "title": "250 pixels por metro.",
+            "body": "Numa câmera 4 MP com lente 2,8 mm, só até uns 6 metros.",
+            "fonte": "TP-Link, IEC 62676-4",
+            "format": "4x5"
+          },
+          {
+            "layout": "statement",
+            "theme": "orange",
+            "lines": [
+              "Qual te pegou?"
+            ],
+            "accent": [
+              "Comenta aqui."
+            ],
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_sex_t",
+        "tema": "quiz_s46",
+        "gancho": "Portão abriu sozinho? Não é fantasma.",
+        "spec": {
+          "layout": "myth",
+          "theme": "light",
+          "label": "SEXTA 13",
+          "title": "Portão abriu sozinho? É fantasma.",
+          "vlabel": "A verdade",
+          "body": "Pode ser botão preso no controle, botoeira travada ou defeito na central. Tem explicação e tem conserto.",
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_sex_p",
+        "tema": "quiz_s46",
+        "gancho": "Azar não queima bateria.",
+        "fatos": [
+          "bateria_temperatura"
+        ],
+        "cta": {
+          "tipo": "perfil",
+          "texto": "Segue o perfil para a semana que vem"
+        },
+        "legenda": "Azar não queima bateria. Calor, sim.\n\nA cada 10 °C acima de 25 °C, a vida útil da bateria do nobreak cai pela metade. Na sexta-feira 13 ou em qualquer outro dia.\n\nSegue o perfil para a semana que vem, que tem mais.\n\nWhatsApp: (16) 99634-1354\n\n#sextafeira13 #nobreak #portaoautomatico",
+        "spec": {
+          "layout": "statement",
+          "theme": "white",
+          "tag": "SEXTA-FEIRA 13",
+          "lines": [
+            "Azar não"
+          ],
+          "accent": [
+            "queima bateria.",
+            "Calor, sim."
+          ],
+          "sub": "Cada 10 °C acima de 25 °C corta a vida útil dela pela metade.",
+          "fonte": "Schneider Electric",
+          "format": "4x5"
+        }
+      }
+    }
+  },
+  {
+    "id": "s46-sab",
+    "dia": 6,
+    "quadro": "Escolha certa",
+    "tema": "jetflex_inversor",
+    "ideia": "Antes da Black Friday, entenda o Jet Flex da foto: motor com frequência variável; na ficha do DZ Predial Jet Flex a frequência vai de 60 a 150 Hz e o portão de 3 m abre em 7 s, por isso a escolha passa pela ficha técnica e não pelo HP.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_sab_m",
+        "tema": "jetflex_inversor",
+        "gancho": "Esse motor muda de velocidade.",
+        "spec": {
+          "layout": "photo",
+          "img": "fotos/prontas/motor_jetflex_detalhe_story.jpg",
+          "ph": 0.62,
+          "title": "Esse motor muda de velocidade.",
+          "sub": "O nome disso aparece em muita ficha técnica. Ao meio-dia a gente explica.",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_sab_c",
+        "tema": "jetflex_inversor",
+        "gancho": "Jet Flex: o motor que muda de ritmo.",
+        "fatos": [
+          "ppa_jetflex_predial"
+        ],
+        "cta": {
+          "tipo": "mensagem",
+          "texto": "Manda o modelo que você viu na promoção"
+        },
+        "legenda": "Na foto, um motor Jet Flex instalado pela aciona. O nome aparece em muita promoção, mas pouca gente sabe o que ele muda.\n\nO segredo é a frequência variável. Na ficha técnica do DZ Predial Jet Flex, da PPA, a frequência vai de 60 a 150 Hz e a rotação do motor, de 1.700 a 4.365 rpm. Resultado: 3 metros de portão abertos em 7 segundos.\n\nAntes da Black Friday, compare motor por peso máximo, ciclos e central, não só pelo HP.\n\nViu um modelo na promoção? Manda pra gente por mensagem antes de pagar.\n\nWhatsApp: (16) 99634-1354\n\n#blackfriday #motordeportao #portaoautomatico #guariba",
+        "slides": [
+          {
+            "layout": "photo",
+            "img": "fotos/prontas/motor_jetflex_detalhe_4x5.jpg",
+            "ph": 0.64,
+            "title": "Jet Flex: o motor que muda de ritmo.",
+            "sub": "Instalação da aciona. Arraste e entenda o nome antes da Black Friday.",
+            "format": "4x5"
+          },
+          {
+            "layout": "glossary",
+            "theme": "light",
+            "tag": "GLOSSÁRIO",
+            "term": "Frequência",
+            "def": "Quantas vezes por segundo a corrente muda de sentido no motor. Quanto maior, mais rápido ele gira.",
+            "tip": "Na ficha técnica, aparece em Hz. Motor com faixa de frequência muda de velocidade.",
+            "format": "4x5"
+          },
+          {
+            "layout": "bars",
+            "theme": "dark",
+            "title": "Rotação do DZ Predial Jet Flex",
+            "items": [
+              "A 60 Hz|1700|1.700 rpm",
+              "A 150 Hz|4365|4.365 rpm"
+            ],
+            "hl": 1,
+            "fonte": "ficha técnica PPA (AECweb)",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "white",
+            "tag": "NA PRÁTICA",
+            "big": "7 s",
+            "bigSize": 280,
+            "title": "para abrir 3 metros de portão.",
+            "body": "O mesmo motor aceita portão de até 800 kg e uso contínuo.",
+            "fonte": "ficha técnica PPA (AECweb)",
+            "format": "4x5"
+          },
+          {
+            "layout": "dodont",
+            "theme": "light",
+            "title": "Na promoção, compare assim",
+            "faca": [
+              "Peso máximo do portão na ficha",
+              "Ciclos por hora e tipo de central"
+            ],
+            "evite": [
+              "Escolher só pelo HP",
+              "Comprar sem saber o peso do portão"
+            ],
+            "format": "4x5"
+          },
+          {
+            "layout": "save",
+            "theme": "orange",
+            "lines": [
+              "Viu um motor"
+            ],
+            "accent": [
+              "na promoção?"
+            ],
+            "sub": "Manda o modelo pra gente antes de pagar.",
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_sab_t",
+        "tema": "jetflex_inversor",
+        "gancho": "Motor em promoção? Olhe o peso máximo.",
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "BLACK FRIDAY",
+          "lines": [
+            "Motor em promoção?"
+          ],
+          "accent": [
+            "Olhe o",
+            "peso máximo."
+          ],
+          "sub": "Portão mais pesado que a ficha aceita deixa o motor trabalhando no limite.",
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_sab_p",
+        "tema": "jetflex_inversor",
+        "gancho": "150 Hz: o número escondido na ficha.",
+        "fatos": [
+          "ppa_jetflex_predial"
+        ],
+        "cta": {
+          "tipo": "whatsapp",
+          "texto": "Chama no WhatsApp para comparar dois motores"
+        },
+        "legenda": "150 Hz: esse é o número que faz o DZ Predial Jet Flex chegar a 4.365 rpm.\n\nNa rede elétrica, o motor comum recebe 60 Hz fixos. Com frequência variável, a central acelera o motor e o portão de 3 metros abre em 7 segundos, segundo a ficha da PPA.\n\nEm dúvida entre dois motores? Chama no WhatsApp que a gente compara.\n\nWhatsApp: (16) 99634-1354\n\n#motordeportao #blackfriday #portaoautomatico",
+        "spec": {
+          "layout": "bignum",
+          "theme": "white",
+          "tag": "ESCOLHA CERTA",
+          "big": "150 Hz",
+          "title": "é a frequência máxima do DZ Predial Jet Flex.",
+          "sub": "A rede entrega 60 Hz fixos. Por isso ele chega a 4.365 rpm.",
+          "fonte": "ficha técnica PPA (AECweb)",
+          "format": "4x5"
+        }
+      }
+    }
+  },
+  {
+    "id": "s46-dom",
+    "dia": 0,
+    "quadro": "Domingo leve",
+    "tema": "tower_bridge",
+    "ideia": "A Tower Bridge, em Londres, funciona como um portão sobre o rio: abre cerca de 500 vezes por ano, de graça, para barcos com mais de 9 m, e até 1976 era movida a água e vapor.",
+    "itens": {
+      "stories_manha": {
+        "id": "s46_dom_m",
+        "tema": "tower_bridge",
+        "gancho": "Uma ponte que abre 500 vezes por ano.",
+        "fatos": [
+          "tower_bridge"
+        ],
+        "spec": {
+          "layout": "statement",
+          "theme": "dark",
+          "tag": "DOMINGO LEVE",
+          "lines": [
+            "Uma ponte"
+          ],
+          "accent": [
+            "que abre 500",
+            "vezes por ano."
+          ],
+          "sub": "E é de graça. Ao meio-dia, a história.",
+          "fonte": "Tower Bridge",
+          "format": "story"
+        }
+      },
+      "carrosseis": {
+        "id": "s46_dom_c",
+        "tema": "tower_bridge",
+        "gancho": "Londres tem um portão sobre o rio.",
+        "fatos": [
+          "tower_bridge"
+        ],
+        "cta": {
+          "tipo": "compartilhar",
+          "texto": "Manda pra quem sonha conhecer Londres"
+        },
+        "legenda": "Londres tem um portão sobre o rio. A Tower Bridge abre para os barcos passarem desde 1894.\n\nNo primeiro ano foram 6.194 aberturas. Hoje são cerca de 500 por ano, sempre de graça, para barcos com mais de 9 metros de altura que avisem com 24 horas. Até 1976, quem levantava a ponte era água e vapor. Depois, energia elétrica.\n\nManda pra quem sonha conhecer Londres. E conta: quantas vezes o seu portão abre por dia?\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #engenharia #londres #domingo",
+        "slides": [
+          {
+            "layout": "cover",
+            "theme": "dark",
+            "tag": "DOMINGO LEVE",
+            "lines": [
+              "Londres tem"
+            ],
+            "accent": [
+              "um portão",
+              "sobre o rio."
+            ],
+            "sub": "A Tower Bridge abre para os barcos passarem. Desde 1894.",
+            "fonte": "Tower Bridge",
+            "format": "4x5"
+          },
+          {
+            "layout": "fact",
+            "theme": "light",
+            "tag": "QUEM PODE PEDIR",
+            "big": "9 m",
+            "bigSize": 260,
+            "title": "de altura: acima disso, o barco pede a abertura.",
+            "body": "Com 24 horas de aviso, por escrito. E sem pagar nada.",
+            "fonte": "Tower Bridge (towerbridge.org.uk)",
+            "format": "4x5"
+          },
+          {
+            "layout": "timeline",
+            "theme": "white",
+            "title": "A ponte em números",
+            "items": [
+              "1894|inaugurada, com 6.194 aberturas no primeiro ano",
+              "1910|recorde: 64 aberturas num só dia",
+              "1976|deixa a água e o vapor e vira elétrica",
+              "Hoje|cerca de 500 aberturas por ano"
+            ],
+            "fonte": "Tower Bridge",
+            "format": "4x5"
+          },
+          {
+            "layout": "statement",
+            "theme": "light",
+            "tag": "E NA SUA GARAGEM?",
+            "lines": [
+              "Lá, 500 por ano."
+            ],
+            "accent": [
+              "E o seu,",
+              "quantas por dia?"
+            ],
+            "sub": "Conta as aberturas de um dia e faz a comparação.",
+            "fonte": "Tower Bridge",
+            "format": "4x5"
+          },
+          {
+            "layout": "save",
+            "theme": "orange",
+            "lines": [
+              "Manda pra"
+            ],
+            "accent": [
+              "quem ama",
+              "Londres."
+            ],
+            "sub": "E conta nos comentários quantas vezes seu portão abre por dia.",
+            "format": "4x5"
+          }
+        ]
+      },
+      "stories_tarde": {
+        "id": "s46_dom_t",
+        "tema": "tower_bridge",
+        "gancho": "64 aberturas num só dia.",
+        "fatos": [
+          "tower_bridge"
+        ],
+        "spec": {
+          "layout": "fact",
+          "theme": "dark",
+          "tag": "CURIOSIDADE",
+          "big": "64",
+          "bigSize": 300,
+          "title": "aberturas num só dia: o recorde da Tower Bridge, em 1910.",
+          "body": "Hoje, a média é de cerca de 500 por ano.",
+          "fonte": "Tower Bridge",
+          "format": "story"
+        }
+      },
+      "posts": {
+        "id": "s46_dom_p",
+        "tema": "enquete_domingo_s46",
+        "gancho": "Portas giratórias ou portões de hangar?",
+        "ideia": "Enquete para o próximo domingo leve: quem ganha entre portas giratórias e portões de hangar de avião.",
+        "cta": {
+          "tipo": "comentar",
+          "texto": "Comenta 1 ou 2 e escolhe o próximo domingo"
+        },
+        "legenda": "Quem escolhe o próximo domingo é você.\n\nComenta 1 para portas giratórias ou 2 para portões de hangar de avião. A opção mais comentada vira o carrossel de domingo que vem.\n\nWhatsApp: (16) 99634-1354\n\n#curiosidades #engenharia #domingo #enquete",
+        "spec": {
+          "layout": "poll",
+          "theme": "white",
+          "tag": "VOCÊ DECIDE",
+          "title": "E no próximo domingo?",
+          "o1": "1. Portas giratórias",
+          "o2": "2. Portões de hangar",
+          "footer": true,
+          "format": "4x5"
+        }
+      }
+    }
   }
 ]

@@ -374,5 +374,85 @@
   "url": "https://pancanal.com/llegan-las-primeras-cuatro-compuertas-del-tercer-juego-de-esclusas/",
   "conf": "A",
   "verificado": "2026-10-31"
+ },
+ {
+  "id": "guariba_apagao_2026",
+  "area": "energia",
+  "tema": "bateria_nobreak",
+  "fato": "Temporal na madrugada de 24/7/2026, com rajadas de até 70 km/h (Defesa Civil Nacional), derrubou a energia na região de Ribeirão Preto; no domingo 26/7, cerca de 15 mil casas de cidades vizinhas seguiam sem luz, 13 mil delas em Guariba (CPFL Paulista).",
+  "fonte": "Agência Brasil, 26/7/2026",
+  "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-07/ribeirao-preto-ainda-enfrenta-falta-de-energia-apos-temporal-na-sexta",
+  "conf": "A",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "bateria_temperatura",
+  "area": "energia",
+  "tema": "bateria_nobreak",
+  "fato": "A vida da bateria (chumbo-ácido de nobreak) se reduz à metade a cada 10 °C acima de 25 °C; a vida de projeto (5, 8, 10 anos) dificilmente é alcançada na prática.",
+  "fonte": "Schneider Electric (APC), FAQ000190358",
+  "url": "https://www.se.com/pe/es/faqs/FAQ000190358",
+  "conf": "A",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "weg_bateria_armazenagem",
+  "area": "energia",
+  "tema": "bateria_nobreak",
+  "fato": "Baterias VRLA (seladas) da WEG: temperatura normal de operação 25 °C; podem ser armazenadas por até 6 meses a 25 °C, intervalo menor em temperatura alta, e pedem carga complementar antes do uso.",
+  "fonte": "WEG, catálogo de baterias VRLA 50078011",
+  "url": "https://static.weg.net/medias/downloadcenter/h40/hb8/WEG-baterias-vrla-catalogo-50078011-pt.pdf",
+  "conf": "A",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "ppa_receptor_500",
+  "area": "controle",
+  "tema": "controle_perdido",
+  "fato": "O receptor de alcance da PPA tem memória para 500 controles; o manual só descreve apagar a memória inteira (segurar o botão GRV por cerca de 10 s), não um controle isolado; aceita código fixo ou Safe Code PPA, e com o jumper fechado só aceita Safe Code.",
+  "fonte": "PPA, manual do Receptor de Alcance",
+  "url": "https://media.ppa.com.br/files/PXXXXX_-_MANUAL_RECEPTOR_ALCANCE_SEM_FONTE_E_SEM_RELE_1756906034749.pdf",
+  "conf": "A",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "dori_ppm",
+  "area": "cameras",
+  "tema": "dori_cameras",
+  "fato": "Critério DORI (IEC EN 62676-4:2015): detectar 25 px/m, observar 62, reconhecer 125, identificar 250. Em câmera 4 MP (2560x1440): lente 2,8 mm detecta a ~64 m, observa 25, reconhece 13 e identifica 6 m; 4 mm: 90/36/18/9 m; 6 mm: 135/54/27/13 m. A 2,8 mm dá cerca de 100° de campo; 4 ou 6 mm são indicadas para identificar em entradas.",
+  "fonte": "TP-Link Omada, O que é DORI",
+  "url": "https://support.omadanetworks.com/br/document/46755/",
+  "conf": "B",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "ppa_pivotante",
+  "area": "instalacao",
+  "tema": "portao_de_abrir",
+  "fato": "Manual técnico PPA Piston (pivotante): o portão deve abrir para o interior do imóvel e nenhuma peça pode se estender sobre vias e passeio público; altura máxima 2,5 m; comprimento máximo 1,5 m (Standard) ou 3,0 m (Super); massa até 125 kg ou 450 kg conforme o modelo; testar o esforço movendo o portão a 80 cm do ponto de giro; base do suporte a 85 a 100 mm do ponto de giro.",
+  "fonte": "PPA, Manual Técnico Piston",
+  "url": "https://media.ppa.com.br/files/SAIDA_Manual-Tecnico-Piston-Deten_Inmetro2017-Rev-1_1755613841470.pdf",
+  "conf": "A",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "ppa_jetflex_predial",
+  "area": "motor",
+  "tema": "jetflex_inversor",
+  "fato": "Ficha do PPA DZ Predial Jet Flex (deslizante): frequência 60 a 150 Hz, rotação do motor 1.700 a 4.365 rpm, redução 1:40, abre ou fecha 3 m em 7 s, ciclos por hora contínuos, portão até 800 kg, motor trifásico de 245 W.",
+  "fonte": "Ficha técnica PPA publicada no AECweb",
+  "url": "https://www.aecweb.com.br/produto/dz-predial-jet-flex/24134",
+  "conf": "B",
+  "verificado": "2026-11-07"
+ },
+ {
+  "id": "tower_bridge",
+  "area": "historia",
+  "tema": "tower_bridge",
+  "fato": "A Tower Bridge (Londres) foi inaugurada em 1894 e abre em média cerca de 500 vezes por ano; foram 6.194 aberturas em 1894 e o recorde é de 64 num dia, em 1910; até 1976 o sistema era movido a água e vapor, depois passou a ser elétrico; barcos com mais de 9 m de altura podem pedir, com 24 h de aviso por escrito desde 1971, e a abertura é gratuita desde 1894.",
+  "fonte": "Tower Bridge, Why does Tower Bridge open?",
+  "url": "https://www.towerbridge.org.uk/stories/why-does-tower-bridge-open",
+  "conf": "A",
+  "verificado": "2026-11-07"
  }
 ]

@@ -1,0 +1,26 @@
+{
+ "hash": "2af3b589bf95c2170a17e4cd8f41aaaf",
+ "voz": "pf_dora",
+ "frases": [
+  {
+   "t0": 0.06,
+   "t1": 1.318,
+   "texto": "O teste é fácil."
+  },
+  {
+   "t0": 1.618,
+   "t1": 4.468,
+   "texto": "Desliga o disjuntor do portão e aperta o controle."
+  },
+  {
+   "t0": 4.734,
+   "t1": 5.588,
+   "texto": "Não abriu?"
+  },
+  {
+   "t0": 6.006,
+   "t1": 7.071,
+   "texto": "Chama a gente."
+  }
+ ]
+}
