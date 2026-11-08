@@ -3453,7 +3453,7 @@
             "spec": {
               "layout": "photo",
               "img": "fotos/prontas/motor_jetflex_instalado_story.jpg",
-              "ph": 0.62,
+              "ph": 0.5,
               "title": "Por que ela abre para dentro?"
             },
             "fala": "Por que essa folha abre pra dentro?"
@@ -3489,8 +3489,8 @@
             "spec": {
               "layout": "photo",
               "img": "fotos/prontas/trava_eletrica_story.jpg",
-              "ph": 0.62,
-              "title": "E a trava mantém tudo fechado."
+              "ph": 0.5,
+              "title": "E a trava segura tudo."
             },
             "fala": "No fim, essa trava elétrica mantém o portão fechado. Quer o seu assim? Chama a gente."
           }
@@ -3903,7 +3903,7 @@
             "theme": "light",
             "tag": "GLOSSÁRIO",
             "term": "Frequência",
-            "def": "Quantas vezes por segundo a corrente muda de sentido no motor. Quanto maior, mais rápido ele gira.",
+            "def": "Quantos ciclos por segundo a corrente alternada completa. No motor, mais frequência é mais rotação.",
             "tip": "Na ficha técnica, aparece em Hz. Motor com faixa de frequência muda de velocidade.",
             "format": "4x5"
           },
@@ -3995,7 +3995,7 @@
           "tag": "ESCOLHA CERTA",
           "big": "150 Hz",
           "title": "é a frequência máxima do DZ Predial Jet Flex.",
-          "sub": "A rede entrega 60 Hz fixos. Por isso ele chega a 4.365 rpm.",
+          "sub": "A rede entrega 60 Hz fixos. Com frequência variável, o motor passa disso e chega a 4.365 rpm.",
           "fonte": "ficha técnica PPA (AECweb)",
           "format": "4x5"
         }
